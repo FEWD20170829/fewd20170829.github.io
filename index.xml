@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FEWD Course Material</title>
+    <link>http://localhost:1313/index.xml</link>
+    <description>Recent content on FEWD Course Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:05:18 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Objectives</title>
+      <link>http://localhost:1313/00-dev-tools-github/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/00-dev-tools-github/objectives/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introduce tools you will be using throughout the class&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Achieve high-level understanding of git and why developers use it&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce students to a git workflow that will be used to submit (and recieve feeback on) assignments&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>http://localhost:1313/01-html-basics/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/01-html-basics/objectives/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Understand how web pages are structured&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce some of the most frequently used html tags&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>http://localhost:1313/00-dev-tools-github/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/00-dev-tools-github/agenda/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Tools Overview &amp;amp; Folder Organization&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Git Overview&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GitHub Tutorial&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>http://localhost:1313/01-html-basics/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/01-html-basics/agenda/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;HTML Structure&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Overview of basic HTML Tags&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code Along (GA Press Release)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lab (Cookie Recipe)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HTML Structure</title>
+      <link>http://localhost:1313/01-html-basics/html-structure/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/01-html-basics/html-structure/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/front_page_newspaper.jpeg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;!--- Which elements stand out and why?--&gt;
+
+&lt;!--- What would happen if every word was the same size font?--&gt;
+
+&lt;!--- Structure helps readers better understand the stories written in the newspaper--&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/word_processor.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/structure_html_version.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Same principles that apply to newspapers and documents also apply to html pages&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Most important content should be displayed at the top with larger font&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/00-dev-tools-github/tools/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/00-dev-tools-github/tools/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Project Folders and Best Practices for project organization&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Saving and Opening Files Sublime&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Web Browser Check (Google Chrome)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Slack&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Quick intro to Chrome Developer Tools&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSS Basics</title>
+      <link>http://localhost:1313/02-css-basics/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>http://localhost:1313/02-css-basics/</guid>
+      <description>
+
+&lt;h3 id=&#34;lesson-02&#34;&gt;Lesson 02&lt;/h3&gt;
+
+&lt;h1 id=&#34;css-basics&#34;&gt;CSS Basics&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Git Overview</title>
+      <link>http://localhost:1313/00-dev-tools-github/git-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/00-dev-tools-github/git-overview/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-git&#34;&gt;What is Git?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Version control for Programmers&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Like Microsoft Word &amp;ldquo;Track Changes&amp;rdquo; feature with superpowers&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Makes it easy for programmers to collaborate and work on the same codebase&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;SVN (subversion) and CVS are other version control programs (Git is the most popular)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;what-is-github&#34;&gt;What is Github?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Web-based Git repository hosting service&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Built on top of git&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Home to +90% of all &lt;strong&gt;open source&lt;/strong&gt; projects&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Morphed into a &amp;ldquo;social network&amp;rdquo; for developers&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;vocabulary&#34;&gt;Vocabulary&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Repository&lt;/li&gt;
+&lt;li&gt;Commit&lt;/li&gt;
+&lt;li&gt;Branch&lt;/li&gt;
+&lt;li&gt;Merge&lt;/li&gt;
+&lt;li&gt;Push&lt;/li&gt;
+&lt;li&gt;Pull&lt;/li&gt;
+&lt;li&gt;Fork&lt;/li&gt;
+&lt;li&gt;Clone&lt;/li&gt;
+&lt;li&gt;Pull Request&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;respository&#34;&gt;Respository&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Most basic element of GitHub&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A repository contains all of the project files&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Stores each file&amp;rsquo;s revision history&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Repositories can have multiple collaborators and can be either public or private.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;commit&#34;&gt;Commit&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A &amp;ldquo;revision&amp;rdquo;, is an individual change to a file (or set of files)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Git&amp;rsquo;s version of &amp;ldquo;saving&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Commits usually contain a commit message which is a brief description of what changes were made&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;branch&#34;&gt;Branch&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Parallel version of a repository&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;It is contained within the repository, but does not affect the primary or master branch allowing you to work freely without disrupting the &amp;ldquo;live&amp;rdquo; version.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;When you&amp;rsquo;ve made the changes you want to make, you can merge your branch back into the master branch to publish your changes&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;merge&#34;&gt;Merge&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This often happens as a Pull Request (which can be thought of as a request to merge)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;push&#34;&gt;Push&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Refers to sending your committed changes to a remote repository such as GitHub.com&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For instance, if you change something locally, you&amp;rsquo;d want to then push those changes so that others may access them&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;pull&#34;&gt;Pull&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pulls code from a remote repository and merges it with code in your local repository (on your computer)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;fork&#34;&gt;Fork&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Most commonly, forks are used to either propose changes to someone else&amp;rsquo;s project or to use someone else&amp;rsquo;s project as a starting point for your own idea&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;clone&#34;&gt;Clone&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Copies a remote repository down to your computer and creates a link between the two&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;pull-request&#34;&gt;Pull Request&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository&amp;rsquo;s collaborators.&lt;/li&gt;
+&lt;li&gt;Pull requests each have their own discussion forum. See Using Pull Requests.&lt;/li&gt;
+&lt;li&gt;Used to perform &amp;ldquo;Code Reviews&amp;rdquo; of other developers&amp;rsquo; work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Great resource for all things git can be found &lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>HTML Tag Anatomy</title>
+      <link>http://localhost:1313/01-html-basics/html-tag-anatomy/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/01-html-basics/html-tag-anatomy/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-a-tag&#34;&gt;What is a Tag?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/tags.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Tags act like containers, they tell the browser what type of information lies between (aka the content) the opening and closing tag&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Opening Tag&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;comprised of character(s) surrounded by less than and equal than signs (brackets)
+characters within the brackets indicates the tags purpose&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Closing Tag&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Same as opening tag except closing tag contains a forward slash which informs browser that element has ended&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Terms “tags” and “elements” are often used interchangeably&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;  &amp;lt;a href=&amp;quot;http://www.cnn.com&amp;quot;&amp;gt; CNN &amp;lt;/a&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Git Tutorial</title>
+      <link>http://localhost:1313/00-dev-tools-github/github-tutorial/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/00-dev-tools-github/github-tutorial/</guid>
+      <description>
+
+&lt;h2 id=&#34;initial-setup&#34;&gt;Initial Setup&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;step-1-create-a-github-account-https-github-com&#34;&gt;Step 1: Create a &lt;a href=&#34;https://github.com/&#34;&gt;Github Account&lt;/a&gt;*&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/github_signup.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;*one-time step&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-2-download-github-desktop-https-desktop-github-com-software&#34;&gt;Step 2: Download &lt;a href=&#34;https://desktop.github.com/&#34;&gt;Github Desktop&lt;/a&gt; software*&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/github_desktop.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;*one-time step&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-3-sign-in-to-github-account-through-the-github-desktop-application&#34;&gt;Step 3: Sign in to Github Account through the Github Desktop application&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/sign_in_github_desktop.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Github Desktop -&amp;gt; Preferences -&amp;gt; Accounts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*one-time step / Use your Github account username &amp;amp; password&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-4-create-a-folder-named-github-in-your-class-folder&#34;&gt;Step 4: Create a folder named &lt;strong&gt;github&lt;/strong&gt; in your &amp;ldquo;class&amp;rdquo; folder*&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/github_folder.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;*one-time step&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;starting-an-assignment&#34;&gt;Starting an Assignment&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;step-5a-fork-instructor-repository&#34;&gt;Step 5a: Fork Instructor Repository&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The link for the Instructor repository will be provided to you&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/fork_repo.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-5b-fork-instructor-repository&#34;&gt;Step 5b: Fork Instructor Repository&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Github will create a copy of the repo under your account&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/forking_in_progress.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-6-confirm-repository-was-successfully-forked&#34;&gt;Step 6: Confirm Repository was Successfully Forked&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/confirm_repo_was_forked.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-7a-clone-repository-in-github&#34;&gt;Step 7a: Clone Repository in Github&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/clone_repo.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-7b-click-launch-application-button&#34;&gt;Step 7b: Click &amp;ldquo;Launch Application&amp;rdquo; button&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This opens your Github Desktop application&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/click_launch_application.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-7c-select-your-github-folder-and-click-clone&#34;&gt;Step 7c: Select your &amp;ldquo;github&amp;rdquo; folder and click &amp;ldquo;clone&amp;rdquo;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This is where the project folder will live&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/complete_clone_process.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-8-confirm-repo-was-created-in-github-desktop&#34;&gt;Step 8: Confirm Repo was created in Github Desktop&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/confirm_repo_created_in_github_desktop.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-9-confirm-project-folder-was-created-in-github-folder&#34;&gt;Step 9: Confirm project folder was created in &amp;ldquo;github&amp;rdquo; folder&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/confirm_project_folder_created.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-10a-open-project-folder-with-sublime-and-add-code-as-you-normally-would&#34;&gt;Step 10a: Open project folder with sublime and add code (as you normally would)&lt;/h3&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-10b-view-changes-in-github-desktop&#34;&gt;Step 10b: View changes in Github Desktop&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/view_file_changes_in_github_desktop.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-11-commit-your-changes&#34;&gt;Step 11: Commit Your Changes&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/commit_branch.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-12-push-your-changes-to-github-com&#34;&gt;Step 12: Push your changes to Github.com&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/push_branch_changes.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;&lt;strong&gt;Repeat Steps 10 through 12 - as many times as needed&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;submitting-your-assignment&#34;&gt;Submitting Your Assignment&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;step-13a-create-a-pull-request-in-github-desktop&#34;&gt;Step 13a: Create a Pull Request in Github Desktop&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/start_pull_request.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-13b-create-a-pull-request-in-github-desktop&#34;&gt;Step 13b: Create a Pull Request in Github Desktop&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Important:&lt;/strong&gt; Pull request should be named: HW Submission from [Your Name]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/complete_github_desktop_pull_request.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-13c-create-a-pull-request-in-github-desktop&#34;&gt;Step 13c: Create a Pull Request in Github Desktop&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/github_desktop_pull_request_confirmed.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-14a-confirm-creation-of-pull-request-on-github&#34;&gt;Step 14a: Confirm Creation of Pull Request on Github&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/view_github_pull_request_step_1.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-14b-confirm-creation-of-pull-request-on-github&#34;&gt;Step 14b: Confirm Creation of Pull Request on Github&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/view_github_pull_request_step_2.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-14c-confirm-creation-of-pull-request-on-github&#34;&gt;Step 14c: Confirm Creation of Pull Request on Github&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/view_github_pull_request_step_3.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;receive-feedback-from-instructors&#34;&gt;Receive Feedback from Instructors&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;step-15a-instructors-will-leave-feedback-and-let-you-know-what-needs-to-be-fixed&#34;&gt;Step 15a: Instructors will leave feedback and let you know what needs to be fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hammer emojis indicate something that needs to be fixed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/inline_comments.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-15b-students-can-add-comments-of-their-own-to-get-clarification&#34;&gt;Step 15b: Students can add comments of their own to get clarification&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/inline_student_comments.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-16-student-fixes-any-outstanding-issues-hammer-emojis&#34;&gt;Step 16: Student Fixes Any Outstanding Issues (Hammer emojis)&lt;/h3&gt;
+
+&lt;p&gt;Repeat Steps 10 through 12&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Make your changes in sublime&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Commit your changes&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Push your changes&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;&lt;strong&gt;Do Not create a new Pull Request&lt;/strong&gt; Your existing Pull Request will automatically be updated&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-17-instructor-reviews-changes&#34;&gt;Step 17: Instructor Reviews Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Instruction team will receive an email notification letting them know your Pull Request was updated&lt;/li&gt;
+&lt;li&gt;Instruction team will confirm that &amp;ldquo;hammers&amp;rdquo; were addressed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;step-18-instructor-approves-your-assignment&#34;&gt;Step 18: Instructor Approves Your Assignment&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Student will receive a &amp;ldquo;Thumbs Up&amp;rdquo; emoji indicating that the assignment was approved&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/00/approved_assignment.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HTML Attributes</title>
+      <link>http://localhost:1313/01-html-basics/html-attributes/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/01-html-basics/html-attributes/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-an-html-attribute&#34;&gt;What is an HTML Attribute?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/tags_attributes.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Attributes provide additional information about the contents of the an element.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;They are placed in the opening tag&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;They have two parts: name, value&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;attribute-structure&#34;&gt;Attribute Structure&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Attribute Name&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Indicates what kind of extra information you are supplying to the browser about the content in the element
+characters within the brackets indicates the tags purpose&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Attribute Value&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Information or setting for the attribute&lt;/li&gt;
+&lt;li&gt;Is placed in double or single quotes&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;example-of-a-html-attribute&#34;&gt;Example of a HTML Attribute&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;
+ &amp;lt;img src=&amp;quot;mdn-logo-sm.png&amp;quot; alt=&amp;quot;MDN&amp;quot;&amp;gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>http://localhost:1313/02-css-basics/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/02-css-basics/objectives/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Review HTML tags covered in prior class&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Learn about relative paths and how they differ from absolute paths&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Intro to css and learn how to add css to your site&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>http://localhost:1313/03-css-selectors-box-model/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/03-css-selectors-box-model/objectives/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Understand Classes and IDs and how they are different&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce CSS selectors&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Understand how CSS cascades&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce the CSS Box Model&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Learn how to apply background images to your pages&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>http://localhost:1313/04-page-layout/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/04-page-layout/objectives/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Discuss concept of page structure &amp;amp; layouts&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Understand how divs are used&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce semantic elements and how they are used&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce CSS floats&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>http://localhost:1313/05-css-positioning-and-colors/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>http://localhost:1313/05-css-positioning-and-colors/objectives/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introduce CSS Colors&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Discuss CSS Positioning&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Understand how to handle background images&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
