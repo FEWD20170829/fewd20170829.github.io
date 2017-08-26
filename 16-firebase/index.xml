@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>16-firebases on FEWD Course Material</title>
+    <link>https://fewd20170829.github.io/16-firebase/</link>
+    <description>Recent content in 16-firebases on FEWD Course Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    
+	<atom:link href="https://fewd20170829.github.io/16-firebase/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Firebase</title>
+      <link>https://fewd20170829.github.io/16-firebase/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/16-firebase/</guid>
+      <description> Lesson 16 Firebase </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>https://fewd20170829.github.io/16-firebase/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/16-firebase/objectives/</guid>
+      <description> Learn about Firebase and its benefits
+ Use Firebase&amp;rsquo;s real-time database to provide data persistence to a front-end app
+  </description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>https://fewd20170829.github.io/16-firebase/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/16-firebase/agenda/</guid>
+      <description> Learn about JSON
+ Intro to Firebase &amp;amp; it&amp;rsquo;s real-time database
+ Code Along #1: Firebase Intro
+ Code Along #2: Firebase Todo App
+  </description>
+    </item>
+    
+    <item>
+      <title>JSON</title>
+      <link>https://fewd20170829.github.io/16-firebase/json/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/16-firebase/json/</guid>
+      <description>What is JSON?  Stands for JavaScript Object Notation
+ A way to store information in an organized, easy-to-access manner
+ A popular way to send data from on web server (service) to another
+ Resembles a normal Javascript Object (it contains properties and values) but does not contain methods
+   { &amp;quot;id&amp;quot;: 1, &amp;quot;name&amp;quot;: &amp;quot;Scoobie Doo&amp;quot;, &amp;quot;favoriteFood&amp;quot;: &amp;quot;Scoobie Snacks&amp;quot; }  JSON Guidelines  Property names must be double-quoted strings</description>
+    </item>
+    
+    <item>
+      <title>Firebase Overview</title>
+      <link>https://fewd20170829.github.io/16-firebase/firebase-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/16-firebase/firebase-overview/</guid>
+      <description>What is Firebase?  Mobile and Web application platform for developers
+ Acquired by Google in 2014
+ Offers many other services but we&amp;rsquo;ll be covering the basics of firebase&amp;rsquo;s real-time backend database and seeing how we can use this in our applications
+  Firebase benefits  Relieves developers from having to build out backend to support their apps
+ Real-time database
+ Generous free tier
+ Advanced features that developers can grow their applications into as their applications grow</description>
+    </item>
+    
+    <item>
+      <title>Real Time Database</title>
+      <link>https://fewd20170829.github.io/16-firebase/real-time-database/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/16-firebase/real-time-database/</guid>
+      <description>Firebase Real-time database overview  Cloud-hosted database
+ NoSQL database; data is stored as JSON
+ Changes made to the database are automatically synchronized for any other computer/phone (i.e. client) that is viewing data from the database
+ Real-time database documentation can be found here
+  Data Structure  Firebase&amp;rsquo;s real-time database is structured like a JSON tree (think root and branches)
+ Data stored in a JSON tree is hierarchical (parent/child)</description>
+    </item>
+    
+    <item>
+      <title>Code Along #1</title>
+      <link>https://fewd20170829.github.io/16-firebase/code-along-1/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/16-firebase/code-along-1/</guid>
+      <description> Code Along #1: Firebase Intro  Visit firebase and log in with your google account
+ Using Sublime, open the folder called firebase_intro (found within the starter_code) folder
+ Together we&amp;rsquo;ll walk through creating a basic app and see how Firebase&amp;rsquo;s real-time database works
+  </description>
+    </item>
+    
+    <item>
+      <title>Code Along #2</title>
+      <link>https://fewd20170829.github.io/16-firebase/code-along-2/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/16-firebase/code-along-2/</guid>
+      <description> Code Along #2: Firebase Todo App  Using Sublime, open the folder called todo_app (found within the starter_code) folder
+ Together we&amp;rsquo;ll walk through using Firebase to add data persistence to a todo app
+  </description>
+    </item>
+    
+  </channel>
+</rss>

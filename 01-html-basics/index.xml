@@ -2,482 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>01-html-basics on FEWD Course Material</title>
-    <link>http://localhost:1313/01-html-basics/index.xml</link>
+    <link>https://fewd20170829.github.io/01-html-basics/</link>
     <description>Recent content in 01-html-basics on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/01-html-basics/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://fewd20170829.github.io/01-html-basics/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>HTML Basics</title>
-      <link>http://localhost:1313/01-html-basics/</link>
+      <link>https://fewd20170829.github.io/01-html-basics/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/01-html-basics/</guid>
-      <description>
-
-&lt;h3 id=&#34;lesson-01&#34;&gt;Lesson 01&lt;/h3&gt;
-
-&lt;h1 id=&#34;html-basics&#34;&gt;HTML Basics&lt;/h1&gt;
-</description>
+      <guid>https://fewd20170829.github.io/01-html-basics/</guid>
+      <description> Lesson 01 HTML Basics </description>
     </item>
     
     <item>
       <title>Objectives</title>
-      <link>http://localhost:1313/01-html-basics/objectives/</link>
+      <link>https://fewd20170829.github.io/01-html-basics/objectives/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/01-html-basics/objectives/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Understand how web pages are structured&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Introduce some of the most frequently used html tags&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/01-html-basics/objectives/</guid>
+      <description> Understand how web pages are structured
+ Introduce some of the most frequently used html tags
+  </description>
     </item>
     
     <item>
       <title>Agenda</title>
-      <link>http://localhost:1313/01-html-basics/agenda/</link>
+      <link>https://fewd20170829.github.io/01-html-basics/agenda/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/01-html-basics/agenda/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;HTML Structure&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Overview of basic HTML Tags&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Code Along (GA Press Release)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Lab (Cookie Recipe)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/01-html-basics/agenda/</guid>
+      <description> HTML Structure
+ Overview of basic HTML Tags
+ Code Along (GA Press Release)
+ Lab (Cookie Recipe)
+  </description>
     </item>
     
     <item>
       <title>HTML Structure</title>
-      <link>http://localhost:1313/01-html-basics/html-structure/</link>
+      <link>https://fewd20170829.github.io/01-html-basics/html-structure/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/01-html-basics/html-structure/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/front_page_newspaper.jpeg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;!--- Which elements stand out and why?--&gt;
-
-&lt;!--- What would happen if every word was the same size font?--&gt;
-
-&lt;!--- Structure helps readers better understand the stories written in the newspaper--&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/word_processor.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/structure_html_version.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Same principles that apply to newspapers and documents also apply to html pages&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Most important content should be displayed at the top with larger font&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/01-html-basics/html-structure/</guid>
+      <description> Same principles that apply to newspapers and documents also apply to html pages
+ Most important content should be displayed at the top with larger font
+  </description>
     </item>
     
     <item>
       <title>HTML Tag Anatomy</title>
-      <link>http://localhost:1313/01-html-basics/html-tag-anatomy/</link>
+      <link>https://fewd20170829.github.io/01-html-basics/html-tag-anatomy/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/01-html-basics/html-tag-anatomy/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-is-a-tag&#34;&gt;What is a Tag?&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/tags.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Tags act like containers, they tell the browser what type of information lies between (aka the content) the opening and closing tag&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Opening Tag&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;comprised of character(s) surrounded by less than and equal than signs (brackets)
-characters within the brackets indicates the tags purpose&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Closing Tag&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Same as opening tag except closing tag contains a forward slash which informs browser that element has ended&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Terms “tags” and “elements” are often used interchangeably&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;  &amp;lt;a href=&amp;quot;http://www.cnn.com&amp;quot;&amp;gt; CNN &amp;lt;/a&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>https://fewd20170829.github.io/01-html-basics/html-tag-anatomy/</guid>
+      <description>What is a Tag?  Tags act like containers, they tell the browser what type of information lies between (aka the content) the opening and closing tag
+ Opening Tag
+ comprised of character(s) surrounded by less than and equal than signs (brackets) characters within the brackets indicates the tags purpose  Closing Tag
+ Same as opening tag except closing tag contains a forward slash which informs browser that element has ended   Terms “tags” and “elements” are often used interchangeably</description>
     </item>
     
     <item>
       <title>HTML Attributes</title>
-      <link>http://localhost:1313/01-html-basics/html-attributes/</link>
+      <link>https://fewd20170829.github.io/01-html-basics/html-attributes/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/01-html-basics/html-attributes/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-is-an-html-attribute&#34;&gt;What is an HTML Attribute?&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/tags_attributes.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Attributes provide additional information about the contents of the an element.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;They are placed in the opening tag&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;They have two parts: name, value&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;attribute-structure&#34;&gt;Attribute Structure&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Attribute Name&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Indicates what kind of extra information you are supplying to the browser about the content in the element
-characters within the brackets indicates the tags purpose&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Attribute Value&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Information or setting for the attribute&lt;/li&gt;
-&lt;li&gt;Is placed in double or single quotes&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;example-of-a-html-attribute&#34;&gt;Example of a HTML Attribute&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;
- &amp;lt;img src=&amp;quot;mdn-logo-sm.png&amp;quot; alt=&amp;quot;MDN&amp;quot;&amp;gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>https://fewd20170829.github.io/01-html-basics/html-attributes/</guid>
+      <description>What is an HTML Attribute?  Attributes provide additional information about the contents of the an element.
+ They are placed in the opening tag
+ They have two parts: name, value
+  Attribute Structure  Attribute Name
+ Indicates what kind of extra information you are supplying to the browser about the content in the element characters within the brackets indicates the tags purpose  Attribute Value</description>
     </item>
     
     <item>
       <title>Tag Overview</title>
-      <link>http://localhost:1313/01-html-basics/tag-overview/</link>
+      <link>https://fewd20170829.github.io/01-html-basics/tag-overview/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/01-html-basics/tag-overview/</guid>
-      <description>
-
-&lt;h2 id=&#34;html-body-head-title&#34;&gt;&lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Represents the root (top-level element) of an HTML document, so it is also referred to as the root element&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;All other elements must be &lt;strong&gt;descendants&lt;/strong&gt; of this element.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Everything inside the body tag is shown inside the browser window&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Contains information about the page (vs shown on the pages&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Title and Links to other files are usually specified in the head element&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Text here is displayed in the top of the browser (or on the tab in Chrome or other browsers that use tabs)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;&lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; is &lt;strong&gt;just one of many&lt;/strong&gt; tags that can be placed inside of &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;, we&amp;rsquo;ll see more of them as we go through the class, for more information click &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;!-- contains information about the page --&amp;gt;
-    &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;
-  &amp;lt;/head&amp;gt;
-
+      <guid>https://fewd20170829.github.io/01-html-basics/tag-overview/</guid>
+      <description>&amp;lt;html&amp;gt;, &amp;lt;body&amp;gt;, &amp;lt;head&amp;gt;, &amp;lt;title&amp;gt;  &amp;lt;html&amp;gt;
+ Represents the root (top-level element) of an HTML document, so it is also referred to as the root element
+ All other elements must be descendants of this element.
   &amp;lt;body&amp;gt;
-    &amp;lt;h1&amp;gt;Main Heading&amp;lt;/h1&amp;gt;
-    &amp;lt;p&amp;gt;Some cool content&amp;lt;/p&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/html_structure_browser.png&#34; alt=&#34;original left fit&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;html-headings&#34;&gt;HTML Headings&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Six (6) levels of headings&lt;/li&gt;
-&lt;li&gt;h1 tags is used for main headings&lt;/li&gt;
-&lt;li&gt;h2 tags are used for subheadings&lt;/li&gt;
-&lt;li&gt;Remaining level headings used as needed based on your content hierarchy&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;Browsers display headings differently, but relative sizes will always be consistent (by default) - i.e. h1 will always be bigger than h2&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;!-- contains information about the page --&amp;gt;
-    &amp;lt;title&amp;gt;My page&amp;lt;/title&amp;gt;
-  &amp;lt;/head&amp;gt;
-
-  &amp;lt;body&amp;gt;
-    &amp;lt;h1&amp;gt;Main Heading&amp;lt;/h1&amp;gt;
-    &amp;lt;h2&amp;gt;level 2 heading&amp;lt;/h2&amp;gt;
-    &amp;lt;h3&amp;gt;level 3 heading&amp;lt;/h3&amp;gt;
-    &amp;lt;h4&amp;gt;level 4 heading&amp;lt;/h4&amp;gt;
-    &amp;lt;h5&amp;gt;level 5 heading&amp;lt;/h5&amp;gt;
-    &amp;lt;h6&amp;gt;level 6 heading&amp;lt;/h6&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/headings_browser.png&#34; alt=&#34;original left fit&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;paragraphs&#34;&gt;Paragraphs&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Use &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; element to display paragraphs&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;By default, browser displays each paragraph on a new line&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;!-- contains information about the page --&amp;gt;
-    &amp;lt;title&amp;gt;My page&amp;lt;/title&amp;gt;
-  &amp;lt;/head&amp;gt;
-
-  &amp;lt;body&amp;gt;
-    &amp;lt;p&amp;gt; This is a paragraph. Become familiar with it because you will be using it a lot.&amp;lt;/p&amp;gt;
-    &amp;lt;p&amp;gt;Content inside of a paragraph is displayed on separate lines&amp;lt;/p&amp;gt;
-    &amp;lt;p&amp;gt; The browser will view this line of text as separate from the other two paragraphs above, despite how it looks in the text editor&amp;lt;/p&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/paragraphs_example_browser.png&#34; alt=&#34;original left fit&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;3 different types of lists:
-
-&lt;ul&gt;
-&lt;li&gt;Unordered - lists start with a bullet point by default&lt;/li&gt;
-&lt;li&gt;Ordered - numbered lists&lt;/li&gt;
-&lt;li&gt;Definition - set of terms along with definition of those terms (not used often)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;example-of-unordered-list&#34;&gt;Example of unordered list&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;!-- contains information about the page --&amp;gt;
-    &amp;lt;title&amp;gt;My page&amp;lt;/title&amp;gt;
-  &amp;lt;/head&amp;gt;
-
-  &amp;lt;body&amp;gt;
-    &amp;lt;ul&amp;gt;
-      &amp;lt;li&amp;gt;one&amp;lt;/li&amp;gt;
-      &amp;lt;li&amp;gt;two&amp;lt;/li&amp;gt;
-      &amp;lt;li&amp;gt;three&amp;lt;/li&amp;gt;
-    &amp;lt;/ul&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/unordered_list_browser.png&#34; alt=&#34;original left fit&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;List items elements are the items within list, they use opening and closing tag&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;list item elements are indented by default&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;list items elements are always a child a list element (in this case the “unordered list” or ul element.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Links created using the &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;link tags use the href attribute (remember attributes come with a name and a value)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The value of the href attribute is the location where the link will direct you after it has been clicked&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;!-- contains information about the page --&amp;gt;
-    &amp;lt;title&amp;gt;My page&amp;lt;/title&amp;gt;
-  &amp;lt;/head&amp;gt;
-
-  &amp;lt;body&amp;gt;
-    &amp;lt;a href=&amp;quot;http://www.cnn.com&amp;quot;&amp;gt; CNN &amp;lt;/a&amp;gt;
-    &amp;lt;a href=&amp;quot;/about_us.html&amp;quot;&amp;gt;About Us&amp;lt;/a&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/links_browser.png&#34; alt=&#34;original left fit&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Images are placed in a &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Empty element meaning there is no closing tag&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;
-  &amp;lt;img src=&amp;quot;images/team_hands&amp;quot; alt=&amp;quot;a group of people touching hands in a star formation&amp;quot; title=&amp;quot;teamwork is awesome&amp;quot;&amp;gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;image-attributes&#34;&gt;Image Attributes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;src - Tells browser where to find the image (may relative or absolute path)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;alt - Provides description of image for people who cannot see the image (accessibility)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;title - Used to provide additional information about the image. Most browsers will display this information in a tooltip.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;image-file-formats&#34;&gt;Image File Formats&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;.png - Supports transparency and semi-transparency, great for logos, icons, and repeating background tiles.  Almost always preferable to a gif.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;.gif - Can have basic transparency, typically a png is used instead&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;.jpeg - No transparency, can be stored at different compression levels with varying amounts of &amp;ldquo;lossy-ness&amp;rdquo;, typically the best format for photos&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;many-more-tags&#34;&gt;Many more tags&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;
-&amp;lt;b&amp;gt; Makes text bold&amp;lt;/b&amp;gt;
-&amp;lt;i&amp;gt; Italic text &amp;lt;/i&amp;gt;
-
-&amp;lt;br/&amp;gt; Used to break text within a paragraph
-
-&amp;lt;hr /&amp;gt; Used to add a horizontal line to visually break up text
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;MDN (Mozilla Developer Network) is an excellent resource for all things HTML, CSS and Javascript. For a complete list of all tags avaiable click &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-</description>
+ Everything inside the body tag is shown inside the browser window  &amp;lt;head&amp;gt;
+ Contains information about the page (vs shown on the pages
+ Title and Links to other files are usually specified in the head element</description>
     </item>
     
     <item>
       <title>Code Along</title>
-      <link>http://localhost:1313/01-html-basics/code-along/</link>
+      <link>https://fewd20170829.github.io/01-html-basics/code-along/</link>
       <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
       
-      <guid>http://localhost:1313/01-html-basics/code-along/</guid>
-      <description>
-
-&lt;h2 id=&#34;code-along-ga-press-release&#34;&gt;Code Along: GA Press Release&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;As a class, we&amp;rsquo;ll walk through using html to build out an html version of a press release&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;ga_press_release&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/01-html-basics/code-along/</guid>
+      <description> Code Along: GA Press Release  As a class, we&amp;rsquo;ll walk through using html to build out an html version of a press release
+ Using Sublime, open the folder called ga_press_release (found within the starter_code) folder
+  </description>
     </item>
     
     <item>
       <title>Lab</title>
-      <link>http://localhost:1313/01-html-basics/lab/</link>
+      <link>https://fewd20170829.github.io/01-html-basics/lab/</link>
       <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
       
-      <guid>http://localhost:1313/01-html-basics/lab/</guid>
-      <description>
-
-&lt;h2 id=&#34;lab-cookie-recipe&#34;&gt;Lab: Cookie Recipe&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Work individually or in teams to create an html version of a Cookie recipe depicted in the images below&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;cookie_recipe&lt;/strong&gt; files for this exercise can be found in your &lt;strong&gt;starter_code&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Tips&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Focus on the content first, then the image then the CSS&lt;/li&gt;
-&lt;li&gt;There will be some items that you will need to look up, CSS is one of them (don&amp;rsquo;t worry we will be going over this in the next class, but part of being a developer is being able to &lt;strong&gt;google your way to solutions&lt;/strong&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/01/cookie_recipe_pt1.png&#34; alt=&#34;This is an image&#34; /&gt;
-&lt;img src=&#34;http://localhost:1313/images/01/cookie_recipe_pt2.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>https://fewd20170829.github.io/01-html-basics/lab/</guid>
+      <description> Lab: Cookie Recipe  Work individually or in teams to create an html version of a Cookie recipe depicted in the images below
+ Using Sublime, open the folder called cookie_recipe files for this exercise can be found in your starter_code
+ Tips
+ Focus on the content first, then the image then the CSS There will be some items that you will need to look up, CSS is one of them (don&amp;rsquo;t worry we will be going over this in the next class, but part of being a developer is being able to google your way to solutions)   </description>
     </item>
     
   </channel>

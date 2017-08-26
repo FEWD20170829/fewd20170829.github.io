@@ -2,601 +2,144 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>04-page-layouts on FEWD Course Material</title>
-    <link>http://localhost:1313/04-page-layout/index.xml</link>
+    <link>https://fewd20170829.github.io/04-page-layout/</link>
     <description>Recent content in 04-page-layouts on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/04-page-layout/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://fewd20170829.github.io/04-page-layout/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Page Layout</title>
-      <link>http://localhost:1313/04-page-layout/</link>
+      <link>https://fewd20170829.github.io/04-page-layout/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/04-page-layout/</guid>
-      <description>
-
-&lt;h3 id=&#34;lesson-04&#34;&gt;Lesson 04&lt;/h3&gt;
-
-&lt;h1 id=&#34;page-layout&#34;&gt;Page Layout&lt;/h1&gt;
-</description>
+      <guid>https://fewd20170829.github.io/04-page-layout/</guid>
+      <description> Lesson 04 Page Layout </description>
     </item>
     
     <item>
       <title>Objectives</title>
-      <link>http://localhost:1313/04-page-layout/objectives/</link>
+      <link>https://fewd20170829.github.io/04-page-layout/objectives/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/04-page-layout/objectives/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Discuss concept of page structure &amp;amp; layouts&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Understand how divs are used&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Introduce semantic elements and how they are used&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Introduce CSS floats&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/04-page-layout/objectives/</guid>
+      <description> Discuss concept of page structure &amp;amp; layouts
+ Understand how divs are used
+ Introduce semantic elements and how they are used
+ Introduce CSS floats
+  </description>
     </item>
     
     <item>
       <title>Agenda</title>
-      <link>http://localhost:1313/04-page-layout/agenda/</link>
+      <link>https://fewd20170829.github.io/04-page-layout/agenda/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/04-page-layout/agenda/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Last Class Review&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Code Along #1: Error Messages (Classes and Ids)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Block and Inline Elements&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Containing Elements&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Semantic Elements&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CSS Floats&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Code Along #2: Two-Column Layout&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Lab: Layout Challenge&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/04-page-layout/agenda/</guid>
+      <description> Last Class Review
+ Code Along #1: Error Messages (Classes and Ids)
+ Block and Inline Elements
+ Containing Elements
+ Semantic Elements
+ CSS Floats
+ Code Along #2: Two-Column Layout
+ Lab: Layout Challenge
+  </description>
     </item>
     
     <item>
       <title>Last Class Review</title>
-      <link>http://localhost:1313/04-page-layout/last-class-review/</link>
+      <link>https://fewd20170829.github.io/04-page-layout/last-class-review/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/04-page-layout/last-class-review/</guid>
-      <description>
-
-&lt;h2 id=&#34;css-selectors-overview&#34;&gt;CSS Selectors Overview&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Many different types of selectors that allow you to target rules to specific elements in an HTML document&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Selectors are case sensitive, must match element names and attributes exactly&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;Selector&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Meaning&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Example&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Universal Selector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Applies to all elements&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;*{}&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Type Selector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Match elements names&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;h1, h2, h3 {}&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Class Selector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Matches all elements with a class attribute value matching on specified after a period (.)&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;.hint {}&lt;/code&gt;, &lt;code&gt;p.hint {}&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;ID Selector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Matches all elements with a id attribute value matching on specified after a hash (#)&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;#offer {}&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Child Selector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Matches elements that are a direct child of another&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;li &amp;gt; a {}&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Descendant Selector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Matches element that is a direct descendant of another (not just the child)&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;p  a {}&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Adjacent Sibling Selector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Matches first element that is a sibling of another&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;h1+p {}&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;General Sibling Selector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Matches all elements that is a sibling of another&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;h1~p {}&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Attribute Selector&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Attribute selectors select an element using the presence of a given attribute or attribute value&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;code&gt;input[type=&amp;quot;email&amp;quot;] {}&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;A complete list of all CSS Selectors can be found &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;css-box-model&#34;&gt;CSS Box Model&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Understanding the CSS Box Model is key to understanding how CSS works&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Going forward, you should &lt;strong&gt;view every element as a box&lt;/strong&gt; (because that&amp;rsquo;s how browsers view them)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/03/box_model_example_no_lines.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/03/box_model_example_lines.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Block elements in the image are outlined in red, while inline elements are outlined in green&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Every element is a box, some boxes contain other boxes &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; or &lt;code&gt;&amp;lt;article&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CSS allows you to create rules the control each individual box&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--- Block elements (by default) start on the a new line | &lt;body&gt;&lt;p&gt;&lt;h1&gt; tags are examples of block elements--&gt;
-
-&lt;!--- Inline elements Flow within the text and do not start on a new line Examples of inline elements include: &lt;a&gt;, &lt;span&gt;, &lt;img&gt;, &lt;b&gt;--&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;box-model-consists-of&#34;&gt;Box Model consists of:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Margin&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Padding&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Border&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/03/box_model_diagram.gif&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;margin&#34;&gt;Margin&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Margins sit outside the edge of your border&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Create a gap between the edges of two adjacent boxes&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;padding&#34;&gt;Padding&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Padding is the space between the border of a box and any content contained within it.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Adding padding helps to increase readability of a box’s content&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;border&#34;&gt;Border&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Every box has a border, even if it is invisible (0 pixels wide)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Borders separates the edge of one box from another&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/04-page-layout/last-class-review/</guid>
+      <description>CSS Selectors Overview  Many different types of selectors that allow you to target rules to specific elements in an HTML document
+ Selectors are case sensitive, must match element names and attributes exactly
+     Selector Meaning Example     Universal Selector Applies to all elements *{}   Type Selector Match elements names h1, h2, h3 {}   Class Selector Matches all elements with a class attribute value matching on specified after a period (.</description>
     </item>
     
     <item>
       <title>Code Along #1</title>
-      <link>http://localhost:1313/04-page-layout/code-along-1/</link>
+      <link>https://fewd20170829.github.io/04-page-layout/code-along-1/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/04-page-layout/code-along-1/</guid>
-      <description>
-
-&lt;h2 id=&#34;code-along-1-error-messages&#34;&gt;Code Along #1: Error Messages&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Using Sublime, open the folder called &lt;strong&gt;error_messages&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/04-page-layout/code-along-1/</guid>
+      <description> Code Along #1: Error Messages  Using Sublime, open the folder called error_messages (found within the starter_code) folder  </description>
     </item>
     
     <item>
       <title>Block and Inline Elements</title>
-      <link>http://localhost:1313/04-page-layout/block-inline-elements/</link>
+      <link>https://fewd20170829.github.io/04-page-layout/block-inline-elements/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/04-page-layout/block-inline-elements/</guid>
-      <description>
-
-&lt;h2 id=&#34;block-level-elements&#34;&gt;Block Level Elements&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Always appear on a new line or row&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;By default&lt;/strong&gt;, block elements take up an entire row regardless of the width of their content&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Example block elements: &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/zegoni/embed?html,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Full list of block level elements can be found &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;inline-elements&#34;&gt;Inline Elements&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Sit within a block level element and do not start on a new line&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;By default&lt;/strong&gt;, inline elements only occupy the horizontal space needed to fit its content&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The height and width properties of an inline element will not be recognized&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Example inline elements: &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/xoxacaj/embed?html,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Full list of inline elements can be found &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;inline-block&#34;&gt;Inline-Block&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Allows you make an element inline while also allowing the element to recognize height and width properties&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;inline-block is set as a value of the &lt;strong&gt;display&lt;/strong&gt; property in CSS&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/vocasel/embed?css,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;changing-default-layout-behavior-of-elements&#34;&gt;Changing Default Layout Behavior of Elements&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The default layout behavior of elements can be overriden using the &lt;strong&gt;display&lt;/strong&gt; property in CSS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;// in css
-
-p.customer-logos {
-  display: inline;
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In the example above, we are using CSS to change the matching &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; elements (with a class of customer-logos) to display inline &lt;strong&gt;instead of&lt;/strong&gt; its default display layout behavior of block&lt;/p&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;For more information about the display property click &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/CSS/display&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-</description>
+      <guid>https://fewd20170829.github.io/04-page-layout/block-inline-elements/</guid>
+      <description>Block Level Elements  Always appear on a new line or row
+ By default, block elements take up an entire row regardless of the width of their content
+ Example block elements: &amp;lt;p&amp;gt;, &amp;lt;h1&amp;gt;, &amp;lt;div&amp;gt;
+  JS Bin on jsbin.com
+Full list of block level elements can be found here
+ Inline Elements  Sit within a block level element and do not start on a new line</description>
     </item>
     
     <item>
       <title>Containing Elements</title>
-      <link>http://localhost:1313/04-page-layout/containing-elements/</link>
+      <link>https://fewd20170829.github.io/04-page-layout/containing-elements/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/04-page-layout/containing-elements/</guid>
-      <description>
-
-&lt;h2 id=&#34;containing-elements&#34;&gt;Containing Elements&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Elements that contain groups of elements&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;For example, grouping all of the elements associated with the header in a &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tags are commonly used as containing elements&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/04/containing_elements_diagram.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In example the above example, orange lines represent &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tags&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;div&#34;&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Used to group a set of elements together in one block-level box&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; element are block-level elements which means they will start on a new line&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt;
-    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;css/styles.css&amp;quot;&amp;gt;
-  &amp;lt;/head&amp;gt;
-
-  &amp;lt;body&amp;gt;
-
-    &amp;lt;!-- start of header div --&amp;gt;
-    &amp;lt;div id=&amp;quot;header&amp;quot;&amp;gt;
-      &amp;lt;img src=&amp;quot;images/logo.gif&amp;quot; alt=&amp;quot;Anish Kapoor&amp;quot; /&amp;gt;
-      &amp;lt;ul&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;index.html&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;biography.html&amp;quot;&amp;gt;Biography&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;works.html&amp;quot;&amp;gt;Works&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;contact.html&amp;quot;&amp;gt;Contact&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-      &amp;lt;/ul&amp;gt;
-    &amp;lt;/div&amp;gt;
-    &amp;lt;!-- end of header div --&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;structure-using-div-s&#34;&gt;Structure using &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Prior to HTML5, the divs have been the most common way to structure content on page&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Usual ids/classes are used to provide each div with context regarding the type of content div contains&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Above picture is just an example! This structure is not set in stone, use what makes sense for your project&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/04/structure_using_divs.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s are used to structure pages in logical sections/groups based on your site&amp;rsquo;s layout&lt;/p&gt;
-&lt;/div&gt;
-
-</description>
+      <guid>https://fewd20170829.github.io/04-page-layout/containing-elements/</guid>
+      <description>Containing Elements  Elements that contain groups of elements
+ For example, grouping all of the elements associated with the header in a &amp;lt;div&amp;gt;
+ &amp;lt;div&amp;gt; tags are commonly used as containing elements
+  In example the above example, orange lines represent &amp;lt;div&amp;gt; tags
+&amp;lt;div&amp;gt;  Used to group a set of elements together in one block-level box
+ &amp;lt;div&amp;gt; element are block-level elements which means they will start on a new line</description>
     </item>
     
     <item>
       <title>Semantic Elements</title>
-      <link>http://localhost:1313/04-page-layout/semantic-elements/</link>
+      <link>https://fewd20170829.github.io/04-page-layout/semantic-elements/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/04-page-layout/semantic-elements/</guid>
-      <description>
-
-&lt;h2 id=&#34;structure-using-semantic-tags&#34;&gt;Structure using Semantic tags&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Similar to &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s, semantic tags are container elements&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;HTML5 introduced semantic tags that directly communicate type of content the container element contains&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Important note: incorrect use of the tags will not result in any errors (but may be confusing for your teammates)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Above picture is just an example! This structure is not set in stone, use what makes sense for your project&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/04/structure_using_semantic_tags.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;div class=&#34;notices warning&#34; &gt;&lt;p&gt;Make sure you distinguish between &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt;, &lt;strong&gt;they are not the same&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-</description>
+      <guid>https://fewd20170829.github.io/04-page-layout/semantic-elements/</guid>
+      <description>Structure using Semantic tags  Similar to &amp;lt;div&amp;gt;s, semantic tags are container elements
+ HTML5 introduced semantic tags that directly communicate type of content the container element contains
+ Important note: incorrect use of the tags will not result in any errors (but may be confusing for your teammates)
+ Above picture is just an example! This structure is not set in stone, use what makes sense for your project</description>
     </item>
     
     <item>
       <title>CSS Floats</title>
-      <link>http://localhost:1313/04-page-layout/css-floats/</link>
+      <link>https://fewd20170829.github.io/04-page-layout/css-floats/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/04-page-layout/css-floats/</guid>
-      <description>
-
-&lt;h2 id=&#34;floating-elements&#34;&gt;Floating Elements&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Float property allows you to take an element in normal flow and place it as far to the left or right of the &lt;strong&gt;containing&lt;/strong&gt; element as possible.&lt;/li&gt;
-&lt;li&gt;Floats are a common way of creating multi-column layouts&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;floating-guidelines&#34;&gt;Floating Guidelines&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Floated elements should be assigned a width or unexpected behavior will occur (remember block level elements take up 100% width by default)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Elements can be either floated &lt;strong&gt;left&lt;/strong&gt; or &lt;strong&gt;right&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Elements that sit below will wrap around the floated element, it prevent this you must &lt;strong&gt;clear the float&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;adding-floats-using-css&#34;&gt;Adding floats using CSS&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
-blockquote {
-  float: right;
-  width: 275px;
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;float&lt;/strong&gt; is a css property, the most common values are left and right&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;float-example&#34;&gt;Float Example&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Float property allows you to take an element in normal flow and place it as far to the left or right of the containing element as possible&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Anything else that sits inside the containing element will flow around the element that is floated&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/bezosuj/embed?css,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;side-by-side-example&#34;&gt;Side by Side Example&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;You can place blocks next to each other on the same line by setting the float and width properties on each block.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/kodifo/embed?css,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Example: Each block of text is being floated to the left {float: left}, with the width set so multiple blocks can fit on the same line&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Potential issue: Paragraph #4 isn’t being displayed on a new line as expected.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Reason for this issue: Paragraph #3’s shorter height allowed another block to fit one line 1.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Fix: using the &lt;strong&gt;clear&lt;/strong&gt; property&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;clearing-floats-examples&#34;&gt;Clearing Floats Examples&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The clear property allows you to say that no element (within the same containing element) should touch the left or right- hand sides of a box&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Accepts four values:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Left ({clear: left}): left-hand side of the box should not touch any other elements appearing in the same containing element.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Right ({clear: right}): right-hand side of the box should not touch any other elements appearing in the same containing element.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Both ({clear: both}): Neither the left nor right-hand sides of the box will touch elements appearing in the same containing element.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;None ({clear: none}): Neither the left nor right-hand sides of the box will touch elements appearing in the same containing element.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/vuzuriz/embed?css,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;parent-container-issue&#34;&gt;Parent Container Issue&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Some browsers treat containers of floated elements has having a height of 0 pixels tall.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/xewozo/embed?css,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Example: We are attempting to add a border to the &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; that contains the three &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; elements&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Since all of the elements within the &lt;div&gt; are being floated, the browser treats it as if it has 0px height&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;As a result, the border is not displayed correctly&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;parent-container-issue-resolved&#34;&gt;Parent Container Issue - Resolved&lt;/h2&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/nodufiw/embed?css,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Multiple ways to fix this (here are a couple recommended approaches)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Set overflow property to auto and set width to 100%&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You could just add a float property the containing &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/04-page-layout/css-floats/</guid>
+      <description>Floating Elements  Float property allows you to take an element in normal flow and place it as far to the left or right of the containing element as possible. Floats are a common way of creating multi-column layouts  Floating Guidelines  Floated elements should be assigned a width or unexpected behavior will occur (remember block level elements take up 100% width by default)
+ Elements can be either floated left or right</description>
     </item>
     
     <item>
       <title>Code Along #2</title>
-      <link>http://localhost:1313/04-page-layout/code-along-2/</link>
+      <link>https://fewd20170829.github.io/04-page-layout/code-along-2/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/04-page-layout/code-along-2/</guid>
-      <description>
-
-&lt;h2 id=&#34;code-along-2-page-layout-using-floats&#34;&gt;Code Along #2: Page Layout using Floats&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;layout_challenge&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;As a class, we&amp;rsquo;ll use floats to create a two-column layout (depicted in the image)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/04/two_column_layout.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>https://fewd20170829.github.io/04-page-layout/code-along-2/</guid>
+      <description> Code Along #2: Page Layout using Floats  Using Sublime, open the folder called layout_challenge (found within the starter_code) folder
+ As a class, we&amp;rsquo;ll use floats to create a two-column layout (depicted in the image)
+  </description>
     </item>
     
     <item>
       <title>Lab</title>
-      <link>http://localhost:1313/04-page-layout/lab/</link>
+      <link>https://fewd20170829.github.io/04-page-layout/lab/</link>
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
-      <guid>http://localhost:1313/04-page-layout/lab/</guid>
-      <description>
-
-&lt;h2 id=&#34;lab-layout-challenge&#34;&gt;Lab: Layout Challenge&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Work individually or in teams to recreate the layouts depicted in &lt;strong&gt;layouts_challenge/layouts.pdf&lt;/strong&gt; file (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) in html&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Create a separate project folder for each layout&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;For example, when recreating the layout for the &lt;strong&gt;Three-Column&lt;/strong&gt; layout, create a new folder called three_column and add your index.html, and css files within that folder.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/04-page-layout/lab/</guid>
+      <description> Lab: Layout Challenge  Work individually or in teams to recreate the layouts depicted in layouts_challenge/layouts.pdf file (found within the starter_code) in html
+ Create a separate project folder for each layout
+ For example, when recreating the layout for the Three-Column layout, create a new folder called three_column and add your index.html, and css files within that folder.   </description>
     </item>
     
   </channel>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>14-responsive-design-labs on FEWD Course Material</title>
+    <link>https://fewd20170829.github.io/14-responsive-design-lab/</link>
+    <description>Recent content in 14-responsive-design-labs on FEWD Course Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    
+	<atom:link href="https://fewd20170829.github.io/14-responsive-design-lab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Responsive Design Lab</title>
+      <link>https://fewd20170829.github.io/14-responsive-design-lab/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design-lab/</guid>
+      <description> Lesson 14 Responsive Design Lab </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>https://fewd20170829.github.io/14-responsive-design-lab/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design-lab/objectives/</guid>
+      <description> Use knowledge of responsive design to turn a fixed-width site into a fully responsive site  </description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>https://fewd20170829.github.io/14-responsive-design-lab/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design-lab/agenda/</guid>
+      <description> Review Concepts from last class
+ Lab: Startup Matchmaker - Responsive
+ Final Project Checkins
+  </description>
+    </item>
+    
+    <item>
+      <title>Lab Overview</title>
+      <link>https://fewd20170829.github.io/14-responsive-design-lab/lab-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design-lab/lab-overview/</guid>
+      <description> Lab: Startup Matchmaker  You have been hired to turn Startup Matchmaker into a fully responsive site  Requirements  Update Startup Matchmaker so the homepage&amp;rsquo;s content is effectively displayed on an iPhone 7 screen  </description>
+    </item>
+    
+    <item>
+      <title>Milestone #1</title>
+      <link>https://fewd20170829.github.io/14-responsive-design-lab/milestone-1/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design-lab/milestone-1/</guid>
+      <description>Follow the steps below to complete Milestone #1:
+In groups of four:
+ Sketch out your proposed layout for mobile version of the site  Some things to think about:
+ Will you need to hide menus?
+ What content should be featured on a narrow screen?
+  Timebox: 15 minutes</description>
+    </item>
+    
+    <item>
+      <title>Milestone #2</title>
+      <link>https://fewd20170829.github.io/14-responsive-design-lab/milestone-2/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design-lab/milestone-2/</guid>
+      <description>Follow the steps below to complete Milestone #2:
+In pairs (or groups):
+ Plan out your breakpoint(s) (only one is required for this lab, but you can add more) Optional (but highly recommended): Update existing html and css to fit existing site (wide layout) into a grid  Timebox: 60 minutes
+Note: While you will be working with a partner, each student should have their own copy of the project on their computers</description>
+    </item>
+    
+    <item>
+      <title>Milestone #3</title>
+      <link>https://fewd20170829.github.io/14-responsive-design-lab/milestone-3/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design-lab/milestone-3/</guid>
+      <description>Follow the steps below to complete Milestone #3:
+In pairs (or groups):
+ Add breakpoints so that all of the content (that you&amp;rsquo;ve chosen to expose) is viewable on iPhone 7 screens  Timebox: 30 minutes
+Note: While you will be working with a partner, each student should have their own copy of the project on their computers</description>
+    </item>
+    
+    <item>
+      <title>Bonus Milestone</title>
+      <link>https://fewd20170829.github.io/14-responsive-design-lab/bonus-milestone/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design-lab/bonus-milestone/</guid>
+      <description>Follow the steps below to complete the Bonus Milestone:
+In pairs (or groups):
+ Implement a hamburger menu that will be displayed on narrow screens
+ When the user clicks on the hamburger menu, the hidden navigation items (i.e. Developers, Designers, How It Works, Our Team) should slide down
+  </description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>https://fewd20170829.github.io/14-responsive-design-lab/homework/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design-lab/homework/</guid>
+      <description> Work on your final projects - only a couple weeks left!!! </description>
+    </item>
+    
+  </channel>
+</rss>

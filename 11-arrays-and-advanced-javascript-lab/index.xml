@@ -2,300 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>11-arrays-and-advanced-javascript-labs on FEWD Course Material</title>
-    <link>http://localhost:1313/11-arrays-and-advanced-javascript-lab/index.xml</link>
+    <link>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/</link>
     <description>Recent content in 11-arrays-and-advanced-javascript-labs on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/11-arrays-and-advanced-javascript-lab/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Arrays &amp; Advanced Javascript Lab</title>
-      <link>http://localhost:1313/11-arrays-and-advanced-javascript-lab/</link>
+      <link>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/11-arrays-and-advanced-javascript-lab/</guid>
-      <description>
-
-&lt;h3 id=&#34;lesson-11&#34;&gt;Lesson 11&lt;/h3&gt;
-
-&lt;h1 id=&#34;arrays-advanced-javascript-lab&#34;&gt;Arrays &amp;amp; Advanced Javascript Lab&lt;/h1&gt;
-</description>
+      <guid>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/</guid>
+      <description> Lesson 11 Arrays &amp;amp; Advanced Javascript Lab </description>
     </item>
     
     <item>
       <title>Objectives</title>
-      <link>http://localhost:1313/11-arrays-and-advanced-javascript-lab/objectives/</link>
+      <link>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/objectives/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/11-arrays-and-advanced-javascript-lab/objectives/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Review Arrays and introduce a couple of different ways to iterate (loop) through an array&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Introduce the concept of $(this) and why it is useful&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Leverage javascript knowledge to complete Rock, Paper, Scissors game&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/objectives/</guid>
+      <description> Review Arrays and introduce a couple of different ways to iterate (loop) through an array
+ Introduce the concept of $(this) and why it is useful
+ Leverage javascript knowledge to complete Rock, Paper, Scissors game
+  </description>
     </item>
     
     <item>
       <title>Agenda</title>
-      <link>http://localhost:1313/11-arrays-and-advanced-javascript-lab/agenda/</link>
+      <link>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/agenda/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/11-arrays-and-advanced-javascript-lab/agenda/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Discuss arrays and collections&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Code Along: Array Exercise&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;$(this)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Lab: Rock Paper Scissors&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/agenda/</guid>
+      <description> Discuss arrays and collections
+ Code Along: Array Exercise
+ $(this)
+ Lab: Rock Paper Scissors
+  </description>
     </item>
     
     <item>
       <title>Array Overview</title>
-      <link>http://localhost:1313/11-arrays-and-advanced-javascript-lab/array-overview/</link>
+      <link>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/array-overview/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/11-arrays-and-advanced-javascript-lab/array-overview/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-are-arrays&#34;&gt;What are arrays?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A collection of objects or items&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Zero-based&amp;rdquo; - positions (called indexes) start at zero&lt;/li&gt;
-&lt;li&gt;Very easy way to store multiple items&lt;/li&gt;
-&lt;li&gt;Arrays can hold items of different datatypes (i.e. all items in an arry don&amp;rsquo;t have to be the same datatype)&lt;/li&gt;
-&lt;li&gt;Used extensively in programming&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;declaring-an-array&#34;&gt;Declaring an array&lt;/h2&gt;
-
-&lt;p&gt;Two ways to declare an array&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-// Declaring an empty array using the Array constructor syntax
-var names = new Array();
-
-// Declaring an empty array using literal notation (preferred)
-var names = [];
-
-// Declaring an array using literal notation with data
-var names = [&#39;larry&#39;, &#39;curly&#39;, &#39;moe&#39;];
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;The best practice is to use the literal notation whenever possible&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;arrays-and-indexes&#34;&gt;Arrays and Indexes&lt;/h2&gt;
-
-&lt;p&gt;Arrays are &amp;ldquo;zero-based&amp;rdquo; meaning indexes start at 0&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-  // the value &#39;curly&#39; is said to have an index of 1
-  var names = [&#39;larry&#39;, &#39;curly&#39;, &#39;moe&#39;];
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;getting-data-out-of-an-array&#34;&gt;Getting data out of an array&lt;/h2&gt;
-
-&lt;p&gt;The most common way to retrieve a single value from an array
-is to use the index&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-  var names = [&#39;larry&#39;, &#39;curly&#39;, &#39;moe&#39;];
-
-  // retrieve the first item out of the array
-  names[0]; // this wil return &#39;larry&#39;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;more-information-about-arrays&#34;&gt;More information about arrays&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Arrays one of the most useful data structures in programming, check our &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array&#34;&gt;MDN&amp;rsquo;s documentation&lt;/a&gt; on Arrays for more information&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/array-overview/</guid>
+      <description>What are arrays?  A collection of objects or items &amp;ldquo;Zero-based&amp;rdquo; - positions (called indexes) start at zero Very easy way to store multiple items Arrays can hold items of different datatypes (i.e. all items in an arry don&amp;rsquo;t have to be the same datatype) Used extensively in programming  Declaring an array Two ways to declare an array
+// Declaring an empty array using the Array constructor syntax var names = new Array(); // Declaring an empty array using literal notation (preferred) var names = []; // Declaring an array using literal notation with data var names = [&#39;larry&#39;, &#39;curly&#39;, &#39;moe&#39;];  The best practice is to use the literal notation whenever possible</description>
     </item>
     
     <item>
       <title>Looping through Arrays</title>
-      <link>http://localhost:1313/11-arrays-and-advanced-javascript-lab/looping-through-arrays/</link>
+      <link>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/looping-through-arrays/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/11-arrays-and-advanced-javascript-lab/looping-through-arrays/</guid>
-      <description>
-
-&lt;h2 id=&#34;loops-and-interation&#34;&gt;Loops and Interation&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Loops offer a quick and easy way to do something repeatedly&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Javascript offers many different ways to loop, &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration&#34;&gt;click here&lt;/a&gt; for more information&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;using-foreach-native-javascript&#34;&gt;Using .forEach() (native javascript)&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Native javascript offers a .forEach() method loops through (iterates) an array&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;  var fruits=[“Banana”,”Apple”,”Pear”];
-
-  fruits.forEach(function(element,index){
-    console.log(element,index);
-  });
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/kurivux/embed?js,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.3&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach&#34;&gt;click here&lt;/a&gt; for more information about the forEach() loop&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;using-each-jquery&#34;&gt;Using $.each() (jQuery)&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;jQuery also provides a way to iterate arrays through its $.each() method&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;  var fruits=[“Banana”,”Apple”,”Pear”];
-
-  $.each(fruits, function(index, element){
-    console.log(index, element);
-  });
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/polewov/embed?js,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.3&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;&lt;a href=&#34;https://api.jquery.com/each/&#34;&gt;click here&lt;/a&gt; for more information about the jQuery&amp;rsquo;s $.each() loop&lt;/p&gt;
-&lt;/div&gt;
-
-</description>
+      <guid>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/looping-through-arrays/</guid>
+      <description>Loops and Interation  Loops offer a quick and easy way to do something repeatedly
+   Javascript offers many different ways to loop, click here for more information
+ Using .forEach() (native javascript)  Native javascript offers a .forEach() method loops through (iterates) an array  var fruits=[“Banana”,”Apple”,”Pear”]; fruits.forEach(function(element,index){ console.log(element,index); });  JS Bin on jsbin.com
+click here for more information about the forEach() loop
+ Using $.</description>
     </item>
     
     <item>
       <title>Code Along</title>
-      <link>http://localhost:1313/11-arrays-and-advanced-javascript-lab/code-along/</link>
+      <link>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/code-along/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/11-arrays-and-advanced-javascript-lab/code-along/</guid>
-      <description>
-
-&lt;h2 id=&#34;code-along-arrays-exercise&#34;&gt;Code Along: Arrays Exercise&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;arrays_exercise&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Instructions&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We&amp;rsquo;ll practice working with arrays by following the instructions specified in the exercise.js file&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/code-along/</guid>
+      <description> Code Along: Arrays Exercise  Using Sublime, open the folder called arrays_exercise (found within the starter_code) folder
+ Instructions
+ We&amp;rsquo;ll practice working with arrays by following the instructions specified in the exercise.js file   </description>
     </item>
     
     <item>
       <title>$(this)</title>
-      <link>http://localhost:1313/11-arrays-and-advanced-javascript-lab/this/</link>
+      <link>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/this/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/11-arrays-and-advanced-javascript-lab/this/</guid>
-      <description>
-
-&lt;h2 id=&#34;this&#34;&gt;$(this)&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;this&lt;/code&gt; one of the most misunderstood concepts in javascript&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;this&lt;/code&gt; (pure javascript) refers to the owner of a function&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;$(this)&lt;/code&gt; (jquery) gives you reference to uses jQuery to select the current element&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;example-of-this-in-use&#34;&gt;Example of $(this) in use&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-// Event that makes the &amp;lt;p&amp;gt; element disappear when it is clicked
-
-$(&#39;p&#39;).click(function(){
-
-  // $(this) refers to the jQuery element, $(p), that
-  // the click event was called on
-
-  // Tell the &amp;lt;p&amp;gt; element to hide itself
-  $(this).hide();
-});
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/fideyac/embed?html,css,js,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.3&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;active-link-example-using-this&#34;&gt;Active Link Example using $(this)&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The following is example of how a developer could go using javascript to implement an &amp;ldquo;active link&amp;rdquo; effect&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/tipilod/embed?js,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.3&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+      <guid>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/this/</guid>
+      <description>$(this)  this one of the most misunderstood concepts in javascript this (pure javascript) refers to the owner of a function $(this) (jquery) gives you reference to uses jQuery to select the current element  Example of $(this) in use // Event that makes the &amp;lt;p&amp;gt; element disappear when it is clicked $(&#39;p&#39;).click(function(){ // $(this) refers to the jQuery element, $(p), that // the click event was called on // Tell the &amp;lt;p&amp;gt; element to hide itself $(this).</description>
     </item>
     
     <item>
       <title>Lab</title>
-      <link>http://localhost:1313/11-arrays-and-advanced-javascript-lab/lab/</link>
+      <link>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/lab/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/11-arrays-and-advanced-javascript-lab/lab/</guid>
-      <description>
-
-&lt;h2 id=&#34;lab-rock-paper-scissors&#34;&gt;Lab: Rock, Paper Scissors&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;rock_paper_scissors&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Instructions&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Work in pairs/groups (each student should have their own copy of the app on your computers)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Review the completed version of the app (found in folder called &lt;strong&gt;rock_paper_scissors_obfuscated&lt;/strong&gt;) to understand how the app is expected to work&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Plan out your approach &lt;strong&gt;before&lt;/strong&gt; coding (using pseudocode, whiteboarding, etc.)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Use console.log to print out values to console to help ensure you&amp;rsquo;re on the right path&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/lab/</guid>
+      <description>Lab: Rock, Paper Scissors  Using Sublime, open the folder called rock_paper_scissors (found within the starter_code) folder
+ Instructions
+ Work in pairs/groups (each student should have their own copy of the app on your computers)
+ Review the completed version of the app (found in folder called rock_paper_scissors_obfuscated) to understand how the app is expected to work
+ Plan out your approach before coding (using pseudocode, whiteboarding, etc.)</description>
     </item>
     
   </channel>

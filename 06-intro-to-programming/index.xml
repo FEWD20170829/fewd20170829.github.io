@@ -2,233 +2,142 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>06-intro-to-programmings on FEWD Course Material</title>
-    <link>http://localhost:1313/06-intro-to-programming/index.xml</link>
+    <link>https://fewd20170829.github.io/06-intro-to-programming/</link>
     <description>Recent content in 06-intro-to-programmings on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/06-intro-to-programming/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://fewd20170829.github.io/06-intro-to-programming/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Intro to Programming</title>
-      <link>http://localhost:1313/06-intro-to-programming/</link>
+      <link>https://fewd20170829.github.io/06-intro-to-programming/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/06-intro-to-programming/</guid>
-      <description>
-
-&lt;h3 id=&#34;lesson-06&#34;&gt;Lesson 06&lt;/h3&gt;
-
-&lt;h1 id=&#34;intro-to-programming&#34;&gt;Intro to Programming&lt;/h1&gt;
-</description>
+      <guid>https://fewd20170829.github.io/06-intro-to-programming/</guid>
+      <description> Lesson 06 Intro to Programming </description>
     </item>
     
     <item>
       <title>Objectives</title>
-      <link>http://localhost:1313/06-intro-to-programming/objectives/</link>
+      <link>https://fewd20170829.github.io/06-intro-to-programming/objectives/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/06-intro-to-programming/objectives/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Understand what programming is all about&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Introduce concept of pseudocode&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Walk through some actual code and use pattern matching to fix broken programs&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/06-intro-to-programming/objectives/</guid>
+      <description> Understand what programming is all about
+ Introduce concept of pseudocode
+ Walk through some actual code and use pattern matching to fix broken programs
+  </description>
     </item>
     
     <item>
       <title>Agenda</title>
-      <link>http://localhost:1313/06-intro-to-programming/agenda/</link>
+      <link>https://fewd20170829.github.io/06-intro-to-programming/agenda/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/06-intro-to-programming/agenda/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Last Class Review&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;What is Programming?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;What is Pseudocode?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Class Exercise: Thermostat&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Group Exercise: Rock, Paper, Scissors&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;What is Javascript?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Code Along: Color Scheme Switcher&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Lab: Traffic Light&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/06-intro-to-programming/agenda/</guid>
+      <description> Last Class Review
+ What is Programming?
+ What is Pseudocode?
+ Class Exercise: Thermostat
+ Group Exercise: Rock, Paper, Scissors
+ What is Javascript?
+ Code Along: Color Scheme Switcher
+ Lab: Traffic Light
+  </description>
     </item>
     
     <item>
       <title>What is Programming?</title>
-      <link>http://localhost:1313/06-intro-to-programming/what-is-programming/</link>
+      <link>https://fewd20170829.github.io/06-intro-to-programming/what-is-programming/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/06-intro-to-programming/what-is-programming/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;List of instructions that a computer needs in order to complete a task&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Instructions are provided in a programming language that the computer understands&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;These set of instructions are commonly referred as source code or a program&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/06-intro-to-programming/what-is-programming/</guid>
+      <description> List of instructions that a computer needs in order to complete a task
+ Instructions are provided in a programming language that the computer understands
+ These set of instructions are commonly referred as source code or a program
+  </description>
     </item>
     
     <item>
       <title>Pseudocode</title>
-      <link>http://localhost:1313/06-intro-to-programming/pseudocode/</link>
+      <link>https://fewd20170829.github.io/06-intro-to-programming/pseudocode/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/06-intro-to-programming/pseudocode/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Process of writing a program without using the syntax of a programming language&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Mixture of natural language and high-level programming concepts&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;There is no standard way to write pseudocode, use langauge that can be understood by technical and non-technical people&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Use pseudocode as an &amp;ldquo;outline&amp;rdquo; for your real code&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/06-intro-to-programming/pseudocode/</guid>
+      <description> Process of writing a program without using the syntax of a programming language
+ Mixture of natural language and high-level programming concepts
+ There is no standard way to write pseudocode, use langauge that can be understood by technical and non-technical people
+ Use pseudocode as an &amp;ldquo;outline&amp;rdquo; for your real code
+  </description>
     </item>
     
     <item>
       <title>Class Exercise</title>
-      <link>http://localhost:1313/06-intro-to-programming/class-exercise/</link>
+      <link>https://fewd20170829.github.io/06-intro-to-programming/class-exercise/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/06-intro-to-programming/class-exercise/</guid>
-      <description>
-
-&lt;h2 id=&#34;class-exercise-thermostat-logic-in-pseudocode&#34;&gt;Class Exercise: Thermostat logic in pseudocode&lt;/h2&gt;
-
-&lt;p&gt;We&amp;rsquo;re going to use pseudocode to describe the basic functionality of a smart thermostat&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;As as class we are going to write some pseudocode for a program for a smart thermostat&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;We’ll focus on coming up with the logic that will help the thermostat know when to turn the heat on and off&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/06-intro-to-programming/class-exercise/</guid>
+      <description> Class Exercise: Thermostat logic in pseudocode We&amp;rsquo;re going to use pseudocode to describe the basic functionality of a smart thermostat
+ As as class we are going to write some pseudocode for a program for a smart thermostat
+ We’ll focus on coming up with the logic that will help the thermostat know when to turn the heat on and off
+  </description>
     </item>
     
     <item>
       <title>Group Exercise</title>
-      <link>http://localhost:1313/06-intro-to-programming/group-exercise/</link>
+      <link>https://fewd20170829.github.io/06-intro-to-programming/group-exercise/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/06-intro-to-programming/group-exercise/</guid>
-      <description>
-
-&lt;h2 id=&#34;group-exercise-rock-paper-and-scissors&#34;&gt;Group Exercise: Rock, Paper and Scissors&lt;/h2&gt;
-
-&lt;p&gt;Form groups and write pseudocode describing a game of Rock, Paper, Scissors&lt;/p&gt;
-</description>
+      <guid>https://fewd20170829.github.io/06-intro-to-programming/group-exercise/</guid>
+      <description>Group Exercise: Rock, Paper and Scissors Form groups and write pseudocode describing a game of Rock, Paper, Scissors</description>
     </item>
     
     <item>
       <title>Javascript Overview</title>
-      <link>http://localhost:1313/06-intro-to-programming/javascript-overview/</link>
+      <link>https://fewd20170829.github.io/06-intro-to-programming/javascript-overview/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/06-intro-to-programming/javascript-overview/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-is-javacript&#34;&gt;What is Javacript?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;programming language created in 1995 by Netscape (now Mozilla)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;It was created in 10 days&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Not the same&lt;/strong&gt; as java&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;what-does-javascript-do&#34;&gt;What does Javascript do?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Adds interactivity to your websites&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Makes web based software feel more like desktop software&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Improves user experience&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;why-teach-javascript-in-front-end-web-development&#34;&gt;Why teach javascript in front-end web development?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Javascript is the only programming langauge that all web browsers understand&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/06-intro-to-programming/javascript-overview/</guid>
+      <description> What is Javacript?  programming language created in 1995 by Netscape (now Mozilla)
+ It was created in 10 days
+ Not the same as java
+  What does Javascript do?  Adds interactivity to your websites
+ Makes web based software feel more like desktop software
+ Improves user experience
+  Why teach javascript in front-end web development?  Javascript is the only programming langauge that all web browsers understand  </description>
     </item>
     
     <item>
       <title>Code Along</title>
-      <link>http://localhost:1313/06-intro-to-programming/code-along/</link>
+      <link>https://fewd20170829.github.io/06-intro-to-programming/code-along/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/06-intro-to-programming/code-along/</guid>
-      <description>
-
-&lt;h2 id=&#34;code-along-color-switcher&#34;&gt;Code Along: Color Switcher&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;color_switcher&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;During this exercise, we&amp;rsquo;ll be doing the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Walk through an actual javascript code step-by-step&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Introduce variables, functions, listeners&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Talk about how javascript finding the elements to control?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Make some small changes and examine the results.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/06-intro-to-programming/code-along/</guid>
+      <description> Code Along: Color Switcher  Using Sublime, open the folder called color_switcher (found within the starter_code) folder
+ During this exercise, we&amp;rsquo;ll be doing the following:
+ Walk through an actual javascript code step-by-step
+ Introduce variables, functions, listeners
+ Talk about how javascript finding the elements to control?
+ Make some small changes and examine the results.
+   </description>
     </item>
     
     <item>
       <title>Lab</title>
-      <link>http://localhost:1313/06-intro-to-programming/lab/</link>
+      <link>https://fewd20170829.github.io/06-intro-to-programming/lab/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>http://localhost:1313/06-intro-to-programming/lab/</guid>
-      <description>
-
-&lt;h2 id=&#34;lab-traffic-light&#34;&gt;Lab: Traffic Light&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;traffic_light&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Instructions&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Fix the broken code&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Use &amp;ldquo;pattern matching&amp;rdquo; to identify what needs to be changed / added&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Work in pairs&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Your job is to fix this code:&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The yellow button changes the bulb to purple and the green light does not work, change the code so that the traffic light works correctly.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://fewd20170829.github.io/06-intro-to-programming/lab/</guid>
+      <description>Lab: Traffic Light  Using Sublime, open the folder called traffic_light (found within the starter_code) folder
+ Instructions
+ Fix the broken code
+ Use &amp;ldquo;pattern matching&amp;rdquo; to identify what needs to be changed / added
+ Work in pairs
+ Your job is to fix this code:
+ The yellow button changes the bulb to purple and the green light does not work, change the code so that the traffic light works correctly.</description>
     </item>
     
   </channel>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>15-forms on FEWD Course Material</title>
+    <link>https://fewd20170829.github.io/15-forms/</link>
+    <description>Recent content in 15-forms on FEWD Course Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    
+	<atom:link href="https://fewd20170829.github.io/15-forms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Forms</title>
+      <link>https://fewd20170829.github.io/15-forms/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/15-forms/</guid>
+      <description> Lesson 15 Forms </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>https://fewd20170829.github.io/15-forms/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/15-forms/objectives/</guid>
+      <description> Learn about Bootstrap and its benefits
+ Discuss Bootstrap&amp;rsquo;s grids
+ Learn about Forms and the different type of form elements
+  </description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>https://fewd20170829.github.io/15-forms/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/15-forms/agenda/</guid>
+      <description> Bootstrap overview
+ Bootstrap grid system
+ Code Along #1: Bootstrap Template
+ Discuss Forms
+ Styling Tips for Forms
+ Code Along #2: Registration Form
+  </description>
+    </item>
+    
+    <item>
+      <title>Bootstrap Overview</title>
+      <link>https://fewd20170829.github.io/15-forms/bootstrap-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/15-forms/bootstrap-overview/</guid>
+      <description>What is Bootstrap?  Front-end framework created by engineers at Twitter
+ Initially created to address the issue of having inconsistent user interfaces across their internal web applications
+ Has since become the most popular mobile first (responsive) framework on the web
+ Collection of html, css, js and fonts
+ Documentation can be found here
+  Benefits of Bootstrap  Fully responsive out of the box
+ Consistent design</description>
+    </item>
+    
+    <item>
+      <title>Bootstrap Grid</title>
+      <link>https://fewd20170829.github.io/15-forms/bootstrap-grid/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/15-forms/bootstrap-grid/</guid>
+      <description>Overview of Bootstrap&amp;rsquo;s Grid  Bootstrap offers developers a mobile-first grid with 12 columns
+ Float-based grid (the next version of bootstrap will use a flex-based grid)
+ Built-in classes are used to control the widths of boxes within a bootstrap grid
+  Containers  Bootstrap requires a containing element to house its grid system
+ To create a containing element add a class of container or container-fluid to a parent container</description>
+    </item>
+    
+    <item>
+      <title>Code Along #1</title>
+      <link>https://fewd20170829.github.io/15-forms/code-along-1/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/15-forms/code-along-1/</guid>
+      <description> Code Along #1: Using Bootstrap  Using Sublime, open the folder called bootstrap_template (found within the starter_code) folder
+ As a class, we&amp;rsquo;ll use bootstrap to finish a landing page template
+  </description>
+    </item>
+    
+    <item>
+      <title>Form Overview</title>
+      <link>https://fewd20170829.github.io/15-forms/form-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/15-forms/form-overview/</guid>
+      <description> What are forms?  Forms allow us to get data from users  How do forms work? Form Structure &amp;lt;form action=&amp;quot;http://www.example.com/subscribe.php&amp;quot; method=&amp;quot;get&amp;quot;&amp;gt; &amp;lt;p&amp;gt;This is where the form controls will appear.&amp;lt;/p&amp;gt; &amp;lt;/form&amp;gt;  Form Attributes  action: Required, the url on the server that will receive the information from the form
+ method: Either a get or post
+ Use get when the data being sent to server is not senstive information and is relatively small (search form) Use post when sending senstive data and when sending large amounts of data (registration form)   </description>
+    </item>
+    
+    <item>
+      <title>Form Elements</title>
+      <link>https://fewd20170829.github.io/15-forms/form-elements/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/15-forms/form-elements/</guid>
+      <description>Text Input &amp;lt;form action=&amp;quot;http://www.example.com/login.php&amp;quot;&amp;gt; &amp;lt;p&amp;gt; Username: &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;username&amp;quot; maxlength=&amp;quot;30&amp;quot; /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/form&amp;gt;  Text Input Example Text Input Attributes  type=&amp;ldquo;text&amp;rdquo;: Tells browser input will store plain text name: Used by the server to identify which form control that data came from maxlength: (optional) Specifies that max number of characters that can be entered  Password Input &amp;lt;form action=&amp;quot;http://www.example.com/login.php&amp;quot;&amp;gt; &amp;lt;p&amp;gt; Username: &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;username&amp;quot; size=&amp;quot;15&amp;quot; maxlength=&amp;quot;30&amp;quot; /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; Password: &amp;lt;input type=&amp;quot;password&amp;quot; name=&amp;quot;password&amp;quot; size=&amp;quot;15&amp;quot; maxlength=&amp;quot;30&amp;quot; /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/form&amp;gt;  Password Input Example Password Input Attributes  type=&amp;ldquo;password&amp;rdquo;: Tells browser input will store sensitive information, block characters from being displayed name: Used by the server to identify which form control that data came from maxlength: (optional) Specifies that max number of characters that can be entered  Text Area &amp;lt;form action=&amp;quot;http://www.</description>
+    </item>
+    
+    <item>
+      <title>Styling Forms</title>
+      <link>https://fewd20170829.github.io/15-forms/styling-forms/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/15-forms/styling-forms/</guid>
+      <description> Tips for Styling Forms  Use border box
+ Use reset.css or normalize.css to reduce browser specific quirks
+ Read the following:
+ Mozilla Network Guide to Styling forms
+ CSS Tricks Styling forms
+ Code Tuts Styling forms using CSS3
+   </description>
+    </item>
+    
+    <item>
+      <title>Code Along #2</title>
+      <link>https://fewd20170829.github.io/15-forms/code-along-2/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/15-forms/code-along-2/</guid>
+      <description> Code Along #2: Build a Registration Form  Using Sublime, open the folder called registration_form (found within the starter_code) folder
+ As a class, we&amp;rsquo;ll use bootstrap and its form styles to build out a registration form
+  </description>
+    </item>
+    
+  </channel>
+</rss>
