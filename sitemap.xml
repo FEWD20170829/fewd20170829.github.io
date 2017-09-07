@@ -602,7 +602,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/03-css-selectors-box-model/css-cascading-guidelines/</loc>
+    <loc>https://fewd20170829.github.io/03-css-selectors-box-model/css-selectors-examples/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
   
@@ -672,7 +672,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/03-css-selectors-box-model/box-model/</loc>
+    <loc>https://fewd20170829.github.io/03-css-selectors-box-model/css-cascading-guidelines/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
   
@@ -724,6 +724,11 @@
   <url>
     <loc>https://fewd20170829.github.io/01-html-basics/lab/</loc>
     <lastmod>2017-01-22T18:08:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170829.github.io/03-css-selectors-box-model/box-model/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
   
   <url>
@@ -1112,18 +1117,8 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fewd20170829.github.io/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fewd20170829.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

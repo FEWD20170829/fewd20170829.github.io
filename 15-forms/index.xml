@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>15-forms on FEWD Course Material</title>
-    <link>https://fewd20170829.github.io/15-forms/</link>
+    <link>https://fewd20170829.github.io/15-forms/index.xml</link>
     <description>Recent content in 15-forms on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    
-	<atom:link href="https://fewd20170829.github.io/15-forms/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://fewd20170829.github.io/15-forms/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Forms</title>
@@ -17,7 +15,12 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/15-forms/</guid>
-      <description> Lesson 15 Forms </description>
+      <description>
+
+&lt;h3 id=&#34;lesson-15&#34;&gt;Lesson 15&lt;/h3&gt;
+
+&lt;h1 id=&#34;forms&#34;&gt;Forms&lt;/h1&gt;
+</description>
     </item>
     
     <item>
@@ -26,10 +29,14 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/15-forms/objectives/</guid>
-      <description> Learn about Bootstrap and its benefits
- Discuss Bootstrap&amp;rsquo;s grids
- Learn about Forms and the different type of form elements
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Learn about Bootstrap and its benefits&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Discuss Bootstrap&amp;rsquo;s grids&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Learn about Forms and the different type of form elements&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -38,13 +45,20 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/15-forms/agenda/</guid>
-      <description> Bootstrap overview
- Bootstrap grid system
- Code Along #1: Bootstrap Template
- Discuss Forms
- Styling Tips for Forms
- Code Along #2: Registration Form
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bootstrap overview&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Bootstrap grid system&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code Along #1: Bootstrap Template&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Discuss Forms&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Styling Tips for Forms&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code Along #2: Registration Form&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -53,13 +67,56 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/15-forms/bootstrap-overview/</guid>
-      <description>What is Bootstrap?  Front-end framework created by engineers at Twitter
- Initially created to address the issue of having inconsistent user interfaces across their internal web applications
- Has since become the most popular mobile first (responsive) framework on the web
- Collection of html, css, js and fonts
- Documentation can be found here
-  Benefits of Bootstrap  Fully responsive out of the box
- Consistent design</description>
+      <description>
+
+&lt;h2 id=&#34;what-is-bootstrap&#34;&gt;What is Bootstrap?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Front-end framework created by engineers at Twitter&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Initially created to address the issue of having inconsistent user interfaces across their internal web applications&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Has since become the most popular mobile first (responsive) framework on the web&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Collection of html, css, js and fonts&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Documentation can be found &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;benefits-of-bootstrap&#34;&gt;Benefits of Bootstrap&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Fully responsive out of the box&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Consistent design&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Easy to use&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Compatible with browsers&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Open Source&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;installing-bootstrap&#34;&gt;Installing Bootstrap&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Similar to jquery, there are multiple ways to install bootstrap into your applications:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;download the bootstrap files and store them within your project&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use a CDN (content delivery network)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;We&amp;rsquo;ll use the downloaded files options, more information on installing bootstrap can be found &lt;a href=&#34;http://getbootstrap.com/getting-started/#download&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -68,11 +125,161 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/15-forms/bootstrap-grid/</guid>
-      <description>Overview of Bootstrap&amp;rsquo;s Grid  Bootstrap offers developers a mobile-first grid with 12 columns
- Float-based grid (the next version of bootstrap will use a flex-based grid)
- Built-in classes are used to control the widths of boxes within a bootstrap grid
-  Containers  Bootstrap requires a containing element to house its grid system
- To create a containing element add a class of container or container-fluid to a parent container</description>
+      <description>
+
+&lt;h2 id=&#34;overview-of-bootstrap-s-grid&#34;&gt;Overview of Bootstrap&amp;rsquo;s Grid&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bootstrap offers developers a mobile-first grid with 12 columns&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Float-based grid (the next version of bootstrap will use a flex-based grid)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Built-in classes are used to control the widths of boxes within a bootstrap grid&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;containers&#34;&gt;Containers&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bootstrap requires a containing element to house its grid system&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To create a containing element add a class of &lt;code&gt;container&lt;/code&gt; or &lt;code&gt;container-fluid&lt;/code&gt; to a parent container&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- create a bootstrap container --&amp;gt;
+
+&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+  &amp;lt;!-- add content here --&amp;gt;
+&amp;lt;/div&amp;gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;container&#34;&gt;&lt;code&gt;.container&lt;/code&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;responsive &lt;strong&gt;fixed-width&lt;/strong&gt; container centered in the middle the viewport&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following is a snippet of css taken directly from bootstrap:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/wegamiq/embed?output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.6&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on the &amp;ldquo;JS Bin&amp;rdquo; button to a get a better view of the layout&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;container-fluid&#34;&gt;&lt;code&gt;.container-fluid&lt;/code&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;responsive &lt;strong&gt;full-width&lt;/strong&gt; container that spans the entire viewport width&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/kuquhu/embed?output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.6&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on the “JS Bin” button to a get a better view of the layout&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;grid-system&#34;&gt;Grid System&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bootstrap grids are made up of rows and columns&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Each row consists of 12 columns&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Pre-defined classes are used to control the width of columns using &lt;code&gt;class=&#39;col-[size]-[# of columns]&#39;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- A bootstrap grid with 2 rows --&amp;gt;
+&amp;lt;!-- 1st row has 2 columns (each column is 6 columns wide) --&amp;gt;
+&amp;lt;!-- 2nd row has 4 columns (each column is 3 columns wide) --&amp;gt;
+
+
+&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;col-md-6&amp;quot;&amp;gt;
+      ...
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;div class=&amp;quot;col-md-6&amp;quot;&amp;gt;
+      ...
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+
+  &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;col-md-3&amp;quot;&amp;gt;
+      ...
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;div class=&amp;quot;col-md-3&amp;quot;&amp;gt;
+      ...
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;div class=&amp;quot;col-md-3&amp;quot;&amp;gt;
+      ...
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;div class=&amp;quot;col-md-3&amp;quot;&amp;gt;
+      ...
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;grid-options&#34;&gt;Grid Options&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Developers can use pre-defined classes to control the width (i.e. responsiveness) of columns depending on the viewport width&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For example, adding a class of &lt;code&gt;col-xs-6&lt;/code&gt; to a column will result in the column taking up 50% of the container width (6 columns / 12 columns) when the viewport width is less than 768 pixels wide&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The table below details the built-in media queries/breakpoints for each of the pre-defined column classes&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/bootstrap-grid-options.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;bootstrap-grid-example&#34;&gt;Bootstrap Grid Example&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using Sublime, open the folder called &lt;strong&gt;bootstrap_grid_example&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -81,9 +288,18 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/15-forms/code-along-1/</guid>
-      <description> Code Along #1: Using Bootstrap  Using Sublime, open the folder called bootstrap_template (found within the starter_code) folder
- As a class, we&amp;rsquo;ll use bootstrap to finish a landing page template
-  </description>
+      <description>
+
+&lt;h2 id=&#34;code-along-1-using-bootstrap&#34;&gt;Code Along #1: Using Bootstrap&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;bootstrap_template&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;As a class, we&amp;rsquo;ll use bootstrap to finish a landing page template&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/bootstrap_template_code_along.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -92,9 +308,47 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/15-forms/form-overview/</guid>
-      <description> What are forms?  Forms allow us to get data from users  How do forms work? Form Structure &amp;lt;form action=&amp;quot;http://www.example.com/subscribe.php&amp;quot; method=&amp;quot;get&amp;quot;&amp;gt; &amp;lt;p&amp;gt;This is where the form controls will appear.&amp;lt;/p&amp;gt; &amp;lt;/form&amp;gt;  Form Attributes  action: Required, the url on the server that will receive the information from the form
- method: Either a get or post
- Use get when the data being sent to server is not senstive information and is relatively small (search form) Use post when sending senstive data and when sending large amounts of data (registration form)   </description>
+      <description>
+
+&lt;h2 id=&#34;what-are-forms&#34;&gt;What are forms?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Forms allow us to get data from users&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/ga_example_form.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;how-do-forms-work&#34;&gt;How do forms work?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/how_forms_work.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;form-structure&#34;&gt;Form Structure&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;form action=&amp;quot;http://www.example.com/subscribe.php&amp;quot; method=&amp;quot;get&amp;quot;&amp;gt;
+  &amp;lt;p&amp;gt;This is where the form controls will appear.&amp;lt;/p&amp;gt;
+&amp;lt;/form&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;form-attributes&#34;&gt;Form Attributes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;action&lt;/strong&gt;: Required, the url on the server that will receive the information from the form&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;method&lt;/strong&gt;: Either a &lt;strong&gt;get&lt;/strong&gt; or &lt;strong&gt;post&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use &lt;strong&gt;get&lt;/strong&gt; when the data being sent to server is not senstive information and is relatively small (search form)&lt;/li&gt;
+&lt;li&gt;Use &lt;strong&gt;post&lt;/strong&gt; when sending senstive data and when sending large amounts of data (registration form)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -103,7 +357,358 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/15-forms/form-elements/</guid>
-      <description>Text Input &amp;lt;form action=&amp;quot;http://www.example.com/login.php&amp;quot;&amp;gt; &amp;lt;p&amp;gt; Username: &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;username&amp;quot; maxlength=&amp;quot;30&amp;quot; /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/form&amp;gt;  Text Input Example Text Input Attributes  type=&amp;ldquo;text&amp;rdquo;: Tells browser input will store plain text name: Used by the server to identify which form control that data came from maxlength: (optional) Specifies that max number of characters that can be entered  Password Input &amp;lt;form action=&amp;quot;http://www.example.com/login.php&amp;quot;&amp;gt; &amp;lt;p&amp;gt; Username: &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;username&amp;quot; size=&amp;quot;15&amp;quot; maxlength=&amp;quot;30&amp;quot; /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; Password: &amp;lt;input type=&amp;quot;password&amp;quot; name=&amp;quot;password&amp;quot; size=&amp;quot;15&amp;quot; maxlength=&amp;quot;30&amp;quot; /&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/form&amp;gt;  Password Input Example Password Input Attributes  type=&amp;ldquo;password&amp;rdquo;: Tells browser input will store sensitive information, block characters from being displayed name: Used by the server to identify which form control that data came from maxlength: (optional) Specifies that max number of characters that can be entered  Text Area &amp;lt;form action=&amp;quot;http://www.</description>
+      <description>
+
+&lt;h2 id=&#34;text-input&#34;&gt;Text Input&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
+&amp;lt;form action=&amp;quot;http://www.example.com/login.php&amp;quot;&amp;gt;
+  &amp;lt;p&amp;gt;
+    Username:
+    &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;username&amp;quot; maxlength=&amp;quot;30&amp;quot; /&amp;gt;
+  &amp;lt;/p&amp;gt;
+&amp;lt;/form&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;text-input-example&#34;&gt;Text Input Example&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/text_input.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;text-input-attributes&#34;&gt;Text Input Attributes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;type=&amp;ldquo;text&amp;rdquo;&lt;/strong&gt;: Tells browser input will store plain text&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;name&lt;/strong&gt;: Used by the server to identify which form control that data came from&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;maxlength&lt;/strong&gt;: (optional) Specifies that max number of characters that can be entered&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;password-input&#34;&gt;Password Input&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
+&amp;lt;form action=&amp;quot;http://www.example.com/login.php&amp;quot;&amp;gt;
+  &amp;lt;p&amp;gt;
+    Username:
+    &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;username&amp;quot; size=&amp;quot;15&amp;quot; maxlength=&amp;quot;30&amp;quot; /&amp;gt;
+  &amp;lt;/p&amp;gt;
+
+  &amp;lt;p&amp;gt;
+    Password:
+    &amp;lt;input type=&amp;quot;password&amp;quot; name=&amp;quot;password&amp;quot; size=&amp;quot;15&amp;quot; maxlength=&amp;quot;30&amp;quot; /&amp;gt;
+  &amp;lt;/p&amp;gt;
+&amp;lt;/form&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;password-input-example&#34;&gt;Password Input Example&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/password_input.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;password-input-attributes&#34;&gt;Password Input Attributes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;type=&amp;ldquo;password&amp;rdquo;&lt;/strong&gt;: Tells browser input will store sensitive information, block characters from being displayed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;name&lt;/strong&gt;: Used by the server to identify which form control that data came from&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;maxlength&lt;/strong&gt;: (optional) Specifies that max number of characters that can be entered&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;text-area&#34;&gt;Text Area&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
+&amp;lt;form action=&amp;quot;http://www.example.com/comments.php&amp;quot;&amp;gt;
+  &amp;lt;p&amp;gt;What did you think of FEWD?&amp;lt;/p&amp;gt;
+  &amp;lt;textarea name=&amp;quot;comments&amp;quot; cols=&amp;quot;20&amp;quot; rows=&amp;quot;4&amp;quot;&amp;gt;Enter your comments...&amp;lt;/textarea&amp;gt;
+&amp;lt;/form&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;text-area-example&#34;&gt;Text Area Example&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/text_area.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;text-area-attributes&#34;&gt;Text Area Attributes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;col&lt;/strong&gt;: Controls number of columns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;rows&lt;/strong&gt;: Controls number of rows&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Do not use these, current best practice is to use css to control the width and height of &lt;code&gt;&amp;lt;textarea&amp;gt;&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;radio-button&#34;&gt;Radio Button&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
+&amp;lt;form action=&amp;quot;http://www.example.com/profile.php&amp;quot;&amp;gt;
+  &amp;lt;p&amp;gt;Please select your favorite sport:
+    &amp;lt;br /&amp;gt;
+    &amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;sport&amp;quot; value=&amp;quot;football&amp;quot; checked=&amp;quot;checked&amp;quot; /&amp;gt; Football
+    &amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;sport&amp;quot; value=&amp;quot;soccer&amp;quot; /&amp;gt; Soccer
+    &amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;sport&amp;quot; value=&amp;quot;basketball&amp;quot; /&amp;gt; Basketball
+  &amp;lt;/p&amp;gt;
+&amp;lt;/form&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;radio-button-example&#34;&gt;Radio Button Example&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/radio_button.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;radio-button-attributes&#34;&gt;Radio Button Attributes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;type=&amp;ldquo;radio&amp;rdquo;&lt;/strong&gt;: Allows users to pick just one of the number of options&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;name&lt;/strong&gt;: Identifies which form control that data came from (radio buttons in the same group share the same name attribute)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;value&lt;/strong&gt;: Indicates the value that is sent to the server for the selected option&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;checked&lt;/strong&gt;: Used to indicate which value (if any) should be selected when the page loads&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Once a radio button is selected it cannot be deselected&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;checkbox&#34;&gt;Checkbox&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
+&amp;lt;form action=&amp;quot;http://www.example.com/profile.php&amp;quot;&amp;gt;
+  &amp;lt;p&amp;gt;Please select your favorite music service(s):
+    &amp;lt;br /&amp;gt;
+    &amp;lt;input type=&amp;quot;checkbox&amp;quot; name=&amp;quot;service&amp;quot; value=&amp;quot;itunes&amp;quot; /&amp;gt; iTunes
+    &amp;lt;input type=&amp;quot;checkbox&amp;quot; name=&amp;quot;service&amp;quot; value=&amp;quot;lastfm&amp;quot; /&amp;gt; Last.fm
+    &amp;lt;input type=&amp;quot;checkbox&amp;quot; name=&amp;quot;service&amp;quot; value=&amp;quot;spotify&amp;quot; /&amp;gt; Spotify
+  &amp;lt;/p&amp;gt;
+&amp;lt;/form&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;checkbox-example&#34;&gt;Checkbox Example&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/checkbox.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;checkbox-attributes&#34;&gt;Checkbox Attributes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;type=&amp;ldquo;checkbox&amp;rdquo;&lt;/strong&gt;: Allows users to pick one or more options&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;name&lt;/strong&gt;: Used by the server to identify which form control that data came from (checkboxes in the same group share the same name attribute)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;value&lt;/strong&gt;: Indicates the value that is sent to the server for the selected option&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;checked&lt;/strong&gt;: Used to indicate which value (if any) should be selected when the page loads&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;select-box&#34;&gt;Select Box&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;form action=&amp;quot;http://www.example.com/profile.php&amp;quot;&amp;gt;
+  &amp;lt;p&amp;gt;What device do you listen to music on?&amp;lt;/p&amp;gt;
+  &amp;lt;select name=&amp;quot;devices&amp;quot;&amp;gt;
+    &amp;lt;option value=&amp;quot;ipod&amp;quot;&amp;gt;iPod&amp;lt;/option&amp;gt;
+    &amp;lt;option value=&amp;quot;radio&amp;quot;&amp;gt;Radio&amp;lt;/option&amp;gt;
+    &amp;lt;option value=&amp;quot;computer&amp;quot;&amp;gt;Computer&amp;lt;/option&amp;gt;
+  &amp;lt;/select&amp;gt;
+&amp;lt;/form&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;select-box-example&#34;&gt;Select Box Example&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/select_dropdown.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;select-box-attributes&#34;&gt;Select Box Attributes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;select&amp;gt;&lt;/code&gt;: Creates a drop down list box&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;name&lt;/strong&gt;: Identifies which form control that data came from&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;option&amp;gt;&lt;/code&gt;: Specifies the options that the user can select from&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;value&lt;/strong&gt;: Indicates the value that is sent to the server for the selected option&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;selected&lt;/strong&gt;: Indicates which option should be selected when the page loads&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;multiple-select-box&#34;&gt;Multiple Select Box&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
+&amp;lt;form action=&amp;quot;http://www.example.com/profile.php&amp;quot;&amp;gt;
+  &amp;lt;select name=&amp;quot;instruments&amp;quot; size=&amp;quot;3&amp;quot; multiple=&amp;quot;multiple&amp;quot;&amp;gt;
+    &amp;lt;option value=&amp;quot;guitar&amp;quot; selected=&amp;quot;selected&amp;quot;&amp;gt;Guitar&amp;lt;/option&amp;gt;
+    &amp;lt;option value=&amp;quot;drums&amp;quot;&amp;gt;Drums&amp;lt;/option&amp;gt;
+    &amp;lt;option value=&amp;quot;keyboard&amp;quot; selected=&amp;quot;selected&amp;quot;&amp;gt;Keyboard&amp;lt;/option&amp;gt;
+    &amp;lt;option value=&amp;quot;bass&amp;quot;&amp;gt;Bass&amp;lt;/option&amp;gt;
+  &amp;lt;/select&amp;gt;
+&amp;lt;/form&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;multiple-select-box-example&#34;&gt;Multiple Select Box Example&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/multiple_select_box.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;multiple-select-box-attributes&#34;&gt;Multiple Select Box Attributes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;size&lt;/strong&gt;: Specifies how many options should be displayed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;name&lt;/strong&gt;: Used by the server to identify which form control that data came from&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;multiple&lt;/strong&gt;: Allows users to select multiple options
+
+&lt;ul&gt;
+&lt;li&gt;PC Users: hold down &lt;code&gt;control&lt;/code&gt; key to select multiple options&lt;/li&gt;
+&lt;li&gt;Mac Users: hold down &lt;code&gt;command&lt;/code&gt; key to select multiple options&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;submit-button&#34;&gt;Submit Button&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
+&amp;lt;form action=&amp;quot;http://www.example.com/subscribe.php&amp;quot;&amp;gt;
+  &amp;lt;p&amp;gt;Subscribe to our email list:&amp;lt;/p&amp;gt;
+  &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;email&amp;quot; /&amp;gt;
+  &amp;lt;input type=&amp;quot;submit&amp;quot; name=&amp;quot;subscribe&amp;quot; value=&amp;quot;Subscribe&amp;quot; /&amp;gt;
+&amp;lt;/form&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;submit-button-example&#34;&gt;Submit Button Example&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/submit_button.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;submit-button-attributes&#34;&gt;Submit Button Attributes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;type=&amp;ldquo;submit&amp;rdquo;&lt;/strong&gt;: Submit button are used to submit a form to a server&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt;: Used by the server to identify which form control that data came from&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;value&lt;/strong&gt;: Controls the text that appears on the button&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;code&gt;&amp;lt;button&amp;gt;&lt;/code&gt; element can also be used &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button&#34;&gt;more info&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;labels&#34;&gt;Labels&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;  &amp;lt;form action=&amp;quot;http://www.example.com/subscribe.php&amp;quot;&amp;gt;
+    &amp;lt;label&amp;gt;Age: &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;age&amp;quot; /&amp;gt;&amp;lt;/label&amp;gt;
+    &amp;lt;br/ &amp;gt;
+    Gender:
+    &amp;lt;input id=&amp;quot;female&amp;quot; type=&amp;quot;radio&amp;quot; name=&amp;quot;gender&amp;quot; value=&amp;quot;f&amp;quot;&amp;gt;
+    &amp;lt;label for=&amp;quot;female&amp;quot;&amp;gt;Female&amp;lt;/label&amp;gt;
+    &amp;lt;input id=&amp;quot;male&amp;quot; type=&amp;quot;radio&amp;quot; name=&amp;quot;gender&amp;quot; value=&amp;quot;m&amp;quot;&amp;gt;
+    &amp;lt;label for=&amp;quot;male&amp;quot;&amp;gt;Male&amp;lt;/label&amp;gt;
+  &amp;lt;/form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;label-example&#34;&gt;Label Example&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/labels.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;label&#34;&gt;Label&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code&gt;&amp;lt;label&amp;gt;&lt;/code&gt; element can be used in two ways:&lt;/p&gt;
+
+&lt;p&gt;1) Wrap around both the text and form input&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;2) Kept separate from the form control and use the &lt;strong&gt;for&lt;/strong&gt; attribute to indicate which form control it is a label for&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;label-attributes&#34;&gt;Label attributes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;for&lt;/strong&gt; attribute states which form control the label belongs to&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;value of the for attribute matches that of the id attribute on the form control it is labelling&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This technique using the for and id attributes can be used on any form control&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;When a &lt;code&gt;&amp;lt;label&amp;gt;&lt;/code&gt; element is used with a checkbox or radio button, users can click on either the form control or the label to select; the expanded clickable area makes the form easier to use&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;field-set&#34;&gt;Field Set&lt;/h2&gt;
+
+&lt;p&gt;Used to group elements&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;  &amp;lt;form action=&amp;quot;http://www.example.com/subscribe.php&amp;quot;&amp;gt;
+    &amp;lt;fieldset&amp;gt;
+      &amp;lt;legend&amp;gt;Contact details&amp;lt;/legend&amp;gt;
+      &amp;lt;label&amp;gt;Email:&amp;lt;br /&amp;gt;&amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;email&amp;quot; /&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;br /&amp;gt;
+      &amp;lt;label&amp;gt;Mobile:&amp;lt;br /&amp;gt;&amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;mobile&amp;quot; /&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;br /&amp;gt;
+      &amp;lt;label&amp;gt;Telephone:&amp;lt;br /&amp;gt;&amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;telephone&amp;quot; /&amp;gt;&amp;lt;/label&amp;gt;
+    &amp;lt;/fieldset&amp;gt;
+  &amp;lt;/form&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;field-set-example&#34;&gt;Field Set Example&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/fieldset.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;field-set-attributes&#34;&gt;Field Set Attributes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;fieldset&amp;gt;&lt;/code&gt;: Use to group related elements together&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;legend&amp;gt;&lt;/code&gt;: Contains caption which ehlps identify the purpose of the group of form controls&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -112,13 +717,26 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/15-forms/styling-forms/</guid>
-      <description> Tips for Styling Forms  Use border box
- Use reset.css or normalize.css to reduce browser specific quirks
- Read the following:
- Mozilla Network Guide to Styling forms
- CSS Tricks Styling forms
- Code Tuts Styling forms using CSS3
-   </description>
+      <description>
+
+&lt;h2 id=&#34;tips-for-styling-forms&#34;&gt;Tips for Styling Forms&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use border box&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use reset.css or normalize.css to reduce browser specific quirks&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Read the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms&#34;&gt;Mozilla Network Guide to Styling forms&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://css-tricks.com/tips-for-creating-great-web-forms/&#34;&gt;CSS Tricks Styling forms&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://code.tutsplus.com/tutorials/design-a-prettier-web-form-with-css-3--net-9542&#34;&gt;Code Tuts Styling forms using CSS3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -127,9 +745,18 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/15-forms/code-along-2/</guid>
-      <description> Code Along #2: Build a Registration Form  Using Sublime, open the folder called registration_form (found within the starter_code) folder
- As a class, we&amp;rsquo;ll use bootstrap and its form styles to build out a registration form
-  </description>
+      <description>
+
+&lt;h2 id=&#34;code-along-2-build-a-registration-form&#34;&gt;Code Along #2: Build a Registration Form&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;registration_form&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;As a class, we&amp;rsquo;ll use bootstrap and its form styles to build out a registration form&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/registration_form.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>18-final-projects-labs on FEWD Course Material</title>
-    <link>https://fewd20170829.github.io/18-final-projects-lab/</link>
+    <link>https://fewd20170829.github.io/18-final-projects-lab/index.xml</link>
     <description>Recent content in 18-final-projects-labs on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    
-	<atom:link href="https://fewd20170829.github.io/18-final-projects-lab/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://fewd20170829.github.io/18-final-projects-lab/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Final Projects Lab</title>
@@ -17,7 +15,12 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/18-final-projects-lab/</guid>
-      <description> Lesson 18 Final Projects Lab </description>
+      <description>
+
+&lt;h3 id=&#34;lesson-18&#34;&gt;Lesson 18&lt;/h3&gt;
+
+&lt;h1 id=&#34;final-projects-lab&#34;&gt;Final Projects Lab&lt;/h1&gt;
+</description>
     </item>
     
     <item>
@@ -26,9 +29,12 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/18-final-projects-lab/objectives/</guid>
-      <description> See demos of libraries you may find helpful
- Use in-class time to work on final projects
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;See demos of libraries you may find helpful&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use in-class time to work on final projects&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -37,9 +43,12 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/18-final-projects-lab/agenda/</guid>
-      <description> Introduce a few js libraries / concepts that you can put to use in your projects
- Lab: Final Projects
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introduce a few js libraries / concepts that you can put to use in your projects&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lab: Final Projects&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -48,14 +57,28 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/18-final-projects-lab/code-demos/</guid>
-      <description> Code Demos We&amp;rsquo;ll go through some libraries / concepts you may find helpful  Filtering &amp;amp; Sorting using mixitup
- Parallax
- Carousel
- Maps using Google Maps API
- Fetching data from another service using an API (itunes, giphy, soundcloud)
- Contact Form without the need for a Server
- Basic CRUD operations with Firebase
-  </description>
+      <description>
+
+&lt;h2 id=&#34;code-demos&#34;&gt;Code Demos&lt;/h2&gt;
+
+&lt;h3 id=&#34;we-ll-go-through-some-libraries-concepts-you-may-find-helpful&#34;&gt;We&amp;rsquo;ll go through some libraries / concepts you may find helpful&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Filtering &amp;amp; Sorting using mixitup&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parallax&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Carousel&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Maps using Google Maps API&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Fetching data from another service using an API (itunes, giphy, soundcloud)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Contact Form without the need for a Server&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Basic CRUD operations with Firebase&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -64,9 +87,16 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/18-final-projects-lab/lab/</guid>
-      <description> Lab  Work on your final project
- Make sure your code is hosted (without any issues) on Github pages
-  </description>
+      <description>
+
+&lt;h2 id=&#34;lab&#34;&gt;Lab&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Work on your final project&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Make sure your code is hosted (without any issues) on Github pages&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

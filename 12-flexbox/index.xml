@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>12-flexboxes on FEWD Course Material</title>
-    <link>https://fewd20170829.github.io/12-flexbox/</link>
+    <link>https://fewd20170829.github.io/12-flexbox/index.xml</link>
     <description>Recent content in 12-flexboxes on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    
-	<atom:link href="https://fewd20170829.github.io/12-flexbox/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://fewd20170829.github.io/12-flexbox/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Flexbox</title>
@@ -17,7 +15,12 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/12-flexbox/</guid>
-      <description> Lesson 12 Flexbox </description>
+      <description>
+
+&lt;h3 id=&#34;lesson-12&#34;&gt;Lesson 12&lt;/h3&gt;
+
+&lt;h1 id=&#34;flexbox&#34;&gt;Flexbox&lt;/h1&gt;
+</description>
     </item>
     
     <item>
@@ -26,9 +29,12 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/12-flexbox/objectives/</guid>
-      <description> Introduce flexbox
- Understand the differences between flexbox and floats
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introduce flexbox&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Understand the differences between flexbox and floats&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -37,14 +43,22 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/12-flexbox/agenda/</guid>
-      <description> Review Rock, Paper, Scissors lab solution
- Flexbox Overview
- Flexbox Terminology
- Flex Containter Properties
- Flex Item Properties
- Exercise
- Lab
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Review Rock, Paper, Scissors lab solution&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Flexbox Overview&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Flexbox Terminology&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Flex Containter Properties&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Flex Item Properties&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Exercise&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lab&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -53,12 +67,36 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/12-flexbox/flexbox-overview/</guid>
-      <description>What is Flexbox?  New layout mode introduced with CSS3
- Allows developers to create flexible layouts without having to rely on floats or inline-block elements
- Is direction-agnostic as opposed to the regular layouts (block which is vertically-based and inline which is horizontally-based)
- Widely supported across all modern browsers
-  See the full list of layout modes here
- What problems does Flexbox solve?  Vertically centering a block of content inside its parent</description>
+      <description>
+
+&lt;h2 id=&#34;what-is-flexbox&#34;&gt;What is Flexbox?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;New layout mode introduced with CSS3&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Allows developers to create flexible layouts without having to rely on floats or inline-block elements&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Is direction-agnostic as opposed to the regular layouts (block which is vertically-based and inline which is horizontally-based)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Widely supported across all modern browsers&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;See the full list of layout modes &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_mode&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;what-problems-does-flexbox-solve&#34;&gt;What problems does Flexbox solve?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Vertically centering a block of content inside its parent&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Making all the children of a container take up an equal amount of the available width/height, regardless of how much width/height is available&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Making all columns in a multiple column layout adopt the same height even if they contain a different amount of content&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -67,11 +105,62 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/12-flexbox/flexbox-terminology/</guid>
-      <description>Flexbox Terminology Flex Container  The parent element in which flex items are contained
- Defined using the flex or inline-flex values of the display property
- flex: will make the flex-container a block-level element
- inline-flex: will make the flex-container an inline element
-   Flex Item  Children of a flex container  Main Axis  The axis along which the flex items follow each other</description>
+      <description>
+
+&lt;h2 id=&#34;flexbox-terminology&#34;&gt;Flexbox Terminology&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-terms.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;flex-container&#34;&gt;Flex Container&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The parent element in which flex items are contained&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Defined using the &lt;code&gt;flex&lt;/code&gt; or &lt;code&gt;inline-flex&lt;/code&gt; values of the &lt;strong&gt;display&lt;/strong&gt; property&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;flex&lt;/code&gt;: will make the flex-container a block-level element&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;inline-flex&lt;/code&gt;: will make the flex-container an inline element&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;flex-item&#34;&gt;Flex Item&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Children of a flex container&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;main-axis&#34;&gt;Main Axis&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The axis along which the flex items follow each other&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;flex-direction&lt;/code&gt; property determines the &lt;strong&gt;main&lt;/strong&gt; axis&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;cross-axis&#34;&gt;Cross Axis&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The axis perpendicular to the &lt;strong&gt;main&lt;/strong&gt; axis&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;main-axis-and-cross-axis-changes-with-flex-direction&#34;&gt;Main Axis and Cross Axis changes with Flex Direction&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If the flex-direction is &lt;code&gt;row&lt;/code&gt; or &lt;code&gt;row-reverse&lt;/code&gt; then the &lt;strong&gt;main axis&lt;/strong&gt; will be along the horizontal plane and the &lt;strong&gt;cross axis&lt;/strong&gt; will be along the vertical plane&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If the flex-direction is &lt;code&gt;column&lt;/code&gt; or &lt;code&gt;column-reverse&lt;/code&gt; then the &lt;strong&gt;main axis&lt;/strong&gt; will be along the vertical plane and the &lt;strong&gt;cross axis&lt;/strong&gt; will be along the horizontal plane&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -80,11 +169,148 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/12-flexbox/flex-container-properties/</guid>
-      <description>The upcoming (and awesome) gifs were graciously borrowed from this insightful blog post that covers flexbox
- display  Defines a flex container
- inline or block depending on the given value
-  .container { display: flex; /* or inline-flex */ }  flex direction  Establishes the main-axis and defines the direction flex items are placed in the flex container
- Determines whether the flex items are layed out as either horizontal rows or vertical columns</description>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-container.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;The upcoming (and awesome) gifs were graciously borrowed from &lt;a href=&#34;https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.rg3ffic99&#34;&gt;this insightful blog post&lt;/a&gt; that covers flexbox&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;display&#34;&gt;display&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Defines a flex container&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;inline or block depending on the given value&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
+.container {
+  display: flex; /* or inline-flex */
+}
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/display-flex.gif&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-direction&#34;&gt;flex direction&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-direction2.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Establishes the main-axis and defines the direction flex items are placed in the flex container&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Determines whether the flex items are layed out as either horizontal rows or vertical columns&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-direction.gif&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-direction-column.gif&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-wrap&#34;&gt;flex wrap&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-wrap.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;flex-wrap allows developers to change that and allow the items to wrap as needed with this property&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;By default, flex items will all try to fit onto one line&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
+.container {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-flow-shorthand&#34;&gt;Flex Flow shorthand&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Allows developers to specify the &lt;code&gt;flex-direction&lt;/code&gt; and &lt;code&gt;flex-wrap&lt;/code&gt; properties at the same time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+flex-flow: &amp;lt;‘flex-direction’&amp;gt; || &amp;lt;‘flex-wrap’&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;
+//specifies flow-direction: row &amp;amp; flex-wrap: wrap
+flex-flow: row wrap
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;justify-content&#34;&gt;justify-content&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/justify-content.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;defines the alignment along the main axis&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;will distribute extra free space left after all the flex items have reached their maximum size&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/justify-content.gif&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;align-items&#34;&gt;Align Items&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/align-items.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;defines the default behaviour for how flex items are laid out along the cross axis on the current line&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/align-items.gif&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;align-content&#34;&gt;Align Content&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/align-content.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;aligns a flex container&amp;rsquo;s lines within when there is extra space in the cross-axis&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;align-content &lt;strong&gt;only applies when there are mutiple lines of flex items&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
+.container {
+  align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -93,7 +319,113 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/12-flexbox/flex-items-properties/</guid>
-      <description>align-self  allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.   .item { align-self: auto | flex-start | flex-end | center | baseline | stretch; }  Order  controls the order in which flex-items appear in the flex container   .item { order: &amp;lt;integer&amp;gt;; }  flex-grow  defines the ability for a flex item to grow if necessary</description>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-items.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;align-self&#34;&gt;align-self&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/align-self.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+.item {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;order&#34;&gt;Order&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/order-2.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;controls the order in which flex-items appear in the flex container&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+.item {
+  order: &amp;lt;integer&amp;gt;;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-grow&#34;&gt;flex-grow&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;defines the ability for a flex item to grow if necessary&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dictates what amount of the available space inside the flex container the item should take up&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;a &lt;strong&gt;unitless&lt;/strong&gt; measure that respresents a proportion or ratio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;flex-grow value &lt;strong&gt;overrides the width of the flex-item&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+.item {
+  flex-grow: &amp;lt;number&amp;gt;; /* default 0 */
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/ratecoc/embed?output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.3&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;In the example above, the 2nd flex-item (green box) has its flex-grow set to 2 while the other flex-items have their flex-grow set to 1&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-shrink&#34;&gt;flex-shrink&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;defines the ability for a flex item to shrink if necessary.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;a &lt;strong&gt;unitless&lt;/strong&gt; measure that respresents a proportion or ratio (similar to flex-grow)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-basis&#34;&gt;flex-basis&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Controls the default size of an element, before it is manipulated by other Flexbox properties&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;It can be a length (e.g. pixels, percentages, etc) or auto&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;auto&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;.item {
+  flex-basis: &amp;lt;length&amp;gt; | auto; /* default auto */
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;flex-shorthand&#34;&gt;flex shorthand&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;allows developers to specify a flex-item&amp;rsquo;s &lt;code&gt;flex-grow&lt;/code&gt;, &lt;code&gt;flex-shrink&lt;/code&gt; and &lt;code&gt;flex-basis&lt;/code&gt; all at the same time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+.item {
+  flex: none | [ &amp;lt;&#39;flex-grow&#39;&amp;gt; &amp;lt;&#39;flex-shrink&#39;&amp;gt;? || &amp;lt;&#39;flex-basis&#39;&amp;gt; ]
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -102,10 +434,18 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/12-flexbox/exercise/</guid>
-      <description> Exercise: Flexbox Froggy During this exercise, you&amp;rsquo;ll go through an interactive tutorial focused on learning flexbox
- Each student complete this tutorial
- Timebox: 20 mins
-  </description>
+      <description>
+
+&lt;h2 id=&#34;exercise-flexbox-froggy&#34;&gt;Exercise: Flexbox Froggy&lt;/h2&gt;
+
+&lt;p&gt;During this exercise, you&amp;rsquo;ll go through an interactive tutorial focused on learning flexbox&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Each student complete &lt;a href=&#34;http://flexboxfroggy.com/&#34;&gt;this tutorial&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Timebox: 20 mins&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -114,11 +454,22 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/12-flexbox/flexbox-with-floats/</guid>
-      <description>Using Flexbox with Floats  Flexbox are often used together to create page structures
- Floats can be used for the layouts with flexbox being used to vertically or horizontally align elements inside of a container
- Flex containers can be floated
- Flex-items cannot be floated, however content inside of a flex-item can be floated
-  JS Bin on jsbin.com</description>
+      <description>
+
+&lt;h2 id=&#34;using-flexbox-with-floats&#34;&gt;Using Flexbox with Floats&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Flexbox are often used together to create page structures&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Floats can be used for the layouts with flexbox being used to vertically or horizontally align elements inside of a container&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Flex containers can be floated&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Flex-items cannot be floated, however content &lt;strong&gt;inside of a flex-item&lt;/strong&gt; can be floated&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/redihuh/embed?css,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.6&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -127,9 +478,18 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/12-flexbox/code-along/</guid>
-      <description> Code Along: Marketing Page Layout using Flexbox &amp;amp; Floats  Using Sublime, open the folder called layout_challenge (found within the starter_code) folder
- As a class, we&amp;rsquo;ll use flexbox and floats to create a marketing layout with nav (depicted in the image)
-  </description>
+      <description>
+
+&lt;h2 id=&#34;code-along-marketing-page-layout-using-flexbox-floats&#34;&gt;Code Along: Marketing Page Layout using Flexbox &amp;amp; Floats&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;layout_challenge&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;As a class, we&amp;rsquo;ll use flexbox and floats to create a marketing layout with nav (depicted in the image)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/marketing_with_nav.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -138,7 +498,14 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/12-flexbox/lab/</guid>
-      <description> Lab: Magazine Layout using Flexbox &amp;amp; Floats  Work individually or in teams to recreate the magazine layout depicted in layouts_challenge/layouts.pdf file (found within the starter_code) in html  </description>
+      <description>
+
+&lt;h2 id=&#34;lab-magazine-layout-using-flexbox-floats&#34;&gt;Lab: Magazine Layout using Flexbox &amp;amp; Floats&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Work individually or in teams to recreate the magazine layout depicted in &lt;strong&gt;layouts_challenge/layouts.pdf&lt;/strong&gt; file (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) in html&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -147,12 +514,26 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/12-flexbox/homework/</guid>
-      <description>Homework The next milestone for your Final Project deliverables includes completing the following steps
- Set up your final projects (create initial folder structure)
- Host the project on Github, you will be pushing changes to Github periodically
- Create your page layouts (in html) using your wireframes as guidance
- You can use flex or floats (although, you should be open to change your decision if needed)
- Do not focus on content or style, just focus on layout; high level structure of your pages (i.</description>
+      <description>
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;p&gt;The next milestone for your Final Project deliverables includes completing the following steps&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Set up your final projects (create initial folder structure)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Host the project on Github, you will be pushing changes to Github periodically&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create your page layouts (in html) using your wireframes as guidance&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You can use flex or floats (although, you should be open to change your decision if needed)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Do not focus on content or style, just focus on layout; high level structure of your pages (i.e. boxes and containers)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
     </item>
     
   </channel>

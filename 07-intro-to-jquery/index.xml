@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>07-intro-to-jqueries on FEWD Course Material</title>
-    <link>https://fewd20170829.github.io/07-intro-to-jquery/</link>
+    <link>https://fewd20170829.github.io/07-intro-to-jquery/index.xml</link>
     <description>Recent content in 07-intro-to-jqueries on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    
-	<atom:link href="https://fewd20170829.github.io/07-intro-to-jquery/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://fewd20170829.github.io/07-intro-to-jquery/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Intro to jQuery</title>
@@ -17,7 +15,12 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/</guid>
-      <description> Lesson 07 Intro to jQuery </description>
+      <description>
+
+&lt;h3 id=&#34;lesson-07&#34;&gt;Lesson 07&lt;/h3&gt;
+
+&lt;h1 id=&#34;intro-to-jquery&#34;&gt;Intro to jQuery&lt;/h1&gt;
+</description>
     </item>
     
     <item>
@@ -26,10 +29,14 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/objectives/</guid>
-      <description> Introduce the DOM
- Introduce jQuery
- Understand how jQuery is different than native javascript
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introduce the DOM&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce jQuery&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Understand how jQuery is different than &lt;em&gt;native&lt;/em&gt; javascript&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -38,17 +45,28 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/agenda/</guid>
-      <description> Discuss Final Projects
- Review Traffic Light exercise from last class
- Discuss the DOM
- Introduction to jQuery
- Review jQuery Code Examples
- Code Along: Color Scheme Switcher (with jQuery)
- Code Along: FAQ
- Lab: jQuery DOM Selector Practice
- Homework: jQuery Traffic Light
- Homework: Submit Final Project Ideas
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Discuss Final Projects&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Review Traffic Light exercise from last class&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Discuss the DOM&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduction to jQuery&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Review jQuery Code Examples&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code Along: Color Scheme Switcher (with jQuery)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code Along: FAQ&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lab: jQuery DOM Selector Practice&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Homework: jQuery Traffic Light&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Homework: Submit Final Project Ideas&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -57,12 +75,23 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/final-projects/</guid>
-      <description> Final Projects are a requirement of &amp;ldquo;course completion&amp;rdquo;
- Only requirements are the following:
- Use of HTML and CSS Use of &amp;ldquo;some&amp;rdquo; javascript  Project should be something that you are passionate about
- Click here for examples of what other GA students have built
- First deliverable will be to submit potential project ideas
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Final Projects are a requirement of &amp;ldquo;course completion&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Only requirements are the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use of HTML and CSS&lt;/li&gt;
+&lt;li&gt;Use of &amp;ldquo;some&amp;rdquo; javascript&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Project should be something that you are passionate about&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://gallery.generalassemb.ly/&#34;&gt;Click here&lt;/a&gt; for examples of what other GA students have built&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;First deliverable will be to submit potential project ideas&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -71,13 +100,24 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/programming-protips/</guid>
-      <description>Practice, practice, practice
- Use your developer console
- Google your issues (the answer is out there!!!!)
- Use pattern matching
- Break things on purpose to see how they work*
- Take a deep breath, errors are Learning Opportunities
-   *but make sure you fix them before turning in your assignments :)</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Practice, practice, practice&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use your developer console&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Google your issues (the answer is out there!!!!)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use pattern matching&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Break things on purpose to see how they work*&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Take a deep breath, errors are &lt;strong&gt;Learning Opportunities&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*but make sure you fix them before turning in your assignments :)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -86,13 +126,27 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/dom-intro/</guid>
-      <description>DOM stands for Document Object Model
- Browsers view our webpages as documents
- Browsers represents documents in a couple of ways
- In the browser window as html Through the DOM  The DOM is just another way that our browser represents our documents
- We make our pages interactive by modifying the DOM
- Javascript is a scripting language that allows us to manipulate/modify the DOM
- Click here for a good overview of the DOM</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;DOM stands for Document Object Model&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Browsers view our webpages as &lt;strong&gt;documents&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Browsers represents documents in a couple of ways&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In the browser window as html&lt;/li&gt;
+&lt;li&gt;Through the DOM&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The DOM is just another way that our browser represents our documents&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We make our pages interactive by modifying the DOM&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Javascript is a scripting language that allows us to manipulate/modify the DOM&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click &lt;a href=&#34;https://css-tricks.com/dom/&#34;&gt;here&lt;/a&gt; for a good overview of the DOM&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -101,13 +155,95 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/jquery-intro/</guid>
-      <description>What is jQuery?  A javascript library
- Offers a simple way to acheive a variety of common javascript tasks
- Consistent across all browsers
- Does not do anything pure javascript cannot do, just does it with a more intuitive syntax
-  Benefits of jQuery?  Uses CSS selectors
- Accomplishes more with less code
-  CSS selectors means less code // selecting an element using native/pure javascript document.</description>
+      <description>
+
+&lt;h2 id=&#34;what-is-jquery&#34;&gt;What is jQuery?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A javascript library&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Offers a simple way to acheive a variety of common javascript tasks&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Consistent across all browsers&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Does not do anything pure javascript cannot do, just does it with a more intuitive syntax&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;benefits-of-jquery&#34;&gt;Benefits of jQuery?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Uses CSS selectors&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Accomplishes more with less code&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;css-selectors-means-less-code&#34;&gt;CSS selectors means less code&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+	// selecting an element using native/pure javascript
+	document.getElementById(&#39;flavors&#39;);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;vs&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+	// using jQuery (same as above but with much more intuitive syntax)
+	$(&#39;#flavors&#39;);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Use of CSS selectors to &amp;lsquo;select&amp;rsquo; elements is one of the main reasons jQuery is so popular today&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;css-selectors-means-less-code-continued&#34;&gt;CSS selectors means less code (continued)&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+	// selecting an element using native/pure javascript
+	document.getElementsByTagName(&#39;body&#39;)[0].style.backgroundColor = &#39;white&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;vs&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+	// using jQuery (same as above but with much more intuitive syntax)
+	$(&#39;body&#39;).css(&#39;backgroundColor&#39;, &#39;white&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Note: best practice is to use &lt;strong&gt;camel case&lt;/strong&gt; when referencing css properties that have mutliple words i.e. &amp;lsquo;backgroundColor&amp;rsquo; instead of &amp;lsquo;background-color&amp;rsquo;&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;mental-model-for-using-jquery&#34;&gt;Mental Model for using jQuery&lt;/h2&gt;
+
+&lt;p&gt;1) Select an element using CSS selectors
+2) Do something with that element using jQuery methods&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+// selects an element with the id of &#39;flavor&#39; and then
+// adds the &#39;favorite&#39; class to that element using 
+// the addClass() method
+$(&#39;#flavor&#39;).addClass(&#39;favorite&#39;);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;You will be here very often so get familar with it!&lt;/p&gt;
+
+&lt;h2 id=&#34;api-jquery-com-http-api-jquery-com&#34;&gt;&lt;a href=&#34;http://api.jquery.com/&#34;&gt;api.jquery.com&lt;/a&gt;&lt;/h2&gt;
+</description>
     </item>
     
     <item>
@@ -116,9 +252,65 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/adding-jquery/</guid>
-      <description>There are two ways to add jQuery to your projects  download a jQuery file and store it within your project
- Use a CDN (content delivery network)
-  Option #1 - Download jQuery file(s) &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Add jQuery by downloading jQuery file(s)&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;script src=&amp;quot;js/jquery-2.1.4.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;js/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;  Option #2 - Use a CDN (Content delivery network) &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Add jQuery using a CDN&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;script src=&amp;quot;//code.</description>
+      <description>
+
+&lt;h2 id=&#34;there-are-two-ways-to-add-jquery-to-your-projects&#34;&gt;There are two ways to add jQuery to your projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;download a jQuery file and store it within your project&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use a CDN (content delivery network)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;option-1-download-jquery-file-s&#34;&gt;Option #1 - Download jQuery file(s)&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;Add jQuery by downloading jQuery file(s)&amp;lt;/title&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+
+    &amp;lt;script src=&amp;quot;js/jquery-2.1.4.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script src=&amp;quot;js/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;option-2-use-a-cdn-content-delivery-network&#34;&gt;Option #2 - Use a CDN (Content delivery network)&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;Add jQuery using a CDN&amp;lt;/title&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+
+    &amp;lt;script src=&amp;quot;//code.jquery.com/jquery-2.1.4.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script src=&amp;quot;js/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;content-delivery-networks-cdns&#34;&gt;Content Delivery Networks (CDNs)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A content delivery network (CDN) places files in different locations so that the person using your webpage can receive the nearest
+copy of it faster&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Prevents your users&amp;rsquo; browsers from downloading commonly used libraries(like jQuery) every time they visit your site&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use of CDNs increases page speed for highly trafficked sites&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click &lt;a href=&#34;https://varvy.com/pagespeed/content-delivery-networks.html&#34;&gt;here&lt;/a&gt; for a nice overview of CDNs&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -127,10 +319,25 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/dollar-sign-function/</guid>
-      <description> jQuery uses a function called jQuery() to find elements on the page
- $() is shorthand for jQuery(); $() is what is used most often
-  // both of these creates a jQuery object around // the &amp;lt;p&amp;gt; element(s) // This allows you to use jQuery methods on the element jQuery(&#39;p&#39;) ==== $(&#39;p&#39;);  We&amp;rsquo;ll be using the $(selector) syntax exclusively in this class
- </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;jQuery uses a function called jQuery() to find elements on the page&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;$() is shorthand for jQuery(); $() is what is used most often&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+// both of these creates a jQuery object around
+// the &amp;lt;p&amp;gt; element(s)
+// This allows you to use jQuery methods on the element
+
+jQuery(&#39;p&#39;) ==== $(&#39;p&#39;);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;We&amp;rsquo;ll be using the &lt;strong&gt;$(selector)&lt;/strong&gt; syntax exclusively in this class&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -139,10 +346,45 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/document-ready/</guid>
-      <description>jQuery must wait for a page to be loaded before it can manipulate the page&amp;rsquo;s DOM
- jQuery provides a &amp;ldquo;document ready&amp;rdquo; function that will run once the DOM is fully loaded
- There are two ways to express the &amp;ldquo;document ready&amp;rdquo; function for jQuery
-  Option #1: Long form syntax $(document).ready(function(){ // place your code here // jquery code must be placed inside of a document ready block })  Option #2: Short form alternative syntax $(function(){ // this is the same as the $(document).</description>
+      <description>
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;jQuery must wait for a page to be loaded before it can manipulate the page&amp;rsquo;s DOM&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;jQuery provides a &amp;ldquo;document ready&amp;rdquo; function that will run once the DOM is fully loaded&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There are two ways to express the &amp;ldquo;document ready&amp;rdquo; function for jQuery&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;option-1-long-form-syntax&#34;&gt;Option #1: Long form syntax&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;$(document).ready(function(){
+  // place your code here
+  // jquery code must be placed inside of a document ready block
+})
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;option-2-short-form-alternative-syntax&#34;&gt;Option #2: Short form alternative syntax&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;$(function(){
+  // this is the same as the $(document).ready(function(){}) function
+  // just much less code
+
+  // place your code here
+});
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;pre&gt;&lt;code&gt;There are no advantages to choosing one syntax over the other. However, option #2 is less typing :)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -151,11 +393,54 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/jquery-in-action/</guid>
-      <description>Here are some examples of things you can do with jQuery
- This is not a exhaustive list (not possible)
-  Select Elements using CSS Selectors JS Bin on jsbin.com
-Getting and Setting Content using jQuery Using methods like .html(), .text() and .val() you can get (i.e. retrieve) and set content on your pages
-// get the text content stored in an element $(&#39;p.intro&#39;).text(); // set the content to another value $(&#39;p.</description>
+      <description>
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Here are some examples of things you can do with jQuery&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This is not a exhaustive list (not possible)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;select-elements-using-css-selectors&#34;&gt;Select Elements using CSS Selectors&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/kihima/embed?js,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;getting-and-setting-content-using-jquery&#34;&gt;Getting and Setting Content using jQuery&lt;/h2&gt;
+
+&lt;p&gt;Using methods like &lt;code&gt;.html()&lt;/code&gt;, &lt;code&gt;.text()&lt;/code&gt;  and &lt;code&gt;.val()&lt;/code&gt; you can &lt;strong&gt;get&lt;/strong&gt; (i.e. retrieve) and &lt;strong&gt;set&lt;/strong&gt; content on your pages&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;  // get the text content stored in an element
+  $(&#39;p.intro&#39;).text();
+
+  // set the content to another value
+  $(&#39;p.intro&#39;).text(&#39;Updated text that will replace existing content&#39;);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/faxule/embed?html,css,js,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/zevoko/embed?js,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;adding-new-content-using-jquery-prepend-append&#34;&gt;Adding New Content using jQuery .prepend() / .append()&lt;/h2&gt;
+
+&lt;p&gt;Using methods like &lt;code&gt;.prepend()&lt;/code&gt; and &lt;code&gt;.append()&lt;/code&gt; you can dynamically add elements to html to your pages&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/qamikaw/embed?js,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;more-examples&#34;&gt;More Examples&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See examples in &lt;strong&gt;js_examples&lt;/strong&gt; (in the starter_code) folder for more examples&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -164,9 +449,20 @@ Getting and Setting Content using jQuery Using methods like .html(), .text() and
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/code-along/</guid>
-      <description> Code Along: Color Switcher using jQuery  Using Sublime, open the folder called color_scheme_switcher_jquery (found within the starter_code) folder
- During this exercise, we&amp;rsquo;ll be doing the following:
- We&amp;rsquo;ll use jQuery (instead of native javascript) to get the color scheme switcher project working   </description>
+      <description>
+
+&lt;h2 id=&#34;code-along-color-switcher-using-jquery&#34;&gt;Code Along: Color Switcher using jQuery&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;color_scheme_switcher_jquery&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;During this exercise, we&amp;rsquo;ll be doing the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We&amp;rsquo;ll use jQuery (instead of native javascript) to get the color scheme switcher project working&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -175,9 +471,20 @@ Getting and Setting Content using jQuery Using methods like .html(), .text() and
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/lab/</guid>
-      <description> Lab: jQuery DOM Selector Practice  Using Sublime, open the folder called jquery_dom_selector_practice (found within the starter_code) folder
- Instructions
- Follow the instructions specified in the exercise.js file   </description>
+      <description>
+
+&lt;h2 id=&#34;lab-jquery-dom-selector-practice&#34;&gt;Lab: jQuery DOM Selector Practice&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;jquery_dom_selector_practice&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Instructions&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Follow the instructions specified in the exercise.js file&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -186,12 +493,22 @@ Getting and Setting Content using jQuery Using methods like .html(), .text() and
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/homework/</guid>
-      <description> Homework Assignment - jQuery Traffic Light Directions:
-1) Fork the following respository:
-Homework #3
- Review the assignment here
- Use process covered in the Git/Github Tutorial to submit your assignment
-  </description>
+      <description>
+
+&lt;h2 id=&#34;homework-assignment-jquery-traffic-light&#34;&gt;Homework Assignment - jQuery Traffic Light&lt;/h2&gt;
+
+&lt;p&gt;Directions:&lt;/p&gt;
+
+&lt;p&gt;1) Fork the following respository:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/FEWD-1-11-17/homework-03-jquery-traffic-light&#34;&gt;Homework #3&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Review the assignment &lt;a href=&#34;https://github.com/FEWD-1-11-17/homework-03-jquery-traffic-light/blob/master/README.md&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use process covered in the Git/Github Tutorial to submit your assignment&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
@@ -200,9 +517,16 @@ Homework #3
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/07-intro-to-jquery/final-project-deliverable-1/</guid>
-      <description> Final Project Deliverable #1 (Initial project proposals)  Submit a list of at least 3 final project ideas to me via direct message on Slack (Due Monday February 13th)
- I will meet with each of you next week to discuss your ideas
-  </description>
+      <description>
+
+&lt;h2 id=&#34;final-project-deliverable-1-initial-project-proposals&#34;&gt;Final Project Deliverable #1 (Initial project proposals)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Submit a list of at least 3 final project ideas to me via direct message on Slack (&lt;strong&gt;Due Monday February 13th&lt;/strong&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;I will meet with each of you next week to discuss your ideas&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
