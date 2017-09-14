@@ -2166,10 +2166,137 @@
 <ul>
 <li><p>Block, Inline and Inline-Block elements</p></li>
 
-<li><p>Container elements:<code>&lt;div&gt;</code> and semantic tags</p></li>
+<li><p>Containing elements:<code>&lt;div&gt;</code> and semantic tags</p></li>
 
 <li><p>CSS Floats</p></li>
 </ul>
+
+<hr />
+
+<h3 id="block-inline-and-inline-block-elements">Block, Inline and Inline-Block elements</h3>
+
+<ul>
+<li><p>Block Level Elements</p>
+
+<ul>
+<li><p><strong>By default</strong>, block elements take up an entire row regardless of the width of their content</p></li>
+
+<li><p>Example block elements: <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;div&gt;</code></p></li>
+
+<li><p>Full list of block level elements can be found <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements">here</a></p></li>
+</ul></li>
+
+<li><p>Inline Elements</p>
+
+<ul>
+<li><p>Sit within a block level element and do not start on a new line</p></li>
+
+<li><p><strong>By default</strong>, inline elements only occupy the horizontal space needed to fit its content</p></li>
+
+<li><p>The height and width properties of an inline element will not be recognized</p></li>
+
+<li><p>Example inline elements: <code>&lt;a&gt;</code>, <code>&lt;img&gt;</code>, <code>&lt;span&gt;</code></p></li>
+
+<li><p>Full list of inline elements can be found <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements">here</a></p></li>
+</ul></li>
+
+<li><p>Inline-Block</p>
+
+<ul>
+<li><p>Allows you make an element inline while also allowing the element to recognize height and width properties</p></li>
+
+<li><p>inline-block is set as a value of the <strong>display</strong> property in CSS</p></li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h3 id="containing-elements">Containing elements</h3>
+
+<ul>
+<li><p>Elements that contain groups of elements</p></li>
+
+<li><p>For example, grouping all of the elements associated with the header in a <code>&lt;div&gt;</code></p></li>
+
+<li><p><code>&lt;div&gt;</code> tags are commonly used as containing elements</p></li>
+</ul>
+
+<p><img src="/images/04/containing_elements_diagram.png" alt="inline" /></p>
+
+<p>In example the above example, orange lines represent <code>&lt;div&gt;</code> tags</p>
+
+<hr />
+
+<h2 id="div"><code>&lt;div&gt;</code></h2>
+
+<ul>
+<li><p>Used to group a set of elements together in one block-level box</p></li>
+
+<li><p><code>&lt;div&gt;</code> element are block-level elements which means they will start on a new line</p></li>
+</ul>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Sample Page&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/styles.css&quot;&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+    &lt;!-- start of header div --&gt;
+    &lt;div id=&quot;header&quot;&gt;
+      &lt;img src=&quot;images/logo.gif&quot; alt=&quot;Anish Kapoor&quot; /&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;biography.html&quot;&gt;Biography&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;works.html&quot;&gt;Works&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;!-- end of header div --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+
+</code></pre>
+
+<hr />
+
+<h2 id="structure-using-div-s">Structure using <code>&lt;div&gt;</code>s</h2>
+
+<ul>
+<li><p>Prior to HTML5, the divs have been the most common way to structure content on page</p></li>
+
+<li><p>Usual ids/classes are used to provide each div with context regarding the type of content div contains</p></li>
+
+<li><p>Above picture is just an example! This structure is not set in stone, use what makes sense for your project</p></li>
+</ul>
+
+<p><img src="/images/04/structure_using_divs.png" alt="inline" /></p>
+
+<div class="notices note" ><p><code>&lt;div&gt;</code>s are used to structure pages in logical sections/groups based on your site&rsquo;s layout</p>
+</div>
+
+
+<hr />
+
+<h3 id="structure-using-semantic-tags">Structure using Semantic tags</h3>
+
+<ul>
+<li><p>Similar to <code>&lt;div&gt;</code>s, semantic tags are container elements</p></li>
+
+<li><p>HTML5 introduced semantic tags that directly communicate type of content the container element contains</p></li>
+
+<li><p>Important note: incorrect use of the tags will not result in any errors (but may be confusing for your teammates)</p></li>
+
+<li><p>Above picture is just an example! This structure is not set in stone, use what makes sense for your project</p></li>
+</ul>
+
+<p><img src="/images/04/structure_using_semantic_tags.png" alt="inline" /></p>
+
+<div class="notices warning" ><p>Make sure you distinguish between <code>&lt;head&gt;</code> and <code>&lt;header&gt;</code>, <strong>they are not the same</strong></p>
+</div>
+
 
 
       

@@ -2190,10 +2190,10 @@
 
 <li><p>Usually accompanied by box offsets: top, right, bottom, left.</p></li>
 
-<li><p>It will not effect the other elements on the page, surrounding elements <strong>stay in the position they would be in in normal flow</strong></p></li>
+<li><p>It will not effect the other elements on the page, surrounding elements <strong>stay in the position in their normal flow positions</strong></p></li>
 </ul>
 
-<div class="notices tip" ><p>If you set position: relative; on an element but no other positioning attributes (top, left, bottom or right), it will have no effect on it&rsquo;s positioning at all, it will be exactly as it would be if you left it as position: static; But if you DO give it some other positioning attribute, say, top: 10px;, it will shift it&rsquo;s position 10 pixels DOWN from where it would NORMALLY be</p>
+<div class="notices tip" ><p>If you set position: relative; on an element but no offset attributes (top, left, bottom or right), it will have no effect on it&rsquo;s positioning at all, it will be exactly as it would be if you left it as position: static; But if you DO give it some other positioning attribute, say, top: 10px;, it will shift it&rsquo;s position 10 pixels DOWN from where it would NORMALLY be</p>
 </div>
 
 
@@ -2208,11 +2208,11 @@
 <ul>
 <li><p>This type of positioning takes box out of normal flow</p></li>
 
-<li><p>Other elements <strong>act is if the absolutely positioned element is not longer there</strong></p></li>
+<li><p>Other elements <strong>act as if the absolutely positioned element is not longer there</strong></p></li>
 
 <li><p>Box offset properties (top or bottom and left or right) are used to position the element</p></li>
 
-<li><p>Elements positioned absolutely will be positioned relative to the nearest <strong>positioned</strong> element</p></li>
+<li><p>Elements positioned absolutely will be positioned relative to the nearest <strong>positioned</strong> parent element</p></li>
 </ul>
 
 <div class="notices tip" ><p>Remember that these values will be relative to the next parent element with relative (or absolute) positioning. If there is no such parent, it will default all the way back up to the <html> element itself meaning it will be placed relatively to the page itself.</p>
@@ -2243,7 +2243,7 @@
 
 <p><img src="/images/05/fixed_positioning.png" alt="inline" /></p>
 
-<p><a class="jsbin-embed" href="https://jsbin.com/liroqe/embed?css,output">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?3.41.0"></script></p>
+<p><a class="jsbin-embed" href="https://jsbin.com/bohiwop/embed?css,output">Fixed Positioning Example on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.0.4"></script></p>
 
 
       

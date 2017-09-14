@@ -76,10 +76,137 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Block, Inline and Inline-Block elements&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Container elements:&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; and semantic tags&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Containing elements:&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; and semantic tags&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;CSS Floats&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;block-inline-and-inline-block-elements&#34;&gt;Block, Inline and Inline-Block elements&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Block Level Elements&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;By default&lt;/strong&gt;, block elements take up an entire row regardless of the width of their content&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Example block elements: &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Full list of block level elements can be found &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Inline Elements&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Sit within a block level element and do not start on a new line&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;By default&lt;/strong&gt;, inline elements only occupy the horizontal space needed to fit its content&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The height and width properties of an inline element will not be recognized&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Example inline elements: &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Full list of inline elements can be found &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Inline-Block&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Allows you make an element inline while also allowing the element to recognize height and width properties&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;inline-block is set as a value of the &lt;strong&gt;display&lt;/strong&gt; property in CSS&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;containing-elements&#34;&gt;Containing elements&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Elements that contain groups of elements&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For example, grouping all of the elements associated with the header in a &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tags are commonly used as containing elements&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/04/containing_elements_diagram.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In example the above example, orange lines represent &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tags&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;div&#34;&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Used to group a set of elements together in one block-level box&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; element are block-level elements which means they will start on a new line&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt;
+    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;css/styles.css&amp;quot;&amp;gt;
+  &amp;lt;/head&amp;gt;
+
+  &amp;lt;body&amp;gt;
+
+    &amp;lt;!-- start of header div --&amp;gt;
+    &amp;lt;div id=&amp;quot;header&amp;quot;&amp;gt;
+      &amp;lt;img src=&amp;quot;images/logo.gif&amp;quot; alt=&amp;quot;Anish Kapoor&amp;quot; /&amp;gt;
+      &amp;lt;ul&amp;gt;
+        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;index.html&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;biography.html&amp;quot;&amp;gt;Biography&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;works.html&amp;quot;&amp;gt;Works&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;contact.html&amp;quot;&amp;gt;Contact&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+      &amp;lt;/ul&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;!-- end of header div --&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;structure-using-div-s&#34;&gt;Structure using &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Prior to HTML5, the divs have been the most common way to structure content on page&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Usual ids/classes are used to provide each div with context regarding the type of content div contains&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Above picture is just an example! This structure is not set in stone, use what makes sense for your project&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/04/structure_using_divs.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s are used to structure pages in logical sections/groups based on your site&amp;rsquo;s layout&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;structure-using-semantic-tags&#34;&gt;Structure using Semantic tags&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Similar to &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s, semantic tags are container elements&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;HTML5 introduced semantic tags that directly communicate type of content the container element contains&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Important note: incorrect use of the tags will not result in any errors (but may be confusing for your teammates)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Above picture is just an example! This structure is not set in stone, use what makes sense for your project&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/04/structure_using_semantic_tags.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices warning&#34; &gt;&lt;p&gt;Make sure you distinguish between &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt;, &lt;strong&gt;they are not the same&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     
@@ -89,7 +216,7 @@
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/05-css-positioning-and-colors/layout-challenge-review/</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ll review the &amp;ldquo;solutions&amp;rdquo; for the layout challenge. The solutions can be found in the following folder: &lt;strong&gt;starter_code/layout_challenge&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;p&gt;We&amp;rsquo;ll review the &amp;ldquo;solutions&amp;rdquo; for the layout challenge. The solutions can be found in the following folder: &lt;strong&gt;starter_code/layout_challenge_solution&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -257,10 +384,10 @@ body {
 
 &lt;li&gt;&lt;p&gt;Usually accompanied by box offsets: top, right, bottom, left.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;It will not effect the other elements on the page, surrounding elements &lt;strong&gt;stay in the position they would be in in normal flow&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It will not effect the other elements on the page, surrounding elements &lt;strong&gt;stay in the position in their normal flow positions&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;If you set position: relative; on an element but no other positioning attributes (top, left, bottom or right), it will have no effect on it&amp;rsquo;s positioning at all, it will be exactly as it would be if you left it as position: static; But if you DO give it some other positioning attribute, say, top: 10px;, it will shift it&amp;rsquo;s position 10 pixels DOWN from where it would NORMALLY be&lt;/p&gt;
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;If you set position: relative; on an element but no offset attributes (top, left, bottom or right), it will have no effect on it&amp;rsquo;s positioning at all, it will be exactly as it would be if you left it as position: static; But if you DO give it some other positioning attribute, say, top: 10px;, it will shift it&amp;rsquo;s position 10 pixels DOWN from where it would NORMALLY be&lt;/p&gt;
 &lt;/div&gt;
 
 
@@ -275,11 +402,11 @@ body {
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;This type of positioning takes box out of normal flow&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Other elements &lt;strong&gt;act is if the absolutely positioned element is not longer there&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Other elements &lt;strong&gt;act as if the absolutely positioned element is not longer there&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Box offset properties (top or bottom and left or right) are used to position the element&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Elements positioned absolutely will be positioned relative to the nearest &lt;strong&gt;positioned&lt;/strong&gt; element&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Elements positioned absolutely will be positioned relative to the nearest &lt;strong&gt;positioned&lt;/strong&gt; parent element&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Remember that these values will be relative to the next parent element with relative (or absolute) positioning. If there is no such parent, it will default all the way back up to the &lt;html&gt; element itself meaning it will be placed relatively to the page itself.&lt;/p&gt;
@@ -310,7 +437,7 @@ body {
 
 &lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/05/fixed_positioning.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/liroqe/embed?css,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/bohiwop/embed?css,output&#34;&gt;Fixed Positioning Example on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?4.0.4&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -401,6 +528,22 @@ body {
 
 &lt;li&gt;&lt;p&gt;They will represent the distance from teh top left corner of the window (or the containing box) top left corner is 0% 0%&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;background-image-examples&#34;&gt;Background Image examples&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;code_examples&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Review the following files to see example usage of background images&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ex_09-background-image-example.html&lt;/li&gt;
+&lt;li&gt;ex_10-background_image_repeat.html&lt;/li&gt;
+&lt;li&gt;ex_11-background_image_position.html&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -435,7 +578,7 @@ body {
 &lt;h2 id=&#34;lab-relaxr-blog&#34;&gt;Lab: Relaxr Blog&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Work individually or in teams to recreate the html page depicted in the image below.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Work in teams (2 to 3 students) to recreate the html page depicted in the image below.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;The files for this lab can be found in the following folder: &lt;strong&gt;starter_code/relaxr_blog&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -457,11 +600,11 @@ body {
 &lt;p&gt;Directions:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Fork the following respository: &lt;a href=&#34;https://github.com/FEWD-1-11-17/homework-02-startup-matchmaker&#34;&gt;Homework #2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fork the following respository: &lt;a href=&#34;https://github.com/FEWD20170829/homework-02-startup-matchmaker&#34;&gt;Homework #2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Review the assignment &lt;a href=&#34;https://github.com/FEWD-1-11-17/homework-02-startup-matchmaker/blob/master/README.md&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Review the assignment &lt;a href=&#34;https://github.com/FEWD20170829/homework-02-startup-matchmaker/blob/master/README.md&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Use process covered in the Git/Github Tutorial to submit your assignment&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use process covered in the &lt;a href=&#34;https://fewd20170829.github.io/00-dev-tools-github/github-tutorial&#34;&gt;Git/Github Tutorial&lt;/a&gt; to submit your assignment&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
