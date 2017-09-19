@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>10-functions on FEWD Course Material</title>
+    <link>https://fewd20170829.github.io/10-functions/</link>
+    <description>Recent content in 10-functions on FEWD Course Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    
+	<atom:link href="https://fewd20170829.github.io/10-functions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Functions</title>
+      <link>https://fewd20170829.github.io/10-functions/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/</guid>
+      <description> Lesson 10 Functions </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>https://fewd20170829.github.io/10-functions/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/objectives/</guid>
+      <description> Understand functions and why they are used
+ Understand how functions can be used to promote code reuse within your application
+ Introduce Anonymous functions and understand how they are different than named functions
+  </description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>https://fewd20170829.github.io/10-functions/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/agenda/</guid>
+      <description> Last Class Review
+ Discuss Functions
+ Code Along: Geometry Formulas using Functions
+ Code Along: Cash Register
+ Introduce Anonymous Functions
+ Code Along: Cash Register using an Anonymous Function
+  </description>
+    </item>
+    
+    <item>
+      <title>Last Class Review</title>
+      <link>https://fewd20170829.github.io/10-functions/last-class-review/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/last-class-review/</guid>
+      <description>Variables  declaring variables using var keyword
+ assigning / reassigning variables
+  // declaring a variable var firstName; // assigning a value to the variable firstName = &amp;quot;Cletus&amp;quot;;  // declare and assign an intial value to a variable var score = 0;  // declare and assign a value of 0 to the score variable var score = 0; // changing the value of the score variable from 0 to 3 score = 3;  Data types  Strings</description>
+    </item>
+    
+    <item>
+      <title>Function Overview</title>
+      <link>https://fewd20170829.github.io/10-functions/function-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/function-overview/</guid>
+      <description> What are Functions?  Allows you to group a series of statements together to perform a specific task
+ Functions are used to promote “code reuse”
+ You can control when functions are executed, for example - you can write functions that only get executed (or called) when a user clicks a specific button
+  // a simple function that greets you with a &#39;Good Morning&#39; alert // 1) Declare a function named greeting function greeting(){ alert(&#39;Good Morning&#39;); }; // 2) Call (or run) the function greeting();  </description>
+    </item>
+    
+    <item>
+      <title>Declaring Functions</title>
+      <link>https://fewd20170829.github.io/10-functions/declaring-functions/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/declaring-functions/</guid>
+      <description>Declaring a Function  Use the function keyword to declare a function
+ Functions can be given a name
+ The name must be followed by parentheses
+ The opening and closing curly braces indicate a “code block”
+ The statements for your function goes within the code block
+ Simply declaring the function will not run this code, this function must be “called” in order for the code inside the function to be run</description>
+    </item>
+    
+    <item>
+      <title>Calling Functions</title>
+      <link>https://fewd20170829.github.io/10-functions/calling-functions/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/calling-functions/</guid>
+      <description> Calling a Function  To run the code inside of a function you use the function name followed by parentheses (don’t forget the parentheses!)
+ Now you can call this function as many times as you want
+  </description>
+    </item>
+    
+    <item>
+      <title>Returning Values from Functions</title>
+      <link>https://fewd20170829.github.io/10-functions/returning-values-from-functions/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/returning-values-from-functions/</guid>
+      <description>Many times you will write a function and expect a value to be returned - this is called a return value
+ to have your function return a value you must use the return keyword in the last line of the body of your function
+ You can store the returned value in a variable and use it for later
+  // declare a function called bark // that *returns* a string respreseting &#39;woof woof&#39; function bark() { return &#39;woof woof!</description>
+    </item>
+    
+    <item>
+      <title>Working with Parameters</title>
+      <link>https://fewd20170829.github.io/10-functions/working-with-parameters/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/working-with-parameters/</guid>
+      <description>Declaring Functions that need information  Some functions need additional information in order to perform a specific task
+ This additional information is referred to as “parameters”
+ To provide parameters to a function, you specify them inside the parentheses after the parameter name
+ The parameters are used like variables within the function body
+ We use the “return” keyword when we want to retrieve a value from our function, in the case of the example we want to retrieve the result of the multiplying the width times the height</description>
+    </item>
+    
+    <item>
+      <title>Functions Calling Other Functions</title>
+      <link>https://fewd20170829.github.io/10-functions/functions-calling-other-functions/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/functions-calling-other-functions/</guid>
+      <description>Functions can call other functions  Function reusability is key results in cleaner code
+ Reusing functions leverages key programming principle - Don&amp;rsquo;t Repeat Yourself
+ In the example of below, the surfaceAreaOfCube function calls another function (areaOfSquare) instead of duplicating work that was already done
+  // Function that calculates area of a square function areaOfSquare(side){ return side * side; }; areaOfSquare(3); // returns 9 // This is a function that calculates the // surface area of a cube that *reuses* the areaOfSquare function function surfaceAreaOfCube(side){ return 6 * areaOfSquare(side); }; surfaceAreaOfCube(7); // returns 42  JS Bin on jsbin.</description>
+    </item>
+    
+    <item>
+      <title>Code Along #1</title>
+      <link>https://fewd20170829.github.io/10-functions/code-along-1/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/code-along-1/</guid>
+      <description> Code Along #1: Geometry Calculator  Using Sublime, open the folder called geometry_formulas_with_functions (found within the starter_code) folder
+ During this exercise, we&amp;rsquo;ll be doing the following:
+ We&amp;rsquo;ll use javascript to implement an app that calculates geometry functions   </description>
+    </item>
+    
+    <item>
+      <title>Preventing Default Behavior of Forms</title>
+      <link>https://fewd20170829.github.io/10-functions/preventing-default-behavior-of-forms/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/preventing-default-behavior-of-forms/</guid>
+      <description>Preventing Default Behavior  Some events, such as clicking on links and submitting forms, take the user to another page or expects data to sent to a server
+ There are times when you don&amp;rsquo;t want that default behavior to happen
+ Javascript gives you the ability to prevent the default behavior using preventDefault()
+ For more information on preventDefault click here
+  // All javascript functions get an &#39;event&#39; object as a parameter by default, most of the time // you can ignore this, but you will need it if you want to prevent default behavior // Define a function when function handleFormSubmision(event){ event.</description>
+    </item>
+    
+    <item>
+      <title>Code Along #2</title>
+      <link>https://fewd20170829.github.io/10-functions/code-along-2/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/code-along-2/</guid>
+      <description> Code Along #2: Cash Register  Using Sublime, open the folder called cash_register (found within the starter_code) folder
+ During this exercise, we&amp;rsquo;ll be doing the following:
+ We&amp;rsquo;ll use javascript to implement a virtual cash register   </description>
+    </item>
+    
+    <item>
+      <title>Anonymous Functions</title>
+      <link>https://fewd20170829.github.io/10-functions/anonymous-functions/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/anonymous-functions/</guid>
+      <description>What are Anonymous Functions? // An anonymous function is a function without a name function(width, height){ return width * height; }; // this function can later be stored as a variable and used later in your code var area = function(width, height){ return width * height; }; // Call anonymous function stored as a variable area(4, 5); // returns 20  When should you use Anonymous Functions?  Use for code that only needs to run once within a task</description>
+    </item>
+    
+    <item>
+      <title>Code Along #3</title>
+      <link>https://fewd20170829.github.io/10-functions/code-along-3/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/10-functions/code-along-3/</guid>
+      <description> Code Along #3: Cash Register with Anonymous Function  Using Sublime, open the folder called cash_register (found within the starter_code) folder
+ During this exercise, we&amp;rsquo;ll be doing the following:
+ We&amp;rsquo;ll use javascript to implement a virtual cash register using anonymous functions   </description>
+    </item>
+    
+  </channel>
+</rss>

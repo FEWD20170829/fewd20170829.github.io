@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>17-todo-applications on FEWD Course Material</title>
-    <link>https://fewd20170829.github.io/17-todo-application/index.xml</link>
+    <link>https://fewd20170829.github.io/17-todo-application/</link>
     <description>Recent content in 17-todo-applications on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    <atom:link href="https://fewd20170829.github.io/17-todo-application/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://fewd20170829.github.io/17-todo-application/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Todo Application</title>
@@ -15,12 +17,7 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/17-todo-application/</guid>
-      <description>
-
-&lt;h3 id=&#34;lesson-17&#34;&gt;Lesson 17&lt;/h3&gt;
-
-&lt;h1 id=&#34;todo-application&#34;&gt;Todo Application&lt;/h1&gt;
-</description>
+      <description> Lesson 17 Todo Application </description>
     </item>
     
     <item>
@@ -29,10 +26,7 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/17-todo-application/objectives/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Complete a Todo Application using Firebase&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Complete a Todo Application using Firebase  </description>
     </item>
     
     <item>
@@ -41,10 +35,7 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/17-todo-application/agenda/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Code Along&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Code Along  </description>
     </item>
     
     <item>
@@ -53,16 +44,9 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/17-todo-application/code-along/</guid>
-      <description>
-
-&lt;h2 id=&#34;code-along-firebase-todo-app&#34;&gt;Code Along: Firebase Todo App&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;todo_app&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Together we&amp;rsquo;ll walk through using Firebase to add data persistence to a todo app&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Code Along: Firebase Todo App  Using Sublime, open the folder called todo_app (found within the starter_code) folder
+ Together we&amp;rsquo;ll walk through using Firebase to add data persistence to a todo app
+  </description>
     </item>
     
   </channel>

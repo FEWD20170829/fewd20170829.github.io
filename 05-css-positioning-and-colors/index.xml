@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>05-css-positioning-and-colors on FEWD Course Material</title>
-    <link>https://fewd20170829.github.io/05-css-positioning-and-colors/index.xml</link>
+    <link>https://fewd20170829.github.io/05-css-positioning-and-colors/</link>
     <description>Recent content in 05-css-positioning-and-colors on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    <atom:link href="https://fewd20170829.github.io/05-css-positioning-and-colors/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://fewd20170829.github.io/05-css-positioning-and-colors/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>CSS Positioning and CSS Colors</title>
@@ -15,12 +17,7 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/05-css-positioning-and-colors/</guid>
-      <description>
-
-&lt;h3 id=&#34;lesson-05&#34;&gt;Lesson 05&lt;/h3&gt;
-
-&lt;h1 id=&#34;css-positioning-and-css-colors&#34;&gt;CSS Positioning and CSS Colors&lt;/h1&gt;
-</description>
+      <description> Lesson 05 CSS Positioning and CSS Colors </description>
     </item>
     
     <item>
@@ -29,14 +26,10 @@
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/05-css-positioning-and-colors/objectives/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Introduce CSS Colors&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Discuss CSS Positioning&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Understand how to handle background images&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Introduce CSS Colors
+ Discuss CSS Positioning
+ Understand how to handle background images
+  </description>
     </item>
     
     <item>
@@ -45,22 +38,14 @@
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/05-css-positioning-and-colors/agenda/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Review last class&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Review Layout Challenge&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CSS Colors&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CSS Positioning&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Background Images&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Code Along&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Lab&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Review last class
+ Review Layout Challenge
+ CSS Colors
+ CSS Positioning
+ Background Images
+ Code Along
+ Lab
+  </description>
     </item>
     
     <item>
@@ -69,145 +54,14 @@
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/05-css-positioning-and-colors/last-class-review/</guid>
-      <description>
-
-&lt;h2 id=&#34;topics-we-covered-last-class&#34;&gt;Topics We Covered Last Class&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Block, Inline and Inline-Block elements&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Containing elements:&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; and semantic tags&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CSS Floats&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;block-inline-and-inline-block-elements&#34;&gt;Block, Inline and Inline-Block elements&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Block Level Elements&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;By default&lt;/strong&gt;, block elements take up an entire row regardless of the width of their content&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Example block elements: &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Full list of block level elements can be found &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Inline Elements&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Sit within a block level element and do not start on a new line&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;By default&lt;/strong&gt;, inline elements only occupy the horizontal space needed to fit its content&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The height and width properties of an inline element will not be recognized&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Example inline elements: &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Full list of inline elements can be found &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Inline-Block&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Allows you make an element inline while also allowing the element to recognize height and width properties&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;inline-block is set as a value of the &lt;strong&gt;display&lt;/strong&gt; property in CSS&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;containing-elements&#34;&gt;Containing elements&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Elements that contain groups of elements&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;For example, grouping all of the elements associated with the header in a &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tags are commonly used as containing elements&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/04/containing_elements_diagram.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In example the above example, orange lines represent &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tags&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;div&#34;&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Used to group a set of elements together in one block-level box&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; element are block-level elements which means they will start on a new line&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt;
-    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;css/styles.css&amp;quot;&amp;gt;
-  &amp;lt;/head&amp;gt;
-
-  &amp;lt;body&amp;gt;
-
-    &amp;lt;!-- start of header div --&amp;gt;
-    &amp;lt;div id=&amp;quot;header&amp;quot;&amp;gt;
-      &amp;lt;img src=&amp;quot;images/logo.gif&amp;quot; alt=&amp;quot;Anish Kapoor&amp;quot; /&amp;gt;
-      &amp;lt;ul&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;index.html&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;biography.html&amp;quot;&amp;gt;Biography&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;works.html&amp;quot;&amp;gt;Works&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;contact.html&amp;quot;&amp;gt;Contact&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-      &amp;lt;/ul&amp;gt;
-    &amp;lt;/div&amp;gt;
-    &amp;lt;!-- end of header div --&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;structure-using-div-s&#34;&gt;Structure using &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Prior to HTML5, the divs have been the most common way to structure content on page&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Usual ids/classes are used to provide each div with context regarding the type of content div contains&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Above picture is just an example! This structure is not set in stone, use what makes sense for your project&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/04/structure_using_divs.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s are used to structure pages in logical sections/groups based on your site&amp;rsquo;s layout&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;structure-using-semantic-tags&#34;&gt;Structure using Semantic tags&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Similar to &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s, semantic tags are container elements&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;HTML5 introduced semantic tags that directly communicate type of content the container element contains&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Important note: incorrect use of the tags will not result in any errors (but may be confusing for your teammates)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Above picture is just an example! This structure is not set in stone, use what makes sense for your project&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/04/structure_using_semantic_tags.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;div class=&#34;notices warning&#34; &gt;&lt;p&gt;Make sure you distinguish between &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt;, &lt;strong&gt;they are not the same&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-</description>
+      <description>Topics We Covered Last Class  Block, Inline and Inline-Block elements
+ Containing elements:&amp;lt;div&amp;gt; and semantic tags
+ CSS Floats
+  Block, Inline and Inline-Block elements  Block Level Elements
+ By default, block elements take up an entire row regardless of the width of their content
+ Example block elements: &amp;lt;p&amp;gt;, &amp;lt;h1&amp;gt;, &amp;lt;div&amp;gt;
+ Full list of block level elements can be found here
+  Inline Elements</description>
     </item>
     
     <item>
@@ -216,8 +70,7 @@
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/05-css-positioning-and-colors/layout-challenge-review/</guid>
-      <description>&lt;p&gt;We&amp;rsquo;ll review the &amp;ldquo;solutions&amp;rdquo; for the layout challenge. The solutions can be found in the following folder: &lt;strong&gt;starter_code/layout_challenge_solution&lt;/strong&gt;&lt;/p&gt;
-</description>
+      <description>We&amp;rsquo;ll review the &amp;ldquo;solutions&amp;rdquo; for the layout challenge. The solutions can be found in the following folder: starter_code/layout_challenge_solution</description>
     </item>
     
     <item>
@@ -226,125 +79,8 @@
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/05-css-positioning-and-colors/css-colors/</guid>
-      <description>
-
-&lt;h2 id=&#34;specifying-colors-in-css&#34;&gt;Specifying Colors in CSS&lt;/h2&gt;
-
-&lt;p&gt;Several ways to express colors in CSS&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Color Names&lt;/li&gt;
-&lt;li&gt;Hex Codes&lt;/li&gt;
-&lt;li&gt;RGB, RGBa&lt;/li&gt;
-&lt;li&gt;HSL, HSLa&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;color-names&#34;&gt;Color Names&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;colors represented by predefined names&lt;/li&gt;
-&lt;li&gt;147 color names&lt;/li&gt;
-&lt;li&gt;this approach is limited&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
-h1 {
-  color: green
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;hex-codes&#34;&gt;Hex Codes&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;colors represented by values for red, green and blue in hexadecimal code&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
-h1 {
-  color: #66cdaa
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;rgb&#34;&gt;RGB&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;colors represented by values for red, green and blue expressed as numbers between 0 and 255&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
-h1 {
-  color: rgb(102, 205, 170)
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;rgba&#34;&gt;RGBa&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Leverages CSS3 inclusion of the &lt;strong&gt;opacity&lt;/strong&gt; property&lt;/li&gt;
-&lt;li&gt;Just like RGB but allows you to specify the opacity as the fourth value (&lt;strong&gt;alpha&lt;/strong&gt; value)&lt;/li&gt;
-&lt;li&gt;alpha must be a number between 0.0 and 1.0 (0.5 means 50% opacity)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
-h1 {
-  color: rgba(102, 205, 170, 0.25)
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;hsl&#34;&gt;HSL&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Introduced with CSS3&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Provides an alternative way to express colors based on:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Hue (expressed as an angle between 0 and 360 degrees)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Saturation (expressed as a percentage)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Lightness (expressed as a percentage 0% =&amp;gt; white, 50% =&amp;gt; normal &amp;amp; 100% =&amp;gt; black)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
-body {
-  background-color: hsl(0, 0%, 78%);
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;hsla&#34;&gt;HSLa&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Just like HSL but adds the ability to specify opacity using an &lt;strong&gt;alpha&lt;/strong&gt; value&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;alpha must be a number between 0.0 and 1.0 (0.5 means 50% opacity)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
-body {
-  background-color: hsla(0, 100%, 75%, 0.5);
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>Specifying Colors in CSS Several ways to express colors in CSS
+ Color Names Hex Codes RGB, RGBa HSL, HSLa  Color Names  colors represented by predefined names 147 color names this approach is limited  h1 { color: green }  Hex Codes  colors represented by values for red, green and blue in hexadecimal code  h1 { color: #66cdaa }  RGB  colors represented by values for red, green and blue expressed as numbers between 0 and 255  h1 { color: rgb(102, 205, 170) }  RGBa  Leverages CSS3 inclusion of the opacity property Just like RGB but allows you to specify the opacity as the fourth value (alpha value) alpha must be a number between 0.</description>
     </item>
     
     <item>
@@ -353,92 +89,12 @@ body {
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/05-css-positioning-and-colors/css-positioning/</guid>
-      <description>
-
-&lt;h2 id=&#34;css-positioning&#34;&gt;CSS Positioning&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;normal-flow&#34;&gt;Normal Flow&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Default way browser handles block-level elements&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Each block-level element sits on top of the next one&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;If width is not specified, element will span the width of its container&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/05/normal_flow.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/rakaya/embed?css,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;relative-positioning&#34;&gt;Relative Positioning&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Moves element in relation to where it would have been in normal flow&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Uses offset properties (top or bottom and left or right) to indicate how far to move the element from where it would have been in normal flow&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Usually accompanied by box offsets: top, right, bottom, left.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;It will not effect the other elements on the page, surrounding elements &lt;strong&gt;stay in the position in their normal flow positions&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;If you set position: relative; on an element but no offset attributes (top, left, bottom or right), it will have no effect on it&amp;rsquo;s positioning at all, it will be exactly as it would be if you left it as position: static; But if you DO give it some other positioning attribute, say, top: 10px;, it will shift it&amp;rsquo;s position 10 pixels DOWN from where it would NORMALLY be&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/05/relative_positioning.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/tavotu/embed?css,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;absolute-positioning&#34;&gt;Absolute Positioning&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;This type of positioning takes box out of normal flow&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Other elements &lt;strong&gt;act as if the absolutely positioned element is not longer there&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Box offset properties (top or bottom and left or right) are used to position the element&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Elements positioned absolutely will be positioned relative to the nearest &lt;strong&gt;positioned&lt;/strong&gt; parent element&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Remember that these values will be relative to the next parent element with relative (or absolute) positioning. If there is no such parent, it will default all the way back up to the &lt;html&gt; element itself meaning it will be placed relatively to the page itself.&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/05/absolute_positioning.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/cesikiq/embed?css,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;fixed-positioning&#34;&gt;Fixed Positioning&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Positions the element in relation to the browser window (not its containing element)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Fixed positioned element stays in place even if user scrolls down the page&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Box offset properties (top or bottom and left or right) specify where the element should appear in relation to browser window&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;A fixed position element is &lt;strong&gt;positioned relative to the viewport, or the browser window itself&lt;/strong&gt;. The viewport doesn&amp;rsquo;t change when the window is scrolled.&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Fixed positioning can be used to create a fixed navbar&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/05/fixed_positioning.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/bohiwop/embed?css,output&#34;&gt;Fixed Positioning Example on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?4.0.4&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+      <description>CSS Positioning Normal Flow  Default way browser handles block-level elements
+ Each block-level element sits on top of the next one
+ If width is not specified, element will span the width of its container
+  JS Bin on jsbin.com
+Relative Positioning  Moves element in relation to where it would have been in normal flow
+ Uses offset properties (top or bottom and left or right) to indicate how far to move the element from where it would have been in normal flow</description>
     </item>
     
     <item>
@@ -447,104 +103,10 @@ body {
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/05-css-positioning-and-colors/background-images/</guid>
-      <description>
-
-&lt;h2 id=&#34;background-image-property&#34;&gt;&lt;code&gt;background-image&lt;/code&gt; Property&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;code&gt;background-image&lt;/code&gt; property allows you to place an image behind any HTML element&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Image can be &amp;ldquo;behind&amp;rdquo; the entire page or part of a page&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;By default&lt;/strong&gt; a background image will repeat to fill an entire box&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;  body {
-    /* this image will be applied to the entire page */
-    background-image: url(&amp;quot;images/cool-background-image.gif&amp;quot;);
-  }
-
-  .hero-section {
-    /* this image will be applied to container with a &amp;quot;hero-section&amp;quot; class attribute */
-    background-image: url(&amp;quot;images/another-cool-background-image.gif&amp;quot;);
-  }
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;background-repeat-property&#34;&gt;&lt;code&gt;background-repeat&lt;/code&gt; Property&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;code&gt;background-repeat&lt;/code&gt; allows you to control how an background image is repeated&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;repeat: image is repeated both horizontally and vertically (default behavior)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;repeat-x: image is only repeated horizontally&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;repeat-y: image is only repeated vertically&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;no-repeat: image is only shown once and not repeated&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;background-position-property&#34;&gt;&lt;code&gt;background-position&lt;/code&gt; Property&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/03/background_position.png&#34; alt=&#34;right &#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Used to position an image &lt;strong&gt;when it is not being repeated&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;This property has two values&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;horizontal position&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;vertical position&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;background-position-property-1&#34;&gt;&lt;code&gt;background-position&lt;/code&gt; Property&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
-  body {
-    /* this image will be applied to the entire page */
-    background-image: url(&amp;quot;images/cool-background-image.gif&amp;quot;);
-    background-repeat: no-repeat;
-    background-position: center top;
-  }
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;If you only specify one value, the second value will default to center&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You can also you pixels or percentages&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;They will represent the distance from teh top left corner of the window (or the containing box) top left corner is 0% 0%&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;background-image-examples&#34;&gt;Background Image examples&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;code_examples&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Review the following files to see example usage of background images&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ex_09-background-image-example.html&lt;/li&gt;
-&lt;li&gt;ex_10-background_image_repeat.html&lt;/li&gt;
-&lt;li&gt;ex_11-background_image_position.html&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>background-image Property  background-image property allows you to place an image behind any HTML element
+ Image can be &amp;ldquo;behind&amp;rdquo; the entire page or part of a page
+ By default a background image will repeat to fill an entire box
+  body { /* this image will be applied to the entire page */ background-image: url(&amp;quot;images/cool-background-image.gif&amp;quot;); } .hero-section { /* this image will be applied to container with a &amp;quot;hero-section&amp;quot; class attribute */ background-image: url(&amp;quot;images/another-cool-background-image.</description>
     </item>
     
     <item>
@@ -553,18 +115,9 @@ body {
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/05-css-positioning-and-colors/code-along/</guid>
-      <description>
-
-&lt;h2 id=&#34;code-along-2-fashion-blog-ii&#34;&gt;Code Along #2: Fashion Blog II&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;fashion_blog_part_II&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;As a class, we&amp;rsquo;ll add a column to the fashion blog layout to match the layout in image depicted below.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/05/completed_fashion_blog_part_II.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-</description>
+      <description> Code Along #2: Fashion Blog II  Using Sublime, open the folder called fashion_blog_part_II (found within the starter_code) folder
+ As a class, we&amp;rsquo;ll add a column to the fashion blog layout to match the layout in image depicted below.
+  </description>
     </item>
     
     <item>
@@ -573,18 +126,9 @@ body {
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/05-css-positioning-and-colors/lab/</guid>
-      <description>
-
-&lt;h2 id=&#34;lab-relaxr-blog&#34;&gt;Lab: Relaxr Blog&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Work in teams (2 to 3 students) to recreate the html page depicted in the image below.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The files for this lab can be found in the following folder: &lt;strong&gt;starter_code/relaxr_blog&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/05/relaxr_blog.jpg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-</description>
+      <description> Lab: Relaxr Blog  Work in teams (2 to 3 students) to recreate the html page depicted in the image below.
+ The files for this lab can be found in the following folder: starter_code/relaxr_blog
+  </description>
     </item>
     
     <item>
@@ -593,20 +137,11 @@ body {
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/05-css-positioning-and-colors/homework/</guid>
-      <description>
-
-&lt;h2 id=&#34;homework-assignment-startup-matchmaker&#34;&gt;Homework Assignment - Startup Matchmaker&lt;/h2&gt;
-
-&lt;p&gt;Directions:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Fork the following respository: &lt;a href=&#34;https://github.com/FEWD20170829/homework-02-startup-matchmaker&#34;&gt;Homework #2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Review the assignment &lt;a href=&#34;https://github.com/FEWD20170829/homework-02-startup-matchmaker/blob/master/README.md&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Use process covered in the &lt;a href=&#34;https://fewd20170829.github.io/00-dev-tools-github/github-tutorial&#34;&gt;Git/Github Tutorial&lt;/a&gt; to submit your assignment&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description> Homework Assignment - Startup Matchmaker Directions:
+ Fork the following respository: Homework #2
+ Review the assignment here
+ Use process covered in the Git/Github Tutorial to submit your assignment
+  </description>
     </item>
     
   </channel>

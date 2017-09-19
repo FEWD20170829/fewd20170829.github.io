@@ -37,6 +37,11 @@
   </url>
   
   <url>
+    <loc>https://fewd20170829.github.io/06-flexbox/objectives/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fewd20170829.github.io/00-dev-tools-github/git-overview/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
@@ -44,6 +49,11 @@
   <url>
     <loc>https://fewd20170829.github.io/01-html-basics/html-tag-anatomy/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170829.github.io/06-flexbox/agenda/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
@@ -82,37 +92,37 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/06-intro-to-programming/objectives/</loc>
+    <loc>https://fewd20170829.github.io/06-flexbox/lab-relaxr/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/objectives/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/objectives/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/objectives/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/objectives/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/objectives/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/objectives/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/10-javascript-lab/objectives/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/objectives/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/objectives/</loc>
+    <loc>https://fewd20170829.github.io/11-javascript-lab/objectives/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/objectives/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/objectives/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -177,37 +187,32 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/06-intro-to-programming/agenda/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/agenda/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/agenda/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/agenda/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/agenda/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/agenda/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/agenda/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/agenda/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/10-javascript-lab/agenda/</loc>
+    <loc>https://fewd20170829.github.io/11-javascript-lab/agenda/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/agenda/</loc>
-    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/agenda/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/agenda/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -242,7 +247,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/last-class-review/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/last-class-review/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -262,7 +267,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/array-overview/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/array-overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -272,22 +277,22 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/code-along-1/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/code-along-1/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/console-log/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/console-log/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/final-projects/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/final-projects/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/flexbox-overview/</loc>
+    <loc>https://fewd20170829.github.io/06-flexbox/flexbox-overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -302,12 +307,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/last-class-review/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/last-class-review/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/10-javascript-lab/last-class-review/</loc>
+    <loc>https://fewd20170829.github.io/11-javascript-lab/last-class-review/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -317,12 +322,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/variables/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/variables/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/06-intro-to-programming/what-is-programming/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/what-is-programming/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -337,7 +342,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/data-types/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/data-types/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -352,32 +357,32 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/flexbox-terminology/</loc>
+    <loc>https://fewd20170829.github.io/06-flexbox/flexbox-terminology/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/function-overview/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/function-overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/10-javascript-lab/lab-overview/</loc>
+    <loc>https://fewd20170829.github.io/11-javascript-lab/lab-overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/looping-through-arrays/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/looping-through-arrays/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/programming-protips/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/programming-protips/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/06-intro-to-programming/pseudocode/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/pseudocode/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -392,12 +397,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/arithmetic-operators/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/arithmetic-operators/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/code-along/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/code-along/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -407,22 +412,22 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/declaring-functions/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/declaring-functions/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/flex-container-properties/</loc>
+    <loc>https://fewd20170829.github.io/06-flexbox/flex-container-properties/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/dom-intro/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/dom-intro/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/10-javascript-lab/milestone-1/</loc>
+    <loc>https://fewd20170829.github.io/11-javascript-lab/milestone-1/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -447,12 +452,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/calling-functions/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/calling-functions/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/06-intro-to-programming/class-exercise/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/class-exercise/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -472,7 +477,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/code-along-2/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/code-along-2/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -482,7 +487,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/flex-items-properties/</loc>
+    <loc>https://fewd20170829.github.io/06-flexbox/flex-items-properties/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -492,12 +497,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/jquery-intro/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/jquery-intro/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/10-javascript-lab/milestone-2/</loc>
+    <loc>https://fewd20170829.github.io/11-javascript-lab/milestone-2/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -537,27 +542,27 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/this/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/this/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/adding-jquery/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/adding-jquery/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/comparison-operators/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/comparison-operators/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/exercise/</loc>
+    <loc>https://fewd20170829.github.io/06-flexbox/exercise/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/flexbox-with-floats/</loc>
+    <loc>https://fewd20170829.github.io/06-flexbox/flexbox-with-floats/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -567,7 +572,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/06-intro-to-programming/group-exercise/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/group-exercise/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -577,7 +582,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/10-javascript-lab/milestone-3/</loc>
+    <loc>https://fewd20170829.github.io/11-javascript-lab/milestone-3/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -587,7 +592,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/returning-values-from-functions/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/returning-values-from-functions/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -607,12 +612,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/dollar-sign-function/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/dollar-sign-function/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/10-javascript-lab/bonus-milestone/</loc>
+    <loc>https://fewd20170829.github.io/11-javascript-lab/bonus-milestone/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -622,22 +627,22 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/code-along/</loc>
+    <loc>https://fewd20170829.github.io/06-flexbox/code-along/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/06-intro-to-programming/javascript-overview/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/javascript-overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/lab/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/logical-operators/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/logical-operators/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -652,7 +657,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/working-with-parameters/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/working-with-parameters/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -682,7 +687,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/06-intro-to-programming/code-along/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/code-along/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -692,27 +697,27 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/conditionals/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/conditionals/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/document-ready/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/document-ready/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/10-javascript-lab/final-project-deliverable-2/</loc>
+    <loc>https://fewd20170829.github.io/11-javascript-lab/final-project-deliverable-2/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/functions-calling-other-functions/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/functions-calling-other-functions/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/lab/</loc>
+    <loc>https://fewd20170829.github.io/06-flexbox/lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -732,7 +737,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/10-javascript-lab/homework/</loc>
+    <loc>https://fewd20170829.github.io/11-javascript-lab/homework/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
   
@@ -747,22 +752,17 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/code-along-1/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/code-along-1/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/homework/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/06-intro-to-programming/lab/</loc>
-    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/jquery-in-action/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/jquery-in-action/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -792,17 +792,17 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/code-along/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/code-along/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/code-along-3/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/code-along-3/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/preventing-default-behavior-of-forms/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/preventing-default-behavior-of-forms/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -812,12 +812,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/code-along-2/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/code-along-2/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/code-along-4/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/code-along-4/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -827,7 +827,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/lab/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -837,7 +837,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/anonymous-functions/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/anonymous-functions/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -852,7 +852,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/code-along-3/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/code-along-3/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -862,7 +862,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/homework/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/homework/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
   
@@ -882,7 +882,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/final-project-deliverable-1/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/final-project-deliverable-1/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -902,7 +902,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -937,7 +937,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/</loc>
+    <loc>https://fewd20170829.github.io/06-flexbox/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -947,7 +947,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -957,17 +957,17 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/06-intro-to-programming/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/10-javascript-lab/</loc>
+    <loc>https://fewd20170829.github.io/11-javascript-lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -992,7 +992,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -1033,43 +1033,43 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/06-intro-to-programming/</loc>
+    <loc>https://fewd20170829.github.io/06-flexbox/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-jquery/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-variables-datatypes-conditionals/</loc>
+    <loc>https://fewd20170829.github.io/08-intro-to-jquery/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/09-functions/</loc>
+    <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/10-javascript-lab/</loc>
+    <loc>https://fewd20170829.github.io/10-functions/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/11-arrays-and-advanced-javascript-lab/</loc>
+    <loc>https://fewd20170829.github.io/11-javascript-lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-flexbox/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1117,8 +1117,18 @@
   </url>
   
   <url>
+    <loc>https://fewd20170829.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://fewd20170829.github.io/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170829.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

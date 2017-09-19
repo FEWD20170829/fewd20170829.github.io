@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>08-intro-to-jqueries on FEWD Course Material</title>
+    <link>https://fewd20170829.github.io/08-intro-to-jquery/</link>
+    <description>Recent content in 08-intro-to-jqueries on FEWD Course Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    
+	<atom:link href="https://fewd20170829.github.io/08-intro-to-jquery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intro to jQuery</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/</guid>
+      <description> Lesson 08 Intro to jQuery </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/objectives/</guid>
+      <description> Introduce the DOM
+ Introduce jQuery
+ Understand how jQuery is different than native javascript
+  </description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/agenda/</guid>
+      <description> Discuss Final Projects
+ Review Traffic Light exercise from last class
+ Discuss the DOM
+ Introduction to jQuery
+ Review jQuery Code Examples
+ Code Along: Color Scheme Switcher (with jQuery)
+ Code Along: FAQ
+ Lab: jQuery DOM Selector Practice
+ Homework: jQuery Traffic Light
+ Homework: Submit Final Project Ideas
+  </description>
+    </item>
+    
+    <item>
+      <title>Final Projects</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/final-projects/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/final-projects/</guid>
+      <description> Final Projects are a requirement of &amp;ldquo;course completion&amp;rdquo;
+ Only requirements are the following:
+ Use of HTML and CSS Use of &amp;ldquo;some&amp;rdquo; javascript  Project should be something that you are passionate about
+ Click here for examples of what other GA students have built
+ First deliverable will be to submit potential project ideas
+  </description>
+    </item>
+    
+    <item>
+      <title>Programming Protips</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/programming-protips/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/programming-protips/</guid>
+      <description>Practice, practice, practice
+ Use your developer console
+ Google your issues (the answer is out there!!!!)
+ Use pattern matching
+ Break things on purpose to see how they work*
+ Take a deep breath, errors are Learning Opportunities
+   *but make sure you fix them before turning in your assignments :)</description>
+    </item>
+    
+    <item>
+      <title>Intro to the DOM</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/dom-intro/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/dom-intro/</guid>
+      <description>DOM stands for Document Object Model
+ Browsers view our webpages as documents
+ Browsers represents documents in a couple of ways
+ In the browser window as html Through the DOM  The DOM is just another way that our browser represents our documents
+ We make our pages interactive by modifying the DOM
+ Javascript is a scripting language that allows us to manipulate/modify the DOM
+ Click here for a good overview of the DOM</description>
+    </item>
+    
+    <item>
+      <title>Intro to jQuery</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/jquery-intro/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/jquery-intro/</guid>
+      <description>What is jQuery?  A javascript library
+ Offers a simple way to acheive a variety of common javascript tasks
+ Consistent across all browsers
+ Does not do anything pure javascript cannot do, just does it with a more intuitive syntax
+  Benefits of jQuery?  Uses CSS selectors
+ Accomplishes more with less code
+  CSS selectors means less code // selecting an element using native/pure javascript document.</description>
+    </item>
+    
+    <item>
+      <title>Adding jQuery to your projects</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/adding-jquery/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/adding-jquery/</guid>
+      <description>There are two ways to add jQuery to your projects  download a jQuery file and store it within your project
+ Use a CDN (content delivery network)
+  Option #1 - Download jQuery file(s) &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Add jQuery by downloading jQuery file(s)&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;script src=&amp;quot;js/jquery-2.1.4.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;js/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;  Option #2 - Use a CDN (Content delivery network) &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Add jQuery using a CDN&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;script src=&amp;quot;//code.</description>
+    </item>
+    
+    <item>
+      <title>$() function</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/dollar-sign-function/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/dollar-sign-function/</guid>
+      <description> jQuery uses a function called jQuery() to find elements on the page
+ $() is shorthand for jQuery(); $() is what is used most often
+  // both of these creates a jQuery object around // the &amp;lt;p&amp;gt; element(s) // This allows you to use jQuery methods on the element jQuery(&#39;p&#39;) ==== $(&#39;p&#39;);  We&amp;rsquo;ll be using the $(selector) syntax exclusively in this class
+ </description>
+    </item>
+    
+    <item>
+      <title>Document Ready Function</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/document-ready/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/document-ready/</guid>
+      <description>jQuery must wait for a page to be loaded before it can manipulate the page&amp;rsquo;s DOM
+ jQuery provides a &amp;ldquo;document ready&amp;rdquo; function that will run once the DOM is fully loaded
+ There are two ways to express the &amp;ldquo;document ready&amp;rdquo; function for jQuery
+  Option #1: Long form syntax $(document).ready(function(){ // place your code here // jquery code must be placed inside of a document ready block })  Option #2: Short form alternative syntax $(function(){ // this is the same as the $(document).</description>
+    </item>
+    
+    <item>
+      <title>jQuery in Action</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/jquery-in-action/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/jquery-in-action/</guid>
+      <description>Here are some examples of things you can do with jQuery
+ This is not a exhaustive list (not possible)
+  Select Elements using CSS Selectors JS Bin on jsbin.com
+Getting and Setting Content using jQuery Using methods like .html(), .text() and .val() you can get (i.e. retrieve) and set content on your pages
+// get the text content stored in an element $(&#39;p.intro&#39;).text(); // set the content to another value $(&#39;p.</description>
+    </item>
+    
+    <item>
+      <title>Code Along</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/code-along/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/code-along/</guid>
+      <description> Code Along: Color Switcher using jQuery  Using Sublime, open the folder called color_scheme_switcher_jquery (found within the starter_code) folder
+ During this exercise, we&amp;rsquo;ll be doing the following:
+ We&amp;rsquo;ll use jQuery (instead of native javascript) to get the color scheme switcher project working   </description>
+    </item>
+    
+    <item>
+      <title>Lab</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/lab/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/lab/</guid>
+      <description> Lab: jQuery DOM Selector Practice  Using Sublime, open the folder called jquery_dom_selector_practice (found within the starter_code) folder
+ Instructions
+ Follow the instructions specified in the exercise.js file   </description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/homework/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/homework/</guid>
+      <description> Homework Assignment - jQuery Traffic Light Directions:
+1) Fork the following respository:
+Homework #3
+ Review the assignment here
+ Use process covered in the Git/Github Tutorial to submit your assignment
+  </description>
+    </item>
+    
+    <item>
+      <title>Final Project Deliverable #1</title>
+      <link>https://fewd20170829.github.io/08-intro-to-jquery/final-project-deliverable-1/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/08-intro-to-jquery/final-project-deliverable-1/</guid>
+      <description> Final Project Deliverable #1 (Initial project proposals)  Submit a list of at least 3 final project ideas to me via direct message on Slack (Due Monday February 13th)
+ I will meet with each of you next week to discuss your ideas
+  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,2231 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.20.7" />
+    <meta name="description" content="">
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Working with Parameters</title>
+    <link href="https://fewd20170829.github.io/css/nucleus.css" rel="stylesheet">
+    <link href="https://fewd20170829.github.io/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fewd20170829.github.io/css/hybrid.css" rel="stylesheet">
+    <link href="https://fewd20170829.github.io/css/featherlight.min.css" rel="stylesheet">
+    <link href="https://fewd20170829.github.io/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="https://fewd20170829.github.io/css/horsey.css" rel="stylesheet">
+    <link href="https://fewd20170829.github.io/css/theme.css" rel="stylesheet">
+    <link href="https://fewd20170829.github.io/css/hugo-theme.css" rel="stylesheet">
+    <script src="https://fewd20170829.github.io/js/jquery-2.x.min.js"></script>
+    <style type="text/css">:root #header + #content > #left > #rlblock_left
+    {display:none !important;}</style>
+    
+
+  </head>
+  <body class="" data-url="/10-functions/working-with-parameters/">
+    <nav id="sidebar">
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://fewd20170829.github.io/00-dev-tools-github">
+
+<svg id="grav-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="100%" height="100%"  viewBox="0 0 285.1 69.9" xml:space="preserve">
+<g>
+	<path d="M35,0c9.6,0,17.9,3.4,24.7,10.3c6.8,6.8,10.3,15,10.3,24.7c0,9.7-3.4,17.9-10.3,24.7c-6.8,6.8-15,10.3-24.7,10.3
+		c-9.7,0-17.9-3.4-24.7-10.3C3.4,52.8,0,44.6,0,34.9c0-9.6,3.4-17.9,10.3-24.7C17.1,3.4,25.3,0,35,0z M22.3,63.7
+		c0.3-7.4,0.3-14.7,0-22.1c-2.1-0.4-4-0.4-5.9,0c-0.2,0.8-0.2,2.5-0.1,4.9c0.1,2.3,0,3.9-0.3,4.8c-1.7-0.6-2.7-2.1-3.1-4.6
+		c-0.1-0.7-0.1-3.3-0.1-8c0-14.5-0.1-23-0.3-25.6c-3.6,4.1-5.6,7-5.9,8.5v10.9c0,4.5,0.1,8.1,0.2,10.9c0,0.4,0,1.3-0.1,2.8
+		c-0.1,1.2,0,2.1,0.1,2.6c0.1,0.6,1.1,2.1,2.8,4.7C13.2,58.7,17.5,62.2,22.3,63.7z M44.6,65.4c0.3-5,0.2-12.9-0.1-23.6
+		c-2.1-0.3-4.1-0.3-5.9,0c-0.2,2-0.2,5.1-0.1,9.5c0.1,4.3,0,7.5-0.1,9.5c-2.9,0.4-5,0.3-6.2-0.1c-0.2-5.6-0.2-15.2-0.1-28.7
+		c0.1-12.4,0-21.8-0.3-28.3c-2.4,0.1-4.3,0.6-5.7,1.3c-0.1,7.7-0.2,17.7-0.1,30.1c0,16.5,0,26.6,0,30.3c2.3,1.1,5.4,1.7,9.4,1.7
+		C38.9,66.9,42.1,66.4,44.6,65.4z M48.1,64.1c9.7-4.6,15.7-12,18-22.2c-1.8-0.2-3.8-0.3-6.1-0.3c-1.6,3.9-2.6,6.3-3.2,7.2
+		c-1.1,1.7-2,2.5-2.7,2.5C54,46,54,39.1,54,30.5c0-11.5,0-18.4,0-20.9c-1.4-1.4-3.3-2.5-5.7-3.4C48.1,6.3,48,6.4,48,6.7
+		c0,3.5,0,13.1,0,28.8C47.9,47.2,48,56.8,48.1,64.1z"/>
+</g>
+<g>
+	<path d="M116.6,51.3h-29c-0.5,0-0.9-0.1-1.3-0.2c-0.4-0.2-0.7-0.4-1-0.7c-0.3-0.3-0.5-0.6-0.7-1c-0.2-0.4-0.2-0.8-0.2-1.3V16.3h6.3
+		V45h25.8V51.3z"/>
+	<path d="M154.8,51.3h-22.9c-0.9,0-1.8-0.2-2.9-0.5c-1-0.3-2-0.8-2.9-1.5c-0.9-0.7-1.6-1.6-2.2-2.8c-0.6-1.1-0.9-2.5-0.9-4.2V19.5
+		c0-0.4,0.1-0.9,0.2-1.2c0.2-0.4,0.4-0.7,0.7-1c0.3-0.3,0.6-0.5,1-0.7c0.4-0.2,0.8-0.2,1.3-0.2h28.6v6.3h-25.4v19.8
+		c0,0.8,0.2,1.5,0.7,1.9s1.1,0.7,1.9,0.7h22.9V51.3z M151.9,37h-20v-6.4h20V37z"/>
+	<path d="M197.3,51.3H191v-8.6h-22.3v8.6h-6.3V33.8c0-2.6,0.4-4.9,1.3-7.1s2.1-4,3.7-5.5c1.6-1.5,3.4-2.8,5.5-3.6
+		c2.1-0.9,4.5-1.3,7-1.3h14.3c0.4,0,0.9,0.1,1.2,0.2c0.4,0.2,0.7,0.4,1,0.7s0.5,0.6,0.7,1c0.2,0.4,0.2,0.8,0.2,1.2V51.3z
+		 M168.7,36.4H191V22.6h-11.2c-0.2,0-0.6,0-1.2,0.1c-0.6,0.1-1.4,0.2-2.2,0.4c-0.8,0.2-1.7,0.6-2.6,1c-0.9,0.5-1.8,1.1-2.5,2
+		c-0.8,0.8-1.4,1.9-1.9,3.1c-0.5,1.2-0.7,2.8-0.7,4.5V36.4z"/>
+	<path d="M241.7,28.1c0,1.4-0.2,2.7-0.5,3.9c-0.4,1.1-0.8,2.1-1.5,3c-0.6,0.9-1.3,1.6-2.1,2.2c-0.8,0.6-1.6,1.1-2.5,1.5
+		c-0.9,0.4-1.8,0.7-2.6,0.9c-0.9,0.2-1.7,0.3-2.5,0.3l13.3,11.5h-9.8l-13.2-11.5h-4.6v-6.3H230c0.8-0.1,1.5-0.2,2.2-0.5
+		c0.7-0.3,1.2-0.6,1.7-1.1c0.5-0.5,0.9-1,1.1-1.6c0.3-0.6,0.4-1.4,0.4-2.2v-4c0-0.4,0-0.6-0.1-0.8c-0.1-0.2-0.2-0.3-0.3-0.4
+		c-0.1-0.1-0.3-0.1-0.4-0.2c-0.2,0-0.3,0-0.4,0h-20.9v28.7h-6.3V19.5c0-0.4,0.1-0.9,0.2-1.2c0.2-0.4,0.4-0.7,0.7-1
+		c0.3-0.3,0.6-0.5,1-0.7c0.4-0.2,0.8-0.2,1.3-0.2H234c1.4,0,2.6,0.3,3.6,0.8s1.8,1.2,2.4,1.9c0.6,0.8,1,1.6,1.3,2.5
+		c0.3,0.9,0.4,1.7,0.4,2.5V28.1z"/>
+	<path d="M285.1,48.6c0,0.5-0.1,0.9-0.3,1.3c-0.2,0.4-0.4,0.7-0.7,1c-0.3,0.3-0.6,0.5-1,0.7c-0.4,0.2-0.8,0.2-1.2,0.2
+		c-0.4,0-0.8-0.1-1.2-0.2c-0.4-0.1-0.8-0.4-1.1-0.7l-23.2-24.2v24.7h-6.3V19c0-0.7,0.2-1.2,0.5-1.8c0.4-0.5,0.8-0.9,1.4-1.2
+		c0.6-0.2,1.2-0.3,1.9-0.2s1.2,0.4,1.6,0.9l23.2,24.2V16.3h6.3V48.6z"/>
+</g>
+</svg>
+
+</a>
+
+    </div>
+    
+</div>
+
+
+  <div class="highlightable">
+    <ul class="topics">
+      
+      
+        
+      
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/00-dev-tools-github/">
+        <a href="/00-dev-tools-github/">
+          <span>
+            
+              <b>00 </b>
+            
+             Dev Tools, Git &amp; Github
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/00-dev-tools-github/objectives/">
+              <a href="/00-dev-tools-github/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/00-dev-tools-github/agenda/">
+              <a href="/00-dev-tools-github/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/00-dev-tools-github/tools/">
+              <a href="/00-dev-tools-github/tools/">
+                <span>Tools     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/00-dev-tools-github/git-overview/">
+              <a href="/00-dev-tools-github/git-overview/">
+                <span>Git Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/00-dev-tools-github/github-tutorial/">
+              <a href="/00-dev-tools-github/github-tutorial/">
+                <span>Git Tutorial     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/01-html-basics/">
+        <a href="/01-html-basics/">
+          <span>
+            
+              <b>01 </b>
+            
+             HTML Basics
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/01-html-basics/objectives/">
+              <a href="/01-html-basics/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/01-html-basics/agenda/">
+              <a href="/01-html-basics/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/01-html-basics/html-structure/">
+              <a href="/01-html-basics/html-structure/">
+                <span>HTML Structure     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/01-html-basics/html-tag-anatomy/">
+              <a href="/01-html-basics/html-tag-anatomy/">
+                <span>HTML Tag Anatomy     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/01-html-basics/html-attributes/">
+              <a href="/01-html-basics/html-attributes/">
+                <span>HTML Attributes     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/01-html-basics/tag-overview/">
+              <a href="/01-html-basics/tag-overview/">
+                <span>Tag Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/01-html-basics/code-along/">
+              <a href="/01-html-basics/code-along/">
+                <span>Code Along     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/01-html-basics/lab/">
+              <a href="/01-html-basics/lab/">
+                <span>Lab     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/02-css-basics/">
+        <a href="/02-css-basics/">
+          <span>
+            
+              <b>02 </b>
+            
+             CSS Basics
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/02-css-basics/objectives/">
+              <a href="/02-css-basics/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/02-css-basics/agenda/">
+              <a href="/02-css-basics/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/02-css-basics/html-review-exercise/">
+              <a href="/02-css-basics/html-review-exercise/">
+                <span>Exercise - HTML Review     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/02-css-basics/relative-paths/">
+              <a href="/02-css-basics/relative-paths/">
+                <span>Relative Paths     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/02-css-basics/css-intro/">
+              <a href="/02-css-basics/css-intro/">
+                <span>Intro to CSS     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/02-css-basics/code-along/">
+              <a href="/02-css-basics/code-along/">
+                <span>Code Along     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/02-css-basics/lab/">
+              <a href="/02-css-basics/lab/">
+                <span>Lab     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/03-css-selectors-box-model/">
+        <a href="/03-css-selectors-box-model/">
+          <span>
+            
+              <b>03 </b>
+            
+             CSS Selectors and CSS Box Model
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/03-css-selectors-box-model/objectives/">
+              <a href="/03-css-selectors-box-model/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/03-css-selectors-box-model/agenda/">
+              <a href="/03-css-selectors-box-model/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/03-css-selectors-box-model/css-intro-review/">
+              <a href="/03-css-selectors-box-model/css-intro-review/">
+                <span>CSS Intro Review     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/03-css-selectors-box-model/classes-and-ids/">
+              <a href="/03-css-selectors-box-model/classes-and-ids/">
+                <span>Classes and Ids     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/03-css-selectors-box-model/css-selectors/">
+              <a href="/03-css-selectors-box-model/css-selectors/">
+                <span>CSS Selectors     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/03-css-selectors-box-model/css-selectors-examples/">
+              <a href="/03-css-selectors-box-model/css-selectors-examples/">
+                <span>CSS Selectors Examples     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/03-css-selectors-box-model/css-cascading-guidelines/">
+              <a href="/03-css-selectors-box-model/css-cascading-guidelines/">
+                <span>CSS Cascading Guidelines     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/03-css-selectors-box-model/box-model/">
+              <a href="/03-css-selectors-box-model/box-model/">
+                <span>CSS Box Model     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/03-css-selectors-box-model/code-along/">
+              <a href="/03-css-selectors-box-model/code-along/">
+                <span>Code Along     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/03-css-selectors-box-model/lab/">
+              <a href="/03-css-selectors-box-model/lab/">
+                <span>Lab     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/03-css-selectors-box-model/homework/">
+              <a href="/03-css-selectors-box-model/homework/">
+                <span>Homework     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/04-page-layout/">
+        <a href="/04-page-layout/">
+          <span>
+            
+              <b>04 </b>
+            
+             Page Layout
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/04-page-layout/objectives/">
+              <a href="/04-page-layout/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/04-page-layout/agenda/">
+              <a href="/04-page-layout/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/04-page-layout/last-class-review/">
+              <a href="/04-page-layout/last-class-review/">
+                <span>Last Class Review     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/04-page-layout/code-along-1/">
+              <a href="/04-page-layout/code-along-1/">
+                <span>Code Along #1     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/04-page-layout/block-inline-elements/">
+              <a href="/04-page-layout/block-inline-elements/">
+                <span>Block and Inline Elements     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/04-page-layout/containing-elements/">
+              <a href="/04-page-layout/containing-elements/">
+                <span>Containing Elements     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/04-page-layout/semantic-elements/">
+              <a href="/04-page-layout/semantic-elements/">
+                <span>Semantic Elements     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/04-page-layout/css-floats/">
+              <a href="/04-page-layout/css-floats/">
+                <span>CSS Floats     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/04-page-layout/code-along-2/">
+              <a href="/04-page-layout/code-along-2/">
+                <span>Code Along #2     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/04-page-layout/lab/">
+              <a href="/04-page-layout/lab/">
+                <span>Lab     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/05-css-positioning-and-colors/">
+        <a href="/05-css-positioning-and-colors/">
+          <span>
+            
+              <b>05 </b>
+            
+             CSS Positioning and CSS Colors
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/05-css-positioning-and-colors/objectives/">
+              <a href="/05-css-positioning-and-colors/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/05-css-positioning-and-colors/agenda/">
+              <a href="/05-css-positioning-and-colors/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/05-css-positioning-and-colors/last-class-review/">
+              <a href="/05-css-positioning-and-colors/last-class-review/">
+                <span>Last Class Review     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/05-css-positioning-and-colors/layout-challenge-review/">
+              <a href="/05-css-positioning-and-colors/layout-challenge-review/">
+                <span>Layout Challenge Review     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/05-css-positioning-and-colors/css-colors/">
+              <a href="/05-css-positioning-and-colors/css-colors/">
+                <span>CSS Colors     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/05-css-positioning-and-colors/css-positioning/">
+              <a href="/05-css-positioning-and-colors/css-positioning/">
+                <span>CSS Positioning     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/05-css-positioning-and-colors/background-images/">
+              <a href="/05-css-positioning-and-colors/background-images/">
+                <span>Background Images     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/05-css-positioning-and-colors/code-along/">
+              <a href="/05-css-positioning-and-colors/code-along/">
+                <span>Code Along     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/05-css-positioning-and-colors/lab/">
+              <a href="/05-css-positioning-and-colors/lab/">
+                <span>Lab     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/05-css-positioning-and-colors/homework/">
+              <a href="/05-css-positioning-and-colors/homework/">
+                <span>Homework     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/06-flexbox/">
+        <a href="/06-flexbox/">
+          <span>
+            
+              <b>06 </b>
+            
+             Flexbox
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/06-flexbox/objectives/">
+              <a href="/06-flexbox/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/06-flexbox/agenda/">
+              <a href="/06-flexbox/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/06-flexbox/lab-relaxr/">
+              <a href="/06-flexbox/lab-relaxr/">
+                <span>Lab: Relaxr Blog     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/06-flexbox/flexbox-overview/">
+              <a href="/06-flexbox/flexbox-overview/">
+                <span>Flexbox Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/06-flexbox/flexbox-terminology/">
+              <a href="/06-flexbox/flexbox-terminology/">
+                <span>Flexbox Terminology     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/06-flexbox/flex-container-properties/">
+              <a href="/06-flexbox/flex-container-properties/">
+                <span>Flex Container Properties     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/06-flexbox/flex-items-properties/">
+              <a href="/06-flexbox/flex-items-properties/">
+                <span>Flex Items Properties     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/06-flexbox/exercise/">
+              <a href="/06-flexbox/exercise/">
+                <span>Exercise     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/06-flexbox/flexbox-with-floats/">
+              <a href="/06-flexbox/flexbox-with-floats/">
+                <span>Flexbox with Floats     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/06-flexbox/code-along/">
+              <a href="/06-flexbox/code-along/">
+                <span>Code Along     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/06-flexbox/lab/">
+              <a href="/06-flexbox/lab/">
+                <span>Lab     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/07-intro-to-programming/">
+        <a href="/07-intro-to-programming/">
+          <span>
+            
+              <b>07 </b>
+            
+             Intro to Programming
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/07-intro-to-programming/objectives/">
+              <a href="/07-intro-to-programming/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/07-intro-to-programming/agenda/">
+              <a href="/07-intro-to-programming/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/07-intro-to-programming/what-is-programming/">
+              <a href="/07-intro-to-programming/what-is-programming/">
+                <span>What is Programming?     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/07-intro-to-programming/pseudocode/">
+              <a href="/07-intro-to-programming/pseudocode/">
+                <span>Pseudocode     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/07-intro-to-programming/class-exercise/">
+              <a href="/07-intro-to-programming/class-exercise/">
+                <span>Class Exercise     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/07-intro-to-programming/group-exercise/">
+              <a href="/07-intro-to-programming/group-exercise/">
+                <span>Group Exercise     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/07-intro-to-programming/javascript-overview/">
+              <a href="/07-intro-to-programming/javascript-overview/">
+                <span>Javascript Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/07-intro-to-programming/code-along/">
+              <a href="/07-intro-to-programming/code-along/">
+                <span>Code Along     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/07-intro-to-programming/lab/">
+              <a href="/07-intro-to-programming/lab/">
+                <span>Lab     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/08-intro-to-jquery/">
+        <a href="/08-intro-to-jquery/">
+          <span>
+            
+              <b>08 </b>
+            
+             Intro to jQuery
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/objectives/">
+              <a href="/08-intro-to-jquery/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/agenda/">
+              <a href="/08-intro-to-jquery/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/final-projects/">
+              <a href="/08-intro-to-jquery/final-projects/">
+                <span>Final Projects     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/programming-protips/">
+              <a href="/08-intro-to-jquery/programming-protips/">
+                <span>Programming Protips     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/dom-intro/">
+              <a href="/08-intro-to-jquery/dom-intro/">
+                <span>Intro to the DOM     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/jquery-intro/">
+              <a href="/08-intro-to-jquery/jquery-intro/">
+                <span>Intro to jQuery     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/adding-jquery/">
+              <a href="/08-intro-to-jquery/adding-jquery/">
+                <span>Adding jQuery to your projects     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/dollar-sign-function/">
+              <a href="/08-intro-to-jquery/dollar-sign-function/">
+                <span>$() function     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/document-ready/">
+              <a href="/08-intro-to-jquery/document-ready/">
+                <span>Document Ready Function     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/jquery-in-action/">
+              <a href="/08-intro-to-jquery/jquery-in-action/">
+                <span>jQuery in Action     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/code-along/">
+              <a href="/08-intro-to-jquery/code-along/">
+                <span>Code Along     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/lab/">
+              <a href="/08-intro-to-jquery/lab/">
+                <span>Lab     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/homework/">
+              <a href="/08-intro-to-jquery/homework/">
+                <span>Homework     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/08-intro-to-jquery/final-project-deliverable-1/">
+              <a href="/08-intro-to-jquery/final-project-deliverable-1/">
+                <span>Final Project Deliverable #1     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/09-variables-datatypes-conditionals/">
+        <a href="/09-variables-datatypes-conditionals/">
+          <span>
+            
+              <b>09 </b>
+            
+             Variables, Datatypes &amp; Conditionals
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/objectives/">
+              <a href="/09-variables-datatypes-conditionals/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/agenda/">
+              <a href="/09-variables-datatypes-conditionals/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/last-class-review/">
+              <a href="/09-variables-datatypes-conditionals/last-class-review/">
+                <span>Last Class Review     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/code-along-1/">
+              <a href="/09-variables-datatypes-conditionals/code-along-1/">
+                <span>Code Along #1     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/console-log/">
+              <a href="/09-variables-datatypes-conditionals/console-log/">
+                <span>Console Log     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/variables/">
+              <a href="/09-variables-datatypes-conditionals/variables/">
+                <span>Variables     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/data-types/">
+              <a href="/09-variables-datatypes-conditionals/data-types/">
+                <span>Data Types     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/arithmetic-operators/">
+              <a href="/09-variables-datatypes-conditionals/arithmetic-operators/">
+                <span>Arithmetic Operators     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/code-along-2/">
+              <a href="/09-variables-datatypes-conditionals/code-along-2/">
+                <span>Code Along #2     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/comparison-operators/">
+              <a href="/09-variables-datatypes-conditionals/comparison-operators/">
+                <span>Comparison Operators     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/logical-operators/">
+              <a href="/09-variables-datatypes-conditionals/logical-operators/">
+                <span>Logical Operators     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/conditionals/">
+              <a href="/09-variables-datatypes-conditionals/conditionals/">
+                <span>Conditionals     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/code-along-3/">
+              <a href="/09-variables-datatypes-conditionals/code-along-3/">
+                <span>Code Along #3     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/09-variables-datatypes-conditionals/code-along-4/">
+              <a href="/09-variables-datatypes-conditionals/code-along-4/">
+                <span>Code Along #4     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  parent" data-nav-id="/10-functions/">
+        <a href="/10-functions/">
+          <span>
+            
+              <b>10 </b>
+            
+             Functions
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/objectives/">
+              <a href="/10-functions/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/agenda/">
+              <a href="/10-functions/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/last-class-review/">
+              <a href="/10-functions/last-class-review/">
+                <span>Last Class Review     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/function-overview/">
+              <a href="/10-functions/function-overview/">
+                <span>Function Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/declaring-functions/">
+              <a href="/10-functions/declaring-functions/">
+                <span>Declaring Functions     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/calling-functions/">
+              <a href="/10-functions/calling-functions/">
+                <span>Calling Functions     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/returning-values-from-functions/">
+              <a href="/10-functions/returning-values-from-functions/">
+                <span>Returning Values from Functions     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item active" data-nav-id="/10-functions/working-with-parameters/">
+              <a href="/10-functions/working-with-parameters/">
+                <span>Working with Parameters     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/functions-calling-other-functions/">
+              <a href="/10-functions/functions-calling-other-functions/">
+                <span>Functions Calling Other Functions     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/code-along-1/">
+              <a href="/10-functions/code-along-1/">
+                <span>Code Along #1     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/preventing-default-behavior-of-forms/">
+              <a href="/10-functions/preventing-default-behavior-of-forms/">
+                <span>Preventing Default Behavior of Forms     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/code-along-2/">
+              <a href="/10-functions/code-along-2/">
+                <span>Code Along #2     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/anonymous-functions/">
+              <a href="/10-functions/anonymous-functions/">
+                <span>Anonymous Functions     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/10-functions/code-along-3/">
+              <a href="/10-functions/code-along-3/">
+                <span>Code Along #3     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/11-javascript-lab/">
+        <a href="/11-javascript-lab/">
+          <span>
+            
+              <b>11 </b>
+            
+             Javascript Lab
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/11-javascript-lab/objectives/">
+              <a href="/11-javascript-lab/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/11-javascript-lab/agenda/">
+              <a href="/11-javascript-lab/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/11-javascript-lab/last-class-review/">
+              <a href="/11-javascript-lab/last-class-review/">
+                <span>Last Class Review     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/11-javascript-lab/lab-overview/">
+              <a href="/11-javascript-lab/lab-overview/">
+                <span>Lab Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/11-javascript-lab/milestone-1/">
+              <a href="/11-javascript-lab/milestone-1/">
+                <span>Milestone #1     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/11-javascript-lab/milestone-2/">
+              <a href="/11-javascript-lab/milestone-2/">
+                <span>Milestone #2     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/11-javascript-lab/milestone-3/">
+              <a href="/11-javascript-lab/milestone-3/">
+                <span>Milestone #3     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/11-javascript-lab/bonus-milestone/">
+              <a href="/11-javascript-lab/bonus-milestone/">
+                <span>Bonus Milestone     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/11-javascript-lab/final-project-deliverable-2/">
+              <a href="/11-javascript-lab/final-project-deliverable-2/">
+                <span>Final Project Deliverable #2     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/11-javascript-lab/homework/">
+              <a href="/11-javascript-lab/homework/">
+                <span>Homework     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/12-arrays-and-advanced-javascript-lab/">
+        <a href="/12-arrays-and-advanced-javascript-lab/">
+          <span>
+            
+              <b>12 </b>
+            
+             Arrays &amp; Advanced Javascript Lab
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/12-arrays-and-advanced-javascript-lab/objectives/">
+              <a href="/12-arrays-and-advanced-javascript-lab/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/12-arrays-and-advanced-javascript-lab/agenda/">
+              <a href="/12-arrays-and-advanced-javascript-lab/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/12-arrays-and-advanced-javascript-lab/array-overview/">
+              <a href="/12-arrays-and-advanced-javascript-lab/array-overview/">
+                <span>Array Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/12-arrays-and-advanced-javascript-lab/looping-through-arrays/">
+              <a href="/12-arrays-and-advanced-javascript-lab/looping-through-arrays/">
+                <span>Looping through Arrays     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/12-arrays-and-advanced-javascript-lab/code-along/">
+              <a href="/12-arrays-and-advanced-javascript-lab/code-along/">
+                <span>Code Along     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/12-arrays-and-advanced-javascript-lab/this/">
+              <a href="/12-arrays-and-advanced-javascript-lab/this/">
+                <span>$(this)     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/12-arrays-and-advanced-javascript-lab/lab/">
+              <a href="/12-arrays-and-advanced-javascript-lab/lab/">
+                <span>Lab     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/13-responsive-design/">
+        <a href="/13-responsive-design/">
+          <span>
+            
+              <b>13 </b>
+            
+             Responsive Design
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/objectives/">
+              <a href="/13-responsive-design/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/agenda/">
+              <a href="/13-responsive-design/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/last-class-review/">
+              <a href="/13-responsive-design/last-class-review/">
+                <span>Last Class Review     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/fixed-width-layouts/">
+              <a href="/13-responsive-design/fixed-width-layouts/">
+                <span>Fixed Width Layout     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/mobile-websites/">
+              <a href="/13-responsive-design/mobile-websites/">
+                <span>Mobile Websites     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/responsive-design-overview/">
+              <a href="/13-responsive-design/responsive-design-overview/">
+                <span>Responsive Design Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/viewport-meta-tag/">
+              <a href="/13-responsive-design/viewport-meta-tag/">
+                <span>Viewport Meta Tag     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/media-query-overview/">
+              <a href="/13-responsive-design/media-query-overview/">
+                <span>Media Query Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/media-query-parts/">
+              <a href="/13-responsive-design/media-query-parts/">
+                <span>Media Query Parts     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/breakpoints/">
+              <a href="/13-responsive-design/breakpoints/">
+                <span>Breakpoints     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/progressive-enhancement/">
+              <a href="/13-responsive-design/progressive-enhancement/">
+                <span>Progressive Enhancement     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/grid-overview/">
+              <a href="/13-responsive-design/grid-overview/">
+                <span>Grids     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/responsive-grid-example/">
+              <a href="/13-responsive-design/responsive-grid-example/">
+                <span>Responsive Grid Example     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/code-along/">
+              <a href="/13-responsive-design/code-along/">
+                <span>Code Along     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/ems-rems/">
+              <a href="/13-responsive-design/ems-rems/">
+                <span>EMS / REMS     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/responsive-images/">
+              <a href="/13-responsive-design/responsive-images/">
+                <span>Responsive Images     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/13-responsive-design/rules-of-thumb/">
+              <a href="/13-responsive-design/rules-of-thumb/">
+                <span>Rules of Thumb     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/14-responsive-design-lab/">
+        <a href="/14-responsive-design-lab/">
+          <span>
+            
+              <b>14 </b>
+            
+             Responsive Design Lab
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/14-responsive-design-lab/objectives/">
+              <a href="/14-responsive-design-lab/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/14-responsive-design-lab/agenda/">
+              <a href="/14-responsive-design-lab/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/14-responsive-design-lab/lab-overview/">
+              <a href="/14-responsive-design-lab/lab-overview/">
+                <span>Lab Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/14-responsive-design-lab/milestone-1/">
+              <a href="/14-responsive-design-lab/milestone-1/">
+                <span>Milestone #1     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/14-responsive-design-lab/milestone-2/">
+              <a href="/14-responsive-design-lab/milestone-2/">
+                <span>Milestone #2     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/14-responsive-design-lab/milestone-3/">
+              <a href="/14-responsive-design-lab/milestone-3/">
+                <span>Milestone #3     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/14-responsive-design-lab/bonus-milestone/">
+              <a href="/14-responsive-design-lab/bonus-milestone/">
+                <span>Bonus Milestone     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/14-responsive-design-lab/homework/">
+              <a href="/14-responsive-design-lab/homework/">
+                <span>Homework     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/15-forms/">
+        <a href="/15-forms/">
+          <span>
+            
+              <b>15 </b>
+            
+             Forms
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/15-forms/objectives/">
+              <a href="/15-forms/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/15-forms/agenda/">
+              <a href="/15-forms/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/15-forms/bootstrap-overview/">
+              <a href="/15-forms/bootstrap-overview/">
+                <span>Bootstrap Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/15-forms/bootstrap-grid/">
+              <a href="/15-forms/bootstrap-grid/">
+                <span>Bootstrap Grid     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/15-forms/code-along-1/">
+              <a href="/15-forms/code-along-1/">
+                <span>Code Along #1     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/15-forms/form-overview/">
+              <a href="/15-forms/form-overview/">
+                <span>Form Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/15-forms/form-elements/">
+              <a href="/15-forms/form-elements/">
+                <span>Form Elements     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/15-forms/styling-forms/">
+              <a href="/15-forms/styling-forms/">
+                <span>Styling Forms     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/15-forms/code-along-2/">
+              <a href="/15-forms/code-along-2/">
+                <span>Code Along #2     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/16-firebase/">
+        <a href="/16-firebase/">
+          <span>
+            
+              <b>16 </b>
+            
+             Firebase
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/16-firebase/objectives/">
+              <a href="/16-firebase/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/16-firebase/agenda/">
+              <a href="/16-firebase/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/16-firebase/json/">
+              <a href="/16-firebase/json/">
+                <span>JSON     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/16-firebase/firebase-overview/">
+              <a href="/16-firebase/firebase-overview/">
+                <span>Firebase Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/16-firebase/real-time-database/">
+              <a href="/16-firebase/real-time-database/">
+                <span>Real Time Database     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/16-firebase/code-along-1/">
+              <a href="/16-firebase/code-along-1/">
+                <span>Code Along #1     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/16-firebase/code-along-2/">
+              <a href="/16-firebase/code-along-2/">
+                <span>Code Along #2     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/17-todo-application/">
+        <a href="/17-todo-application/">
+          <span>
+            
+              <b>17 </b>
+            
+             Todo Application
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/17-todo-application/objectives/">
+              <a href="/17-todo-application/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/17-todo-application/agenda/">
+              <a href="/17-todo-application/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/17-todo-application/code-along/">
+              <a href="/17-todo-application/code-along/">
+                <span>Code Along     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/18-final-projects-lab/">
+        <a href="/18-final-projects-lab/">
+          <span>
+            
+              <b>18 </b>
+            
+             Final Projects Lab
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/18-final-projects-lab/objectives/">
+              <a href="/18-final-projects-lab/objectives/">
+                <span>Objectives     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/18-final-projects-lab/agenda/">
+              <a href="/18-final-projects-lab/agenda/">
+                <span>Agenda     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/18-final-projects-lab/code-demos/">
+              <a href="/18-final-projects-lab/code-demos/">
+                <span>Code Along     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/18-final-projects-lab/lab/">
+              <a href="/18-final-projects-lab/lab/">
+                <span>Lab     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/21-class-resources/">
+        <a href="/21-class-resources/">
+          <span>
+            
+              <b>21 </b>
+            
+             Class Resources
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/21-class-resources/videos/">
+              <a href="/21-class-resources/videos/">
+                <span>Videos     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+    </ul>
+    <hr>
+     
+    <section id="footer">
+    </section>
+  </div>
+</nav>
+
+        <section id="body">
+        <div id="overlay"></div>
+
+        <div class="padding highlightable">
+
+            <div id="top-bar">
+              
+              <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                  <span id="sidebar-toggle-span">
+                      <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                  </span>
+                
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
+                
+                
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    
+                    
+                <a href="/10-functions/" itemprop="url"><span itemprop="title">Functions</span></a> <i class="fa fa-angle-right"></i>
+                    
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                <span itemprop="title"> Working with Parameters</span>
+              </div>
+              
+                  
+              
+
+            </div>
+            
+    	        <div id="body-inner">
+                
+                <h1>Working with Parameters</h1>
+                
+
+
+
+<h2 id="declaring-functions-that-need-information">Declaring Functions that need information</h2>
+
+<p><img src="/images/10/declared_named_function_with_parameters_diagram.png" alt="inline" /></p>
+
+<ul>
+<li><p>Some functions need additional information in order to perform a specific task</p></li>
+
+<li><p>This additional information is referred to as “parameters”</p></li>
+
+<li><p>To provide parameters to a function, you specify them inside the parentheses after the parameter name</p></li>
+
+<li><p>The parameters are used like variables within the function body</p></li>
+
+<li><p>We use the “return” keyword when we want to retrieve a value from our function, in the case of the example we want to retrieve the result of the multiplying the width times the height</p></li>
+</ul>
+
+<hr />
+
+<h2 id="calling-functions-that-need-information">Calling Functions that need information</h2>
+
+<pre><code class="language-javascript">
+// Calling the getArea() function with values
+
+getArea(7, 5); // returns 35
+
+
+// Calling the getArea() function with variables
+
+var doorWidth = 2;
+var doorHeight = 8;
+
+getArea(doorWidth, doorHeight); // returns 16
+
+</code></pre>
+
+<p><a class="jsbin-embed" href="https://jsbin.com/meyovap/embed?js,console">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?3.41.0"></script></p>
+
+
+      
+      </div>
+    </div>
+
+    <div id="navigation">
+        
+        <a class="nav nav-prev" href="https://fewd20170829.github.io/10-functions/returning-values-from-functions"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="https://fewd20170829.github.io/10-functions/functions-calling-other-functions" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+    </div>
+
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://fewd20170829.github.io/js/clipboard.min.js"></script>
+    <script src="https://fewd20170829.github.io/js/perfect-scrollbar.min.js"></script>
+    <script src="https://fewd20170829.github.io/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="https://fewd20170829.github.io/js/jquery.sticky-kit.min.js"></script>
+    <script src="https://fewd20170829.github.io/js/featherlight.min.js"></script>
+    <script src="https://fewd20170829.github.io/js/html5shiv-printshiv.min.js"></script>
+    <script src="https://fewd20170829.github.io/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://fewd20170829.github.io/js/modernizr.custom.71422.js"></script>
+    <script src="https://fewd20170829.github.io/js/learn.js"></script>
+    <script src="https://fewd20170829.github.io/js/hugo-learn.js"></script>
+    
+
+  </body>
+</html>
+

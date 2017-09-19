@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>14-responsive-design-labs on FEWD Course Material</title>
-    <link>https://fewd20170829.github.io/14-responsive-design-lab/index.xml</link>
+    <link>https://fewd20170829.github.io/14-responsive-design-lab/</link>
     <description>Recent content in 14-responsive-design-labs on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    <atom:link href="https://fewd20170829.github.io/14-responsive-design-lab/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://fewd20170829.github.io/14-responsive-design-lab/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Responsive Design Lab</title>
@@ -15,12 +17,7 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/14-responsive-design-lab/</guid>
-      <description>
-
-&lt;h3 id=&#34;lesson-14&#34;&gt;Lesson 14&lt;/h3&gt;
-
-&lt;h1 id=&#34;responsive-design-lab&#34;&gt;Responsive Design Lab&lt;/h1&gt;
-</description>
+      <description> Lesson 14 Responsive Design Lab </description>
     </item>
     
     <item>
@@ -29,10 +26,7 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/14-responsive-design-lab/objectives/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Use knowledge of responsive design to turn a fixed-width site into a fully responsive site&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Use knowledge of responsive design to turn a fixed-width site into a fully responsive site  </description>
     </item>
     
     <item>
@@ -41,14 +35,10 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/14-responsive-design-lab/agenda/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Review Concepts from last class&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Lab: Startup Matchmaker - Responsive&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Final Project Checkins&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Review Concepts from last class
+ Lab: Startup Matchmaker - Responsive
+ Final Project Checkins
+  </description>
     </item>
     
     <item>
@@ -57,24 +47,7 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/14-responsive-design-lab/lab-overview/</guid>
-      <description>
-
-&lt;h2 id=&#34;lab-startup-matchmaker&#34;&gt;Lab: Startup Matchmaker&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;You have been hired to turn Startup Matchmaker into a fully responsive site&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/14/startup-matchmaker.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Update Startup Matchmaker so the homepage&amp;rsquo;s content is effectively displayed on an iPhone 7 screen&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Lab: Startup Matchmaker  You have been hired to turn Startup Matchmaker into a fully responsive site  Requirements  Update Startup Matchmaker so the homepage&amp;rsquo;s content is effectively displayed on an iPhone 7 screen  </description>
     </item>
     
     <item>
@@ -83,24 +56,12 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/14-responsive-design-lab/milestone-1/</guid>
-      <description>&lt;p&gt;Follow the steps below to complete Milestone #1:&lt;/p&gt;
-
-&lt;p&gt;In groups of four:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Sketch out your proposed layout for mobile version of the site&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Some things to think about:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Will you need to hide menus?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;What content should be featured on a narrow screen?&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Timebox: 15 minutes&lt;/p&gt;
-</description>
+      <description>Follow the steps below to complete Milestone #1:
+In groups of four:
+ Sketch out your proposed layout for mobile version of the site  Some things to think about:
+ Will you need to hide menus?
+ What content should be featured on a narrow screen?
+  Timebox: 15 minutes</description>
     </item>
     
     <item>
@@ -109,19 +70,10 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/14-responsive-design-lab/milestone-2/</guid>
-      <description>&lt;p&gt;Follow the steps below to complete Milestone #2:&lt;/p&gt;
-
-&lt;p&gt;In pairs (or groups):&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Plan out your breakpoint(s) (only one is required for this lab, but you can add more)&lt;/li&gt;
-&lt;li&gt;Optional (but highly recommended): Update existing html and css to fit existing site (wide layout) into a grid&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Timebox: 60 minutes&lt;/p&gt;
-
-&lt;p&gt;Note: While you will be working with a partner, each student should have their own copy of the project on their computers&lt;/p&gt;
-</description>
+      <description>Follow the steps below to complete Milestone #2:
+In pairs (or groups):
+ Plan out your breakpoint(s) (only one is required for this lab, but you can add more) Optional (but highly recommended): Update existing html and css to fit existing site (wide layout) into a grid  Timebox: 60 minutes
+Note: While you will be working with a partner, each student should have their own copy of the project on their computers</description>
     </item>
     
     <item>
@@ -130,18 +82,10 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/14-responsive-design-lab/milestone-3/</guid>
-      <description>&lt;p&gt;Follow the steps below to complete Milestone #3:&lt;/p&gt;
-
-&lt;p&gt;In pairs (or groups):&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Add breakpoints so that all of the content (that you&amp;rsquo;ve chosen to expose) is viewable on iPhone 7 screens&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Timebox: 30 minutes&lt;/p&gt;
-
-&lt;p&gt;Note: While you will be working with a partner, each student should have their own copy of the project on their computers&lt;/p&gt;
-</description>
+      <description>Follow the steps below to complete Milestone #3:
+In pairs (or groups):
+ Add breakpoints so that all of the content (that you&amp;rsquo;ve chosen to expose) is viewable on iPhone 7 screens  Timebox: 30 minutes
+Note: While you will be working with a partner, each student should have their own copy of the project on their computers</description>
     </item>
     
     <item>
@@ -150,16 +94,11 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/14-responsive-design-lab/bonus-milestone/</guid>
-      <description>&lt;p&gt;Follow the steps below to complete the Bonus Milestone:&lt;/p&gt;
-
-&lt;p&gt;In pairs (or groups):&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Implement a hamburger menu that will be displayed on narrow screens&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;When the user clicks on the hamburger menu, the hidden navigation items (i.e. Developers, Designers, How It Works, Our Team) should slide down&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>Follow the steps below to complete the Bonus Milestone:
+In pairs (or groups):
+ Implement a hamburger menu that will be displayed on narrow screens
+ When the user clicks on the hamburger menu, the hidden navigation items (i.e. Developers, Designers, How It Works, Our Team) should slide down
+  </description>
     </item>
     
     <item>
@@ -168,10 +107,7 @@
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/14-responsive-design-lab/homework/</guid>
-      <description>
-
-&lt;h2 id=&#34;work-on-your-final-projects-only-a-couple-weeks-left&#34;&gt;Work on your final projects - only a couple weeks left!!!&lt;/h2&gt;
-</description>
+      <description> Work on your final projects - only a couple weeks left!!! </description>
     </item>
     
   </channel>

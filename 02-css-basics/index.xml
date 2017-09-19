@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>02-css-basics on FEWD Course Material</title>
-    <link>https://fewd20170829.github.io/02-css-basics/index.xml</link>
+    <link>https://fewd20170829.github.io/02-css-basics/</link>
     <description>Recent content in 02-css-basics on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    <atom:link href="https://fewd20170829.github.io/02-css-basics/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://fewd20170829.github.io/02-css-basics/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>CSS Basics</title>
@@ -15,12 +17,7 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/02-css-basics/</guid>
-      <description>
-
-&lt;h3 id=&#34;lesson-02&#34;&gt;Lesson 02&lt;/h3&gt;
-
-&lt;h1 id=&#34;css-basics&#34;&gt;CSS Basics&lt;/h1&gt;
-</description>
+      <description> Lesson 02 CSS Basics </description>
     </item>
     
     <item>
@@ -29,14 +26,10 @@
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/02-css-basics/objectives/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Review HTML tags covered in prior class&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Learn about relative paths and how they differ from absolute paths&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Intro to css and learn how to add css to your site&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Review HTML tags covered in prior class
+ Learn about relative paths and how they differ from absolute paths
+ Intro to css and learn how to add css to your site
+  </description>
     </item>
     
     <item>
@@ -45,14 +38,10 @@
       <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/02-css-basics/agenda/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;HTML Review Exercise&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Relative Paths&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Intro to CSS&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> HTML Review Exercise
+ Relative Paths
+ Intro to CSS
+  </description>
     </item>
     
     <item>
@@ -61,21 +50,9 @@
       <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/02-css-basics/html-review-exercise/</guid>
-      <description>
-
-&lt;h3 id=&#34;what-tag-is-it&#34;&gt;What Tag is it?&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Assignment&lt;/strong&gt;: Review the image below of the html page below and identify what tags are being used.&lt;/p&gt;
-
-&lt;p&gt;Here are some tags you should look up:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;nav&lt;/li&gt;
-&lt;li&gt;hr&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/02/about_me_deliverable.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
-</description>
+      <description> What Tag is it? Assignment: Review the image below of the html page below and identify what tags are being used.
+Here are some tags you should look up:
+ nav hr  </description>
     </item>
     
     <item>
@@ -84,76 +61,10 @@
       <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/02-css-basics/relative-paths/</guid>
-      <description>
-
-&lt;h2 id=&#34;relative-paths&#34;&gt;Relative Paths&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Relative URLs can be used when linking to pages and files &lt;strong&gt;within your own website&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Shorthand way of telling the browser where to find your files.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Inform students that they have already seen this is use with the link tag when referencing a css file&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;example-project-with-multiple-folders-files&#34;&gt;Example Project with Multiple Folders/Files&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/02/folder_structure_image.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;navigating-within-the-same-folder&#34;&gt;Navigating within the Same Folder&lt;/h2&gt;
-
-&lt;p&gt;Linking from &lt;strong&gt;music index&lt;/strong&gt; page to the &lt;strong&gt;music reviews&lt;/strong&gt; page&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;reviews.html&amp;quot;&amp;gt; Music Reviews &amp;lt;/a&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;navigating-to-a-file-in-a-child-folder&#34;&gt;Navigating to a file in a Child Folder&lt;/h3&gt;
-
-&lt;p&gt;Linking from the &lt;strong&gt;homepage (top-level index.html)&lt;/strong&gt; to the &lt;strong&gt;music listings&lt;/strong&gt; page&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;music/listings.html&amp;quot;&amp;gt; Music Listings &amp;lt;/a&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;navigating-to-a-file-in-a-grandchild-folder&#34;&gt;Navigating to a file in a Grandchild Folder&lt;/h3&gt;
-
-&lt;p&gt;Linking from the &lt;strong&gt;homepage (top-level index.html)&lt;/strong&gt; to the &lt;strong&gt;dvd reviews&lt;/strong&gt; page&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;movies/dvds/reviews.html&amp;quot;&amp;gt; DVD Reviews &amp;lt;/a&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;navigating-up-to-a-file-in-a-parent-folder&#34;&gt;Navigating up to a file in a Parent Folder&lt;/h3&gt;
-
-&lt;p&gt;Linking from the &lt;strong&gt;music reviews&lt;/strong&gt; page to the &lt;strong&gt;homepage (top-level index.html)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt; Home &amp;lt;/a&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Use &lt;code&gt;../&lt;/code&gt; to move up &lt;strong&gt;exactly 1 level&lt;/strong&gt; in the folder hierarchy&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;navigating-up-to-a-file-in-a-grandparent-folder&#34;&gt;Navigating up to a file in a Grandparent Folder&lt;/h3&gt;
-
-&lt;p&gt;Linking from the &lt;strong&gt;dvd reviews&lt;/strong&gt; page to the &lt;strong&gt;homepage (top-level index.html)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;../../index.html&amp;quot;&amp;gt; Home &amp;lt;/a&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Here we used &lt;code&gt;../../&lt;/code&gt; to move up 2 levels in the folder hierarchy&lt;/p&gt;
-</description>
+      <description>Relative Paths  Relative URLs can be used when linking to pages and files within your own website.
+ Shorthand way of telling the browser where to find your files.
+ Inform students that they have already seen this is use with the link tag when referencing a css file
+  Example Project with Multiple Folders/Files Navigating within the Same Folder Linking from music index page to the music reviews page</description>
     </item>
     
     <item>
@@ -162,167 +73,10 @@
       <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/02-css-basics/css-intro/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-is-css&#34;&gt;What is CSS?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Cascading Style Sheet&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Allows you to control design of page&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;CSS allows you to create rules that specify how the content of an element should appear&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;p {
-  color: black;
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;anatomy-of-a-css-rule&#34;&gt;Anatomy of a CSS Rule&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/02/css_style_anatomy.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-p {
-  color: black;
-}
-
-
-h1, h2, h3 {
-  font-family: Arial;
-  color: #191919;
-}
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;adding-css-to-your-site&#34;&gt;Adding CSS to your site&lt;/h2&gt;
-
-&lt;p&gt;There are three ways to add css to your site&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Inline (avoid!)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Internal css using &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag (avoid!)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;External file&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;inline-css-avoid&#34;&gt;Inline CSS (avoid!)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;This method involves adding styles directly to html elemments using a &lt;strong&gt;style&lt;/strong&gt; attribute&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;
-  &amp;lt;body style=&amp;quot;background-color: orange;&amp;quot;&amp;gt;
-    &amp;lt;!-- other tags redacted for example --&amp;gt;
-  &amp;lt;/body&amp;gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;internal-css-avoid&#34;&gt;Internal CSS (avoid!)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;This method involves adding styles directly to html elemments using a &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt;
-    &amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
-      body {
-        font-family: Arial;
-        background-color: rgb(185, 179, 175);
-      }
-
-      h1 {
-        color: rgb(255, 255, 255);
-      }
-    &amp;lt;/style&amp;gt;
-  &amp;lt;/head&amp;gt;
-
-  &amp;lt;body&amp;gt;
-    &amp;lt;!-- other tags redacted for example --&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;add-css-using-an-external-stylesheet-recommended-best-practice&#34;&gt;Add CSS using an external stylesheet (Recommended/Best Practice)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The use of external CSS stylesheets allows you to place all of your styles in a central location, any site-wide changes &lt;strong&gt;can be made in a single place&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;A &lt;code&gt;&amp;lt;link&amp;gt;&lt;/code&gt; tag must be used to connect a stylesheet to an html file&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;title&amp;gt;Sample Page&amp;lt;/title&amp;gt;
-    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;css/styles.css&amp;quot;&amp;gt;
-  &amp;lt;/head&amp;gt;
-
-  &amp;lt;body&amp;gt;
-    &amp;lt;!-- other tags redacted for example --&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;//in css/styles.css
-
-body {
-  font-family: Arial, sans-serif, serif;
-  padding: 10px;
-}
-
-p {
-  font-size: 14px;
-  color: #333333;
-}
-
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;link-tag&#34;&gt;&lt;code&gt;&amp;lt;link&amp;gt;&lt;/code&gt; Tag&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Link tag is used to specify the relationship between an html file and an external file&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Here are some commonly used attributes for the &lt;code&gt;&amp;lt;link&amp;gt;&lt;/code&gt; tag&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;href&lt;/strong&gt;: specifies the path to the external file&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;rel&lt;/strong&gt;: specifies the relationship between the HTML page and the file it is linked to. The value of this attribute should be stylesheet when linking to a CSS file&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;type&lt;/strong&gt;: specifies the type of document being linked to. This value should be &amp;ldquo;text/css&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The &lt;code&gt;rel&lt;/code&gt; attribute is required when linking to css stylesheet&lt;/p&gt;
-</description>
+      <description>What is CSS?  Cascading Style Sheet
+ Allows you to control design of page
+ CSS allows you to create rules that specify how the content of an element should appear
+  p { color: black; }  Anatomy of a CSS Rule  p { color: black; } h1, h2, h3 { font-family: Arial; color: #191919; }  Adding CSS to your site There are three ways to add css to your site</description>
     </item>
     
     <item>
@@ -331,18 +85,9 @@ p {
       <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/02-css-basics/code-along/</guid>
-      <description>
-
-&lt;h2 id=&#34;code-along-building-an-about-me-page&#34;&gt;Code Along: Building an &amp;ldquo;About Me&amp;rdquo; page&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;As a class, we&amp;rsquo;ll walk through using html and css to build the &amp;ldquo;About Me&amp;rdquo; page depicted in the image below&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;about_me_and_portfolio&lt;/strong&gt; files for this exercise can be found in your &lt;strong&gt;starter_code&lt;/strong&gt; folder under the&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/02/about_me_deliverable.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
-</description>
+      <description> Code Along: Building an &amp;ldquo;About Me&amp;rdquo; page  As a class, we&amp;rsquo;ll walk through using html and css to build the &amp;ldquo;About Me&amp;rdquo; page depicted in the image below
+ Using Sublime, open the folder called about_me_and_portfolio files for this exercise can be found in your starter_code folder under the
+  </description>
     </item>
     
     <item>
@@ -351,20 +96,10 @@ p {
       <pubDate>Sun, 22 Jan 2017 18:08:00 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/02-css-basics/lab/</guid>
-      <description>
-
-&lt;h2 id=&#34;lab-start-complete-portfolio-page&#34;&gt;Lab: Start/Complete Portfolio Page&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Individually or in teams to finishing the fictional developer&amp;rsquo;s site by building our their portfolio page (depicted in the image below)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You will be adding a page to your existing &lt;strong&gt;about_me_and_portfolio&lt;/strong&gt; project&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The &amp;ldquo;About Me&amp;rdquo; and &amp;ldquo;Porfolio&amp;rdquo; pages should be linked using a relative url&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/02/portfolio_deliverable.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
-</description>
+      <description> Lab: Start/Complete Portfolio Page  Individually or in teams to finishing the fictional developer&amp;rsquo;s site by building our their portfolio page (depicted in the image below)
+ You will be adding a page to your existing about_me_and_portfolio project
+ The &amp;ldquo;About Me&amp;rdquo; and &amp;ldquo;Porfolio&amp;rdquo; pages should be linked using a relative url
+  </description>
     </item>
     
   </channel>

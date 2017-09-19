@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>11-javascript-labs on FEWD Course Material</title>
+    <link>https://fewd20170829.github.io/11-javascript-lab/</link>
+    <description>Recent content in 11-javascript-labs on FEWD Course Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    
+	<atom:link href="https://fewd20170829.github.io/11-javascript-lab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript Lab</title>
+      <link>https://fewd20170829.github.io/11-javascript-lab/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/11-javascript-lab/</guid>
+      <description> Lesson 11 Javascript Lab </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>https://fewd20170829.github.io/11-javascript-lab/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/11-javascript-lab/objectives/</guid>
+      <description> Apply knowledge of HTML, CSS and Javascript to build an application  </description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>https://fewd20170829.github.io/11-javascript-lab/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/11-javascript-lab/agenda/</guid>
+      <description> Review concepts covered last class
+ Lab: Weather Application
+ Discuss Final Projects with each student (5 minutes)
+  </description>
+    </item>
+    
+    <item>
+      <title>Last Class Review</title>
+      <link>https://fewd20170829.github.io/11-javascript-lab/last-class-review/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/11-javascript-lab/last-class-review/</guid>
+      <description>What are Functions?  Allows you to group a series of statements together to perform a specific task
+ Functions are used to promote “code reuse”
+ You can control when functions are executed, for example - you can write functions that only get executed (or called) when a user clicks a specific button
+  // a simple function that greets you with a &#39;Good Morning&#39; alert // 1) Declare a function named greeting function greeting(){ alert(&#39;Good Morning&#39;); }; // 2) Call (or run) the function greeting();  Declaring a Function  Use the function keyword to declare a function</description>
+    </item>
+    
+    <item>
+      <title>Lab Overview</title>
+      <link>https://fewd20170829.github.io/11-javascript-lab/lab-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/11-javascript-lab/lab-overview/</guid>
+      <description>Lab: Weather Appliction  You will build a Weather Application that converts a Celsius temperature input by a user to Fahrenheit and changes the background image according to the weather.  Requirments  App will take Celsius temperature (via user input) and convert it to Fahrenheit App will change the background image of the page to match the new temperature  Please Note: The layout and &amp;ldquo;look and feel&amp;rdquo; of the application is totally up to you as long as you meet the requirements above</description>
+    </item>
+    
+    <item>
+      <title>Milestone #1</title>
+      <link>https://fewd20170829.github.io/11-javascript-lab/milestone-1/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/11-javascript-lab/milestone-1/</guid>
+      <description>Follow the steps below to complete Milestone #1:
+In groups of four:
+ Document the requirements of the proposed application
+ User stories are a good way to document requirements, learn more here  Write the pseudo code for the application
+  Timebox: 20 minutes</description>
+    </item>
+    
+    <item>
+      <title>Milestone #2</title>
+      <link>https://fewd20170829.github.io/11-javascript-lab/milestone-2/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/11-javascript-lab/milestone-2/</guid>
+      <description>Follow the steps below to complete Milestone #2:
+In pairs (or groups):
+ Set up your projects (folder structure) Write the code that will do the following process temperature (in Celsius) input by a user and convert that temparature to Fahrenheit and Display the result on the screen  Timebox: 60 minutes
+Note: While you will be working with a partner, each student should have their own copy of the project on their computers</description>
+    </item>
+    
+    <item>
+      <title>Milestone #3</title>
+      <link>https://fewd20170829.github.io/11-javascript-lab/milestone-3/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/11-javascript-lab/milestone-3/</guid>
+      <description>Follow the steps below to complete Milestone #3:
+In pairs (or groups):
+ Complete the application by adding logic that changes the background image to reflect the converted temperature   Example: If the converted temperature is 10 F (degrees) the background image should represent something cold
+ Make the application your own - choose your own background images
+  Timebox: 20 minutes
+Note: While you will be working with a partner, each student should have their own copy of the project on their computers</description>
+    </item>
+    
+    <item>
+      <title>Bonus Milestone</title>
+      <link>https://fewd20170829.github.io/11-javascript-lab/bonus-milestone/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/11-javascript-lab/bonus-milestone/</guid>
+      <description>Follow the steps below to complete the Bonus Milestone:
+In pairs (or groups):
+ Add logic that displays an error message when the user enters a non number Add logic that also allows users to convert from Fahrenheit to Celsius (currently the app only converts from Celsius to Fahrenheit)  </description>
+    </item>
+    
+    <item>
+      <title>Final Project Deliverable #2</title>
+      <link>https://fewd20170829.github.io/11-javascript-lab/final-project-deliverable-2/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/11-javascript-lab/final-project-deliverable-2/</guid>
+      <description>Final Project Deliverable #2 (Wireframes)  Create wireframes for you final project and submit them in a digital format to this Google Drive folder
+ This is due Wednesday March 1st
+  Please don&amp;rsquo;t buy a tool just for this deliverable, you can use pen/paper or powerpoint to create perfectly good wireframes
+ What are wireframes?  Wireframes are a visual illustration of your site&amp;rsquo;s layout and interface</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>https://fewd20170829.github.io/11-javascript-lab/homework/</link>
+      <pubDate>Sun, 22 Jan 2017 18:05:18 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/11-javascript-lab/homework/</guid>
+      <description> Homework Assignment - CitiPix Directions:
+1) Fork the following respository:
+Homework #4
+ Review the assignment here
+ Use process covered in the Git/Github Tutorial to submit your assignment
+  </description>
+    </item>
+    
+  </channel>
+</rss>
