@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>09-variables-datatypes-conditionals on FEWD Course Material</title>
-    <link>https://fewd20170829.github.io/09-variables-datatypes-conditionals/</link>
+    <link>https://fewd20170829.github.io/09-variables-datatypes-conditionals/index.xml</link>
     <description>Recent content in 09-variables-datatypes-conditionals on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    
-	<atom:link href="https://fewd20170829.github.io/09-variables-datatypes-conditionals/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://fewd20170829.github.io/09-variables-datatypes-conditionals/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Variables, Datatypes &amp; Conditionals</title>
@@ -17,7 +15,12 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/</guid>
-      <description> Lesson 09 Variables, Datatypes &amp;amp; Conditionals </description>
+      <description>
+
+&lt;h3 id=&#34;lesson-09&#34;&gt;Lesson 09&lt;/h3&gt;
+
+&lt;h1 id=&#34;variables-datatypes-conditionals&#34;&gt;Variables, Datatypes &amp;amp; Conditionals&lt;/h1&gt;
+</description>
     </item>
     
     <item>
@@ -26,11 +29,16 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/objectives/</guid>
-      <description> Introduce variables and identify best cases to use them
- Differentiate most used javascript data types
- Introduce logical &amp;amp; comparison operators
- Introduce conditionals
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introduce variables and identify best cases to use them&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Differentiate most used javascript data types&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce logical &amp;amp; comparison operators&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduce conditionals&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -39,17 +47,28 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/agenda/</guid>
-      <description> Last Class Review
- Code Along: FAQ
- Console Log
- Variables
- Data Types
- Arithmetic Operators
- Code Along: Score Keeper
- Comparison &amp;amp; Logical Operators
- Conditionals
- Code Alongs: Compare That &amp;amp; Blackout
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Last Class Review&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code Along: FAQ&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Console Log&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Variables&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Data Types&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Arithmetic Operators&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code Along: Score Keeper&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Comparison &amp;amp; Logical Operators&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Conditionals&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code Alongs: Compare That &amp;amp; Blackout&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -58,11 +77,52 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/last-class-review/</guid>
-      <description>DOM  Document Object Model
- Browsers views HTML pages as documents and provides developers with a means of programatically referencing HTML pages using Javascript
-  What is jQuery?  A Javascript library that allows developers to manipulate the DOM using CSS selectors
- jQuery provides an alternative (more intuitive) way of referencing the DOM (HTML elements) so we can add behavior to our pages
-  // selecting an element using native/pure javascript document.</description>
+      <description>
+
+&lt;h2 id=&#34;dom&#34;&gt;DOM&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Document Object Model&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Browsers views HTML pages as documents and provides developers with a means of programatically referencing HTML pages using Javascript&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;what-is-jquery&#34;&gt;What is jQuery?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A Javascript library that allows developers to &lt;strong&gt;manipulate the DOM&lt;/strong&gt; using CSS selectors&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;jQuery provides an alternative (more intuitive) way of referencing the DOM (HTML elements) so we can add behavior to our pages&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+  // selecting an element using native/pure javascript
+  document.getElementById(&#39;flavors&#39;);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;vs&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+  // using jQuery (same as above but with much more intuitive syntax)
+  $(&#39;#flavors&#39;);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Anything that can be done in jQuery can be done with native Javascript, just with less code&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;what-jquery-isn-t&#34;&gt;What jQuery Isn&amp;rsquo;t&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;jQuery isn&amp;rsquo;t another programming language (it&amp;rsquo;s Javascript)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -71,9 +131,20 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/code-along-1/</guid>
-      <description> Code Along #1: FAQ (frequently asked questions)  Using Sublime, open the folder called faq (found within the starter_code) folder
- During this exercise, we&amp;rsquo;ll be doing the following:
- We&amp;rsquo;ll use jQuery implement a F.A.Q. found on a company&amp;rsquo;s support page   </description>
+      <description>
+
+&lt;h2 id=&#34;code-along-1-faq-frequently-asked-questions&#34;&gt;Code Along #1: FAQ (frequently asked questions)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;faq&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;During this exercise, we&amp;rsquo;ll be doing the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We&amp;rsquo;ll use jQuery implement a F.A.Q. found on a company&amp;rsquo;s support page&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -82,11 +153,35 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/console-log/</guid>
-      <description>A method of debugging and troubleshooting in Javascript
- Gives you the opportunity to print values to the log
- Can be used as a means of confirming your code is &amp;ldquo;on the right track&amp;rdquo;
- To print something to the console in Javascript, you use the console.log() method
-  // in your javascript file // print out a name to the console console.log(&amp;quot;Kareem&amp;quot;); // print out values sentences with values (for more context) // this uses string concatenation - we&#39;ll go over that shortly // declare a variable called score and give it a value of 8 var score = 8; // print out the variable in a sentence console.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A method of debugging and troubleshooting in Javascript&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Gives you the opportunity to print values to the log&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Can be used as a means of confirming your code is &amp;ldquo;on the right track&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To print something to the console in Javascript, you use the &lt;strong&gt;console.log()&lt;/strong&gt; method&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;// in your javascript file
+
+// print out a name to the console
+console.log(&amp;quot;Kareem&amp;quot;);
+
+
+// print out values sentences with values (for more context)
+// this uses string concatenation - we&#39;ll go over that shortly
+
+// declare a variable called score and give it a value of 8
+var score = 8;
+
+// print out the variable in a sentence
+console.log(&amp;quot;your score is &amp;quot; + score);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/gazeruf/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -95,13 +190,138 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/variables/</guid>
-      <description>What are variables?  Similar to algebra
- Helps you represent data or values
- Used to help your program “remember” values
- Can be thought of as a “box” that we put values in
- In programming, you store values in variables if you plan on referencing that value at a later time
-  Declaring Variables  Variables are created by declaring them
- Use the var keyword to declare a variable</description>
+      <description>
+
+&lt;h2 id=&#34;what-are-variables&#34;&gt;What are variables?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Similar to algebra&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Helps you represent data or values&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Used to help your program “remember” values&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Can be thought of as a “box” that we put values in&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In programming, you store values in variables if you plan on referencing that value at a later time&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;declaring-variables&#34;&gt;Declaring Variables&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Variables are created by &lt;strong&gt;declaring&lt;/strong&gt; them&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use the &lt;code&gt;var&lt;/code&gt; keyword to declare a variable&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you declare a variable without assigning it an initial value, the value of that variable will be &lt;strong&gt;undefined&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+// declaring a variable
+
+var firstName;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Variables &lt;strong&gt;only need to be declared once&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;assigning-variables&#34;&gt;Assigning Variables&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;We can provide variables with a value by &lt;strong&gt;assigning&lt;/strong&gt; a value to the variable&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;An &lt;code&gt;=&lt;/code&gt; (equal sign) is used to assign a value to variable&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;// declaring a variable
+
+var firstName;
+
+
+// assigning a value to the variable
+
+firstName = &amp;quot;Cletus&amp;quot;;
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;declaring-assigning-variables-in-one-step&#34;&gt;Declaring &amp;amp; Assigning Variables in one step&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;We can both declare and assign variables in one step&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This would be done if the developer wanted to set the initial value of the variable&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// declare and assign an intial value to a variable
+
+var score = 0;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;reassigning-a-variable&#34;&gt;Reassigning a Variable&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use the &lt;code&gt;=&lt;/code&gt; (equal sign) to change or &lt;strong&gt;reassign&lt;/strong&gt; a value of a variable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+// declare and assign a value of 0 to the score variable
+var score = 0;
+
+// changing the value of the score variable from 0 to 3
+score = 3;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;variable-naming-rules&#34;&gt;Variable Naming Rules&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Do&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Don&amp;rsquo;t&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Use variable names that start with a letter, $, or _&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Use variable names that start with a number&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Use variable names that includes letters, numbers, $ or _&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Create variable names that include a &amp;ldquo;-&amp;rdquo;, &amp;ldquo;.&amp;rdquo; or space&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Use snake case when creating variable names made up of more than one word, for example: &lt;strong&gt;firstName&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Create variable names that use Javascript keywords such as &lt;strong&gt;var&lt;/strong&gt;, &lt;strong&gt;function&lt;/strong&gt; or &lt;strong&gt;switch&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Variables names should describe the kind of information the variable stores&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;&lt;a href=&#34;https://mathiasbynens.be/notes/reserved-keywords&#34;&gt;Here&amp;rsquo;s&lt;/a&gt; a list of Javascript&amp;rsquo;s reserved keywords&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -110,11 +330,298 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/data-types/</guid>
-      <description>Strings  Strings can consist of letters and other characters
- They are surrounded by either double quotes or single quotes
- Concatenation allows you to combine strings
-  // declare a variable called color and store a string var color = &amp;quot;green&amp;quot;;  Single or double quotes can be used for strings, but the opening quote must match the closing quote
- String Methods  Javascript has some built-in methods that allow developers to work with strings</description>
+      <description>
+
+&lt;h2 id=&#34;strings&#34;&gt;Strings&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Strings can consist of letters and other characters&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;They are surrounded by either double quotes or single quotes&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Concatenation allows you to combine strings&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// declare a variable called color and store a string 
+
+var color = &amp;quot;green&amp;quot;;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Single or double quotes can be used for strings, but the opening quote must match the closing quote&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;string-methods&#34;&gt;String Methods&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Javascript has some built-in methods that allow developers to work with strings&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For example: if you wanted to know how many characters were in a string, you would use the &lt;strong&gt;.length&lt;/strong&gt; method&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Here are some example of other methods you can use on strings&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/pataci/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String&#34;&gt;Click here&lt;/a&gt; for complete list of all the String methods&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;numbers&#34;&gt;Numbers&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Used for tasks involving counting or calculating sums&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Whole numbers (integers) or decimals (floats)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Numbers can be negative or positive&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Numbers &lt;strong&gt;do not have quotes around them&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;There are no commas used when expressing numbers, for example the number 1,750 is expressed as 1750 in Javascript&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/cosalon/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;converting-strings-to-numbers&#34;&gt;Converting Strings to Numbers&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Sometimes you will find yourself in a position where you need to convert a string to a number&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This happens when you attempt to read numeric values from html (html displays everything as a string)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use the &lt;code&gt;parseInt()&lt;/code&gt; or &lt;code&gt;parseFloat()&lt;/code&gt; methods to accomplish this&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/zutuji/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;booleans&#34;&gt;Booleans&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Can only have a value of true or false&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;true/false are special keywords in javascript and &lt;strong&gt;do not have quotes around them&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// declare a variable called isOn and assign a value of true
+var isOn = true;
+
+// declare a variable called isWarm
+var isWarm;
+
+// assign a value of false to isWarm
+isWarm = false;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Booleans are useful for helping our programs make decisions (when used with conditionals, comparison &amp;amp; logical operators)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Booleans also helps a program known when it should stop/start looping&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;arrays&#34;&gt;Arrays&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Used to when you are working with a list of values that are related to each otehr&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use square brackets to create an array&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Values in an array are separated by commas&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;creating-an-array&#34;&gt;Creating an Array&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;We can store variables just like any other data type&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You can create that doesn&amp;rsquo;t initially contain any values, this is called an &lt;strong&gt;empty array&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;An array can also be created with initial values&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Square brackets are a means of identifying if a variable is an array&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+// declare a variable as an empty array
+
+var numbers = [];
+
+// or you can declare an array with initial values
+
+var streets = [&#39;Broadway&#39;, &#39;Houston&#39;, &#39;Grand&#39;];
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;values-in-an-array&#34;&gt;Values in an Array&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Values in an array are accessed as if they are in a numbered list&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Arrays are &lt;strong&gt;zero based&lt;/strong&gt; meaning the 1st “value” in an array is at position (index) 0, the 2nd element is at position 1, and so on&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You access the value of an element in the array by passing the index of the item in square brackets&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+var streets = [&#39;Broadway&#39;, &#39;Houston&#39;, &#39;Grand&#39;];
+
+// access the 2nd street listed in the array which is at index 1
+var streetTwo = streets[1];
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;accessing-in-an-array&#34;&gt;Accessing  in an Array&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can access a value of an array by referencing its &lt;strong&gt;index&lt;/strong&gt; (i.e. its order within the array)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+// declare a variable called chipmunks and use it to store
+// an array of names
+var chipmunks = [&amp;quot;Alvin&amp;quot;, &amp;quot;Simon&amp;quot;, &amp;quot;Theodore&amp;quot;];
+
+// reference the first value in the array
+// here we pass in a zero, since that represents the first
+// element (value) in an array
+
+var bandMember = chipmunks[0];
+
+// the value stored in bandMember is &amp;quot;Alvin&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;changing-values-in-an-array&#34;&gt;Changing Values in an Array&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can change a value in an array by referencing the value and then changing the value using an &lt;code&gt;=&lt;/code&gt; (equal sign)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+// declare a variable called newEditionMembers and use it to store
+// an array of names
+
+var newEditionMembers = [&amp;quot;Ricky Bell&amp;quot;, &amp;quot;Michael Bivins&amp;quot;, &amp;quot;Bobby Brown&amp;quot;, &amp;quot;Ronnie DeVoe&amp;quot;, &amp;quot;Ralph Tresvant&amp;quot;]
+
+// We are going replace Bobby Brown with Johnny Gill 
+// by referencing the 3rd element of the array by using index 2
+// and then use assignment (just an equal sign) to change
+// the value to Johnny Gill
+
+newEditionMembers[2] = &amp;quot;Johnny Gill&amp;quot;;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;array-examples&#34;&gt;Array Examples&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/wulexo/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Arrays are a flexible and powerful feature of Javascript (and other programming languages as well). &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array&#34;&gt;Click here&lt;/a&gt; for more information about Arrays&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;objects&#34;&gt;Objects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Objects are used to represent real world objects in programming&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Within an object, variables are known as properties and functions are known as methods&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Curly braces are a means of identifying if a variable is an object&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+// create an object that represents a dog
+
+var myDog = {
+	name: &amp;quot;Fido&amp;quot;,
+	age: 4,
+	speak: function() {
+     console.log(&#39;Woof woof&#39;);
+	} 
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;In the example above, we created an object and stored it in a variable called &lt;code&gt;myDog&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This object has 2 properties (name and age) and 1 method (speak)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;pre&gt;&lt;code&gt;This of method as **actions** that our objects can take
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;accessing-properties-and-methods-of-objects&#34;&gt;Accessing Properties and Methods of Objects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Properties and values can be assigned and read using &lt;strong&gt;Dot notation&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+var myDog = { 
+  name: &amp;quot;Fido&amp;quot;,
+  age: 4,
+  speak: function() {
+     console.log(&#39;Woof woof&#39;);
+	} 
+}
+
+// store myDog&#39;s name in a variable called dogName
+var dogName = myDog.name;
+
+// call the speak method of myDog 
+myDog.speak();
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/bumiwi/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;updating-object-properties-using-dot-notation&#34;&gt;Updating Object properties using dot notation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Object properties can be updated, added or deleted&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/fupaxos/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;This of method as &lt;strong&gt;actions&lt;/strong&gt; that our objects can take
+  Like arrays, objects are another flexible and powerful feature of Javascript. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object&#34;&gt;Click here&lt;/a&gt; for more information about Objects&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -123,7 +630,16 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/arithmetic-operators/</guid>
-      <description>What are Arithmetic Operators?  Mathematical symbol that can act on two values (or variables) and produce a result  JS Bin on jsbin.com</description>
+      <description>
+
+&lt;h2 id=&#34;what-are-arithmetic-operators&#34;&gt;What are Arithmetic Operators?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mathematical symbol that can act on two values (or variables) and produce a result&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/fuputur/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -132,9 +648,20 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/code-along-2/</guid>
-      <description> Code Along #2: Score Keeper  Using Sublime, open the folder called score_keeper (found within the starter_code) folder
- During this exercise, we&amp;rsquo;ll be doing the following:
- We&amp;rsquo;ll use javascript to complete an application used to keep track of a game&amp;rsquo;s score   </description>
+      <description>
+
+&lt;h2 id=&#34;code-along-2-score-keeper&#34;&gt;Code Along #2: Score Keeper&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;score_keeper&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;During this exercise, we&amp;rsquo;ll be doing the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We&amp;rsquo;ll use javascript to complete an application used to keep track of a game&amp;rsquo;s score&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -143,7 +670,20 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/comparison-operators/</guid>
-      <description>What are Comparison Operators?  Compares two values and returns true or false (boolean)  JS Bin on jsbin.com</description>
+      <description>
+
+&lt;h2 id=&#34;what-are-comparison-operators&#34;&gt;What are Comparison Operators?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Compares two values and returns true or false (boolean)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/09/comparison_operators.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/09/comparison_operators_2.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/vejivo/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -152,10 +692,22 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/logical-operators/</guid>
-      <description>What are Logical Operators?  Evaluates between two conditions/expressions and returns true or false
- with &amp;amp;&amp;amp; (and) operators, both conditions have to be true in order for the whole expression to be true
- with ||(or) operators, either condition must be true for entire expression to be true
-  JS Bin on jsbin.com</description>
+      <description>
+
+&lt;h2 id=&#34;what-are-logical-operators&#34;&gt;What are Logical Operators?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Evaluates between two conditions/expressions and returns true or false&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;with &amp;amp;&amp;amp; (and) operators, both conditions have to be true in order for the whole expression to be true&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;with ||(or) operators, either condition must be true for entire expression to be true&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/08/logical_operators.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/yoyuzug/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -164,13 +716,82 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/conditionals/</guid>
-      <description>What are Conditionals?  Condtionals tests whether an “expression” evaluates to true or false and then makes a decision based on the results of that test
- if statements are the most common form of conditionals
- There are two types of if statements
- (if else) statements
- (if else if) statements
-   (if else) statements  when evaluating between just two choices, use if/else
- These are great for “either or” situations</description>
+      <description>
+
+&lt;h2 id=&#34;what-are-conditionals&#34;&gt;What are Conditionals?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Condtionals tests whether an “expression” evaluates to true or false and then makes a decision based on the results of that test&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;if statements&lt;/strong&gt; are the most common form of conditionals&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There are two types of if statements&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;(if else) statements&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(if else if) statements&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;if-else-statements&#34;&gt;(if else) statements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;when evaluating between just two choices, use if/else&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;These are great for “either or” situations&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You &lt;strong&gt;do not specify a condition&lt;/strong&gt; for the “else” clause&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+var brushedTeeth = false
+
+if(brushedTeeth){
+
+  alert(&#39;Great job, you brushed your teeth!&#39;);
+
+} else {
+
+  alert(&#39;Go your brush teeth man, your breath is hot right now!&#39;);
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/bofidag/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;if-else-if-statements&#34;&gt;(if else if) statements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;when evaluation among more than two choices, use if/else if&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You must specify a condition on the “else if” clause&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+var yourGrade = 84;
+
+if (yourGrade &amp;gt;= 90) {
+
+  alert(&amp;quot;Congrats your score is 90 or above, that&#39;s an A!&amp;quot;);
+
+} else if (yourGrade &amp;gt;= 80){
+
+  alert(&amp;quot;Congrats your score is 80 or above, you earned a B&amp;quot;);
+
+} else {
+
+  alert(&amp;quot;Your score is less than 80, no bueno&amp;quot;);
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/relane/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -179,9 +800,20 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/code-along-3/</guid>
-      <description> Code Along #3: Compare That  Using Sublime, open the folder called compare_that (found within the starter_code) folder
- During this exercise, we&amp;rsquo;ll be doing the following:
- We&amp;rsquo;ll use javascript to complete an application used to compare two numbers   </description>
+      <description>
+
+&lt;h2 id=&#34;code-along-3-compare-that&#34;&gt;Code Along #3: Compare That&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;compare_that&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;During this exercise, we&amp;rsquo;ll be doing the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We&amp;rsquo;ll use javascript to complete an application used to compare two numbers&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -190,9 +822,20 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/09-variables-datatypes-conditionals/code-along-4/</guid>
-      <description> Code Along #4: Black Out  Using Sublime, open the folder called blackout (found within the starter_code) folder
- During this exercise, we&amp;rsquo;ll be doing the following:
- We&amp;rsquo;ll use javascript to complete an application imitate a light switch   </description>
+      <description>
+
+&lt;h2 id=&#34;code-along-4-black-out&#34;&gt;Code Along #4: Black Out&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;blackout&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;During this exercise, we&amp;rsquo;ll be doing the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We&amp;rsquo;ll use javascript to complete an application imitate a light switch&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

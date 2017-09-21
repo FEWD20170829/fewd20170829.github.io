@@ -287,7 +287,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-intro-to-jquery/final-projects/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/final-projects/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -323,11 +323,6 @@
   
   <url>
     <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/variables/</loc>
-    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-programming/what-is-programming/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -382,7 +377,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/07-intro-to-programming/pseudocode/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/what-is-programming/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -438,6 +433,11 @@
   
   <url>
     <loc>https://fewd20170829.github.io/13-responsive-design/mobile-websites/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/pseudocode/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -882,7 +882,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/08-intro-to-jquery/final-project-deliverable-1/</loc>
+    <loc>https://fewd20170829.github.io/07-intro-to-programming/final-project-deliverable-1/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -1117,18 +1117,8 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fewd20170829.github.io/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fewd20170829.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

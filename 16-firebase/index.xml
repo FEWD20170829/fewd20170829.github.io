@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>16-firebases on FEWD Course Material</title>
-    <link>https://fewd20170829.github.io/16-firebase/</link>
+    <link>https://fewd20170829.github.io/16-firebase/index.xml</link>
     <description>Recent content in 16-firebases on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    
-	<atom:link href="https://fewd20170829.github.io/16-firebase/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://fewd20170829.github.io/16-firebase/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Firebase</title>
@@ -17,7 +15,12 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/16-firebase/</guid>
-      <description> Lesson 16 Firebase </description>
+      <description>
+
+&lt;h3 id=&#34;lesson-16&#34;&gt;Lesson 16&lt;/h3&gt;
+
+&lt;h1 id=&#34;firebase&#34;&gt;Firebase&lt;/h1&gt;
+</description>
     </item>
     
     <item>
@@ -26,9 +29,12 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/16-firebase/objectives/</guid>
-      <description> Learn about Firebase and its benefits
- Use Firebase&amp;rsquo;s real-time database to provide data persistence to a front-end app
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Learn about Firebase and its benefits&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use Firebase&amp;rsquo;s real-time database to provide data persistence to a front-end app&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -37,11 +43,16 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/16-firebase/agenda/</guid>
-      <description> Learn about JSON
- Intro to Firebase &amp;amp; it&amp;rsquo;s real-time database
- Code Along #1: Firebase Intro
- Code Along #2: Firebase Todo App
-  </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Learn about JSON&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Intro to Firebase &amp;amp; it&amp;rsquo;s real-time database&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code Along #1: Firebase Intro&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code Along #2: Firebase Todo App&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -50,11 +61,109 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/16-firebase/json/</guid>
-      <description>What is JSON?  Stands for JavaScript Object Notation
- A way to store information in an organized, easy-to-access manner
- A popular way to send data from on web server (service) to another
- Resembles a normal Javascript Object (it contains properties and values) but does not contain methods
-   { &amp;quot;id&amp;quot;: 1, &amp;quot;name&amp;quot;: &amp;quot;Scoobie Doo&amp;quot;, &amp;quot;favoriteFood&amp;quot;: &amp;quot;Scoobie Snacks&amp;quot; }  JSON Guidelines  Property names must be double-quoted strings</description>
+      <description>
+
+&lt;h2 id=&#34;what-is-json&#34;&gt;What is JSON?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Stands for JavaScript Object Notation&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A way to store information in an organized, easy-to-access manner&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A popular way to send data from on web server (service) to another&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Resembles a normal Javascript Object (it contains properties and values) but &lt;strong&gt;does not&lt;/strong&gt; contain methods&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+{
+  &amp;quot;id&amp;quot;: 1,
+  &amp;quot;name&amp;quot;: &amp;quot;Scoobie Doo&amp;quot;,
+  &amp;quot;favoriteFood&amp;quot;: &amp;quot;Scoobie Snacks&amp;quot;
+}
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;json-guidelines&#34;&gt;JSON Guidelines&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Property names &lt;strong&gt;must be double-quoted strings&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use meaningful property names&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Access properties of a JSON object using dot notation&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+// json object that contains smurfs
+
+var smurfs = {
+    &amp;quot;papa&amp;quot; : {
+        &amp;quot;name&amp;quot; : &amp;quot;Papa Smurf&amp;quot;,
+        &amp;quot;gender&amp;quot; : &amp;quot;male&amp;quot;
+    },
+    &amp;quot;smurfette&amp;quot; : {
+        &amp;quot;name&amp;quot; : &amp;quot;Smurfette&amp;quot;,
+        &amp;quot;gender&amp;quot; : &amp;quot;female&amp;quot;
+    }
+}
+
+console.log(smurfs.smurfette.name);
+console.log(smurfs.smurfette.gender);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;json-stringify&#34;&gt;JSON.stringify()&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Since JSON is used to send data from one service to the next &amp;ldquo;over the wire&amp;rdquo; (i.e. via cloud) it is transmitted as a string which makes it lightweight and fast&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;JSON.stringify()&lt;/code&gt; is a method that turns an JSON object into a string&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;ldquo;Stringify-ing&amp;rdquo; JSON objects is a common step developers take before sending data to another service&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  var smurfs = {
+      &amp;quot;papa&amp;quot; : {
+          &amp;quot;name&amp;quot; : &amp;quot;Papa Smurf&amp;quot;,
+          &amp;quot;gender&amp;quot; : &amp;quot;male&amp;quot;
+      },
+      &amp;quot;smurfette&amp;quot; : {
+          &amp;quot;name&amp;quot; : &amp;quot;Smurfette&amp;quot;,
+          &amp;quot;gender&amp;quot; : &amp;quot;female&amp;quot;
+      }
+  }
+
+  var stringJSON = JSON.stringify(smurfs));
+
+
+  // result: &amp;quot;{&amp;quot;papa&amp;quot;:{&amp;quot;name&amp;quot;:&amp;quot;Papa Smurf&amp;quot;,&amp;quot;gender&amp;quot;:&amp;quot;male&amp;quot;},&amp;quot;smurfette&amp;quot;:{&amp;quot;name&amp;quot;:&amp;quot;Smurfette&amp;quot;,&amp;quot;gender&amp;quot;:&amp;quot;female&amp;quot;}}&amp;quot;
+
+  console.log(typeof stringJSON); // result: string
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/sudalo/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.6&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;json-parse&#34;&gt;JSON.parse()&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;When JSON is &lt;strong&gt;received&lt;/strong&gt; from another service, it is in a string format&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In order to effectively work with JSON data in our code, we need to covert it so an object (or array)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JSON.parse() is a method that converts an JSON object to an Javascript object or array&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/cibixis/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.6&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -63,13 +172,42 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/16-firebase/firebase-overview/</guid>
-      <description>What is Firebase?  Mobile and Web application platform for developers
- Acquired by Google in 2014
- Offers many other services but we&amp;rsquo;ll be covering the basics of firebase&amp;rsquo;s real-time backend database and seeing how we can use this in our applications
-  Firebase benefits  Relieves developers from having to build out backend to support their apps
- Real-time database
- Generous free tier
- Advanced features that developers can grow their applications into as their applications grow</description>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/16/firebase-homepage.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-firebase&#34;&gt;What is Firebase?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Mobile and Web application platform for developers&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Acquired by Google in 2014&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Offers many other services but we&amp;rsquo;ll be covering the basics of firebase&amp;rsquo;s real-time backend database and seeing how we can use this in our applications&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;firebase-benefits&#34;&gt;Firebase benefits&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Relieves developers from having to build out backend to support their apps&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Real-time database&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Generous free tier&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Advanced features that developers can grow their applications into as their applications grow&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;why-firebase&#34;&gt;Why Firebase?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Firebase provides a seamless way for front-end developers to add data persistence to their front-end applications&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -78,12 +216,51 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/16-firebase/real-time-database/</guid>
-      <description>Firebase Real-time database overview  Cloud-hosted database
- NoSQL database; data is stored as JSON
- Changes made to the database are automatically synchronized for any other computer/phone (i.e. client) that is viewing data from the database
- Real-time database documentation can be found here
-  Data Structure  Firebase&amp;rsquo;s real-time database is structured like a JSON tree (think root and branches)
- Data stored in a JSON tree is hierarchical (parent/child)</description>
+      <description>
+
+&lt;h2 id=&#34;firebase-real-time-database-overview&#34;&gt;Firebase Real-time database overview&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Cloud-hosted database&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;NoSQL&lt;/strong&gt; database; data is stored as JSON&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Changes made to the database are automatically synchronized for any other computer/phone (i.e. client) that is viewing data from the database&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Real-time database documentation can be found &lt;a href=&#34;https://firebase.google.com/docs/database/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;data-structure&#34;&gt;Data Structure&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Firebase&amp;rsquo;s real-time database is structured like a JSON tree (think root and branches)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Data stored in a JSON tree is hierarchical (parent/child)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Propertie names in the JSON tree can be used as &lt;strong&gt;keys&lt;/strong&gt; (i.e. unique identifiers)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &amp;quot;users&amp;quot;: {
+    &amp;quot;alovelace&amp;quot;: {
+      &amp;quot;name&amp;quot;: &amp;quot;Ada Lovelace&amp;quot;,
+      &amp;quot;contacts&amp;quot;: { &amp;quot;ghopper&amp;quot;: true },
+    },
+    &amp;quot;ghopper&amp;quot;: { ... },
+    &amp;quot;eclarke&amp;quot;: { ... }
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the example above, we have a object that contains a list of users. Each user is represented as an object that has a property name or key. &lt;code&gt;alovelace&lt;/code&gt; is the key that is tied to the object containing this user&amp;rsquo;s name and contacts.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;keys&lt;/strong&gt; must be unique&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -92,10 +269,18 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/16-firebase/code-along-1/</guid>
-      <description> Code Along #1: Firebase Intro  Visit firebase and log in with your google account
- Using Sublime, open the folder called firebase_intro (found within the starter_code) folder
- Together we&amp;rsquo;ll walk through creating a basic app and see how Firebase&amp;rsquo;s real-time database works
-  </description>
+      <description>
+
+&lt;h2 id=&#34;code-along-1-firebase-intro&#34;&gt;Code Along #1: Firebase Intro&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Visit &lt;a href=&#34;https://firebase.google.com/&#34;&gt;firebase&lt;/a&gt; and log in with your google account&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;firebase_intro&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Together we&amp;rsquo;ll walk through creating a basic app and see how Firebase&amp;rsquo;s real-time database works&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -104,9 +289,16 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/16-firebase/code-along-2/</guid>
-      <description> Code Along #2: Firebase Todo App  Using Sublime, open the folder called todo_app (found within the starter_code) folder
- Together we&amp;rsquo;ll walk through using Firebase to add data persistence to a todo app
-  </description>
+      <description>
+
+&lt;h2 id=&#34;code-along-2-firebase-todo-app&#34;&gt;Code Along #2: Firebase Todo App&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;todo_app&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Together we&amp;rsquo;ll walk through using Firebase to add data persistence to a todo app&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
