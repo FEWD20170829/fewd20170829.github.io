@@ -52,11 +52,9 @@
 
 &lt;li&gt;&lt;p&gt;Code Along: Geometry Formulas using Functions&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Code Along: Cash Register&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Code Along: HiLo&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Introduce Anonymous Functions&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Code Along: Cash Register using an Anonymous Function&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lab: Complete HiLo&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -433,39 +431,34 @@ surfaceAreaOfCube(7); // returns 42
     </item>
     
     <item>
-      <title>Preventing Default Behavior of Forms</title>
-      <link>https://fewd20170829.github.io/10-functions/preventing-default-behavior-of-forms/</link>
+      <title>Single Responsibility Principle</title>
+      <link>https://fewd20170829.github.io/10-functions/single-responsibility-principle/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>https://fewd20170829.github.io/10-functions/preventing-default-behavior-of-forms/</guid>
+      <guid>https://fewd20170829.github.io/10-functions/single-responsibility-principle/</guid>
       <description>
 
-&lt;h2 id=&#34;preventing-default-behavior&#34;&gt;Preventing Default Behavior&lt;/h2&gt;
+&lt;h2 id=&#34;single-responsibility-principle-srp&#34;&gt;Single Responsibility Principle (SRP)&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Some events, such as clicking on links and &lt;strong&gt;submitting forms&lt;/strong&gt;, take the user to another page or expects data to sent to a server&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SRP is a programming best practice that advocates &lt;strong&gt;modular&lt;/strong&gt; code&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;There are times when you don&amp;rsquo;t want that default behavior to happen&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Put another way, your programs should be broken up in such a way where each part is responsible for only one &amp;ldquo;thing&amp;rdquo; or domain&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Javascript gives you the ability to prevent the default behavior using preventDefault()&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;For more information on preventDefault click &lt;a href=&#34;http://www.sitepoint.com/stop-actions-jquery-preventdefault/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SRP is often applied to functions&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-// All javascript functions get an &#39;event&#39; object as a parameter by default, most of the time
-// you can ignore this, but you will need it if you want to prevent default behavior
+&lt;h2 id=&#34;applying-srp-to-functions&#34;&gt;Applying SRP to Functions&lt;/h2&gt;
 
-// Define a function when 
-function handleFormSubmision(event){
-  event.preventDefault();
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;This concepts calls for your functions to only be &amp;ldquo;responsible&amp;rdquo; for one thing&lt;/p&gt;&lt;/li&gt;
 
-  // the rest of your code goes here
+&lt;li&gt;&lt;p&gt;Often you&amp;rsquo;ll find that the logic in your functions are doing too much (for example: making calculations AND displaying the result to the screen)&lt;/p&gt;&lt;/li&gt;
 
-}
+&lt;li&gt;&lt;p&gt;In these cases you should break out those multiple responsibilities into multiple functions&lt;/p&gt;&lt;/li&gt;
 
-
-&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;This is what we did in the Geometry Calculator code along&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -477,109 +470,51 @@ function handleFormSubmision(event){
       <guid>https://fewd20170829.github.io/10-functions/code-along-2/</guid>
       <description>
 
-&lt;h2 id=&#34;code-along-2-cash-register&#34;&gt;Code Along #2: Cash Register&lt;/h2&gt;
+&lt;h2 id=&#34;code-along-2-hilo&#34;&gt;Code Along #2: HiLo&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;cash_register&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;hilo&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;During this exercise, we&amp;rsquo;ll be doing the following:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;We&amp;rsquo;ll use javascript to implement a virtual cash register&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;ll use javascript to implement a guessing game&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Anonymous Functions</title>
-      <link>https://fewd20170829.github.io/10-functions/anonymous-functions/</link>
+      <title>Lab</title>
+      <link>https://fewd20170829.github.io/10-functions/lab/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>https://fewd20170829.github.io/10-functions/anonymous-functions/</guid>
+      <guid>https://fewd20170829.github.io/10-functions/lab/</guid>
       <description>
 
-&lt;h2 id=&#34;what-are-anonymous-functions&#34;&gt;What are Anonymous Functions?&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-// An anonymous function is a function without a name
-
-function(width, height){
-  return width * height;
-};
-
-
-// this function can later be stored as a variable and used later in your code
-
-var area = function(width, height){
-  return width * height;
-};
-
-// Call anonymous function stored as a variable
-
-area(4, 5); // returns 20
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;when-should-you-use-anonymous-functions&#34;&gt;When should you use Anonymous Functions?&lt;/h2&gt;
+&lt;h2 id=&#34;lab-complete-hilo&#34;&gt;Lab: Complete HiLo&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Use for code that only needs to run once within a task&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Form groups and work together to complete the HiLo application&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Use as an event handlers to perform a task when an event occurs&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Event handlers are functions that are called when an event is triggered&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;using-an-anonymous-function-as-an-event-handler&#34;&gt;Using an anonymous function as an event handler&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-// Uses a *named function* to serve as a event handler (function that is called as a result of an event)
-
-$(&#39;#blueButton&#39;).click(blueEffect);
-
-function blueEffect(){
-  $(&#39;body&#39;).css(&#39;background-color&#39;, &#39;blue&#39;);
-};
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-
-// Results are same as above example, but instead we use an anonymous function as a click handler
-// This is the common jQuery pattern
-
-$(&#39;#blueButton&#39;).click(function(){
-  $(&#39;body&#39;).css(&#39;background-color&#39;, &#39;blue&#39;);
-});
-
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Code Along #3</title>
-      <link>https://fewd20170829.github.io/10-functions/code-along-3/</link>
-      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
-      
-      <guid>https://fewd20170829.github.io/10-functions/code-along-3/</guid>
-      <description>
-
-&lt;h2 id=&#34;code-along-3-cash-register-with-anonymous-function&#34;&gt;Code Along #3: Cash Register with Anonymous Function&lt;/h2&gt;
+&lt;li&gt;&lt;p&gt;Instructions: Add the following functionality&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;cash_register&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The secret number should be randomly generated&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;During this exercise, we&amp;rsquo;ll be doing the following:&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Players should be limited to only 5 guesses&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If the player reaches 5 guesses without guessing the correct number then an error message with appear&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The game should reset after 5 guesses has been reached or after the secret number has been correctly guessed&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Tips:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;We&amp;rsquo;ll use javascript to implement a virtual cash register using anonymous functions&lt;/li&gt;
+&lt;li&gt;Write pseudocode before diving in&lt;/li&gt;
+&lt;li&gt;What new variables will you need, if any?&lt;/li&gt;
+&lt;li&gt;What new do you think you will need  (remember these are like actions for you program)?&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
