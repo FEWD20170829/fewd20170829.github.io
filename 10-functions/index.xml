@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>10-functions on FEWD Course Material</title>
-    <link>https://fewd20170829.github.io/10-functions/index.xml</link>
+    <link>https://fewd20170829.github.io/10-functions/</link>
     <description>Recent content in 10-functions on FEWD Course Material</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
-    <atom:link href="https://fewd20170829.github.io/10-functions/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://fewd20170829.github.io/10-functions/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Functions</title>
@@ -15,12 +17,7 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/</guid>
-      <description>
-
-&lt;h3 id=&#34;lesson-10&#34;&gt;Lesson 10&lt;/h3&gt;
-
-&lt;h1 id=&#34;functions&#34;&gt;Functions&lt;/h1&gt;
-</description>
+      <description> Lesson 10 Functions </description>
     </item>
     
     <item>
@@ -29,14 +26,10 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/objectives/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Understand functions and why they are used&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Understand how functions can be used to promote code reuse within your application&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Introduce Anonymous functions and understand how they are different than named functions&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Understand functions and why they are used
+ Understand how functions can be used to promote code reuse within your application
+ Introduce Anonymous functions and understand how they are different than named functions
+  </description>
     </item>
     
     <item>
@@ -45,18 +38,12 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/agenda/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Last Class Review&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Discuss Functions&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Code Along: Geometry Formulas using Functions&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Code Along: HiLo&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Lab: Complete HiLo&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Last Class Review
+ Discuss Functions
+ Code Along: Geometry Formulas using Functions
+ Code Along: HiLo
+ Lab: Complete HiLo
+  </description>
     </item>
     
     <item>
@@ -65,115 +52,9 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/last-class-review/</guid>
-      <description>
-
-&lt;h2 id=&#34;variables&#34;&gt;Variables&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;declaring variables using &lt;code&gt;var&lt;/code&gt; keyword&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;assigning / reassigning variables&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;// declaring a variable
-
-var firstName;
-
-
-// assigning a value to the variable
-
-firstName = &amp;quot;Cletus&amp;quot;;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// declare and assign an intial value to a variable
-
-var score = 0;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-// declare and assign a value of 0 to the score variable
-var score = 0;
-
-// changing the value of the score variable from 0 to 3
-score = 3;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;data-types&#34;&gt;Data types&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Strings&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Numbers&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Booleans&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Arrays&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Objects&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;operators&#34;&gt;Operators&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Arithmetic&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Comparison&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Logical&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;conditionals&#34;&gt;Conditionals&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;(if else) statements&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-var brushedTeeth = false
-
-if(brushedTeeth){
-
-  alert(&#39;Great job, you brushed your teeth!&#39;);
-
-} else {
-
-  alert(&#39;Go your brush teeth man, your breath is hot right now!&#39;);
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;(if else if) statements&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-var yourGrade = 84;
-
-if (yourGrade &amp;gt;= 90) {
-
-  alert(&amp;quot;Congrats your score is 90 or above, that&#39;s an A!&amp;quot;);
-
-} else if (yourGrade &amp;gt;= 80){
-
-  alert(&amp;quot;Congrats your score is 80 or above, you earned a B&amp;quot;);
-
-} else {
-
-  alert(&amp;quot;Your score is less than 80, no bueno&amp;quot;);
-}
-
-
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>Variables  declaring variables using var keyword
+ assigning / reassigning variables
+  // declaring a variable var firstName; // assigning a value to the variable firstName = &amp;quot;Cletus&amp;quot;;  // declare and assign an intial value to a variable var score = 0;  // declare and assign a value of 0 to the score variable var score = 0; // changing the value of the score variable from 0 to 3 score = 3;  Data types  Strings</description>
     </item>
     
     <item>
@@ -182,34 +63,10 @@ if (yourGrade &amp;gt;= 90) {
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/function-overview/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-are-functions&#34;&gt;What are Functions?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Allows you to group a series of statements together to perform a specific task&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Functions are used to promote “code reuse”&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You can control when functions are executed, for example - you can write functions that only get executed (or called) when a user clicks a specific button&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-// a simple function that greets you with a &#39;Good Morning&#39; alert
-
-// 1) Declare a function named greeting
-
-function greeting(){
-  alert(&#39;Good Morning&#39;);
-};
-
-
-// 2) Call (or run) the function
-
-greeting();
-
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description> What are Functions?  Allows you to group a series of statements together to perform a specific task
+ Functions are used to promote “code reuse”
+ You can control when functions are executed, for example - you can write functions that only get executed (or called) when a user clicks a specific button
+  // a simple function that greets you with a &#39;Good Morning&#39; alert // 1) Declare a function named greeting function greeting(){ alert(&#39;Good Morning&#39;); }; // 2) Call (or run) the function greeting();  </description>
     </item>
     
     <item>
@@ -218,26 +75,12 @@ greeting();
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/declaring-functions/</guid>
-      <description>
-
-&lt;h2 id=&#34;declaring-a-function&#34;&gt;Declaring a Function&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/10/declared_named_function_diagram.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Use the &lt;code&gt;function&lt;/code&gt; keyword to declare a function&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Functions can be given a name&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The name must be followed by parentheses&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The opening and closing curly braces indicate a “code block”&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The statements for your function goes within the code block&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Simply declaring the function &lt;strong&gt;will not run this code&lt;/strong&gt;, this function must be “called” in order for the code inside the function to be run&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Declaring a Function  Use the function keyword to declare a function
+ Functions can be given a name
+ The name must be followed by parentheses
+ The opening and closing curly braces indicate a “code block”
+ The statements for your function goes within the code block
+ Simply declaring the function will not run this code, this function must be “called” in order for the code inside the function to be run</description>
     </item>
     
     <item>
@@ -246,18 +89,9 @@ greeting();
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/calling-functions/</guid>
-      <description>
-
-&lt;h2 id=&#34;calling-a-function&#34;&gt;Calling a Function&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/10/called_named_function_diagram.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;To run the code inside of a function you use the function name followed by parentheses (don’t forget the parentheses!)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Now you can call this function as many times as you want&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Calling a Function  To run the code inside of a function you use the function name followed by parentheses (don’t forget the parentheses!)
+ Now you can call this function as many times as you want
+  </description>
     </item>
     
     <item>
@@ -266,54 +100,10 @@ greeting();
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/returning-values-from-functions/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Many times you will write a function and expect a value to be returned - this is called a &lt;strong&gt;return value&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;to have your function return a value you must use the &lt;code&gt;return&lt;/code&gt; keyword in the last line of the body of your function&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You can store the returned value in a variable and use it for later&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-// declare a function called bark
-// that *returns* a string respreseting &#39;woof woof&#39;
-function bark() {
-  return &#39;woof woof!&#39;;
-}
-
-// call the bark function and store result in a variable
-var sound = bark();
-
-// print out result to the console
-console.log(&#39;a dog makes the following sound &#39; + sound);
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/parizup/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;If you don&amp;rsquo;t use the &lt;code&gt;return&lt;/code&gt; keyword, then no value will be returned&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;// declare a function called meow
-// that generates a string representing &#39;meow&#39; but 
-// does not use the return keyword
-
-function meow() {
-  &#39;meow&#39;;
-}  
-
-// call the meow function and store result in a variable
-var sound = meow();
-
-// print out result to the console
-console.log(&#39;a cat makes the following sound &#39; + sound);
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/vagacoy/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+      <description>Many times you will write a function and expect a value to be returned - this is called a return value
+ to have your function return a value you must use the return keyword in the last line of the body of your function
+ You can store the returned value in a variable and use it for later
+  // declare a function called bark // that *returns* a string respreseting &#39;woof woof&#39; function bark() { return &#39;woof woof!</description>
     </item>
     
     <item>
@@ -322,45 +112,11 @@ console.log(&#39;a cat makes the following sound &#39; + sound);
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/working-with-parameters/</guid>
-      <description>
-
-&lt;h2 id=&#34;declaring-functions-that-need-information&#34;&gt;Declaring Functions that need information&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/10/declared_named_function_with_parameters_diagram.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Some functions need additional information in order to perform a specific task&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;This additional information is referred to as “parameters”&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;To provide parameters to a function, you specify them inside the parentheses after the parameter name&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The parameters are used like variables within the function body&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;We use the “return” keyword when we want to retrieve a value from our function, in the case of the example we want to retrieve the result of the multiplying the width times the height&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;calling-functions-that-need-information&#34;&gt;Calling Functions that need information&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
-// Calling the getArea() function with values
-
-getArea(7, 5); // returns 35
-
-
-// Calling the getArea() function with variables
-
-var doorWidth = 2;
-var doorHeight = 8;
-
-getArea(doorWidth, doorHeight); // returns 16
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/meyovap/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
+      <description>Declaring Functions that need information  Some functions need additional information in order to perform a specific task
+ This additional information is referred to as “parameters”
+ To provide parameters to a function, you specify them inside the parentheses after the parameter name
+ The parameters are used like variables within the function body
+ We use the “return” keyword when we want to retrieve a value from our function, in the case of the example we want to retrieve the result of the multiplying the width times the height</description>
     </item>
     
     <item>
@@ -369,43 +125,10 @@ getArea(doorWidth, doorHeight); // returns 16
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/functions-calling-other-functions/</guid>
-      <description>
-
-&lt;h2 id=&#34;functions-can-call-other-functions&#34;&gt;Functions can call other functions&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Function reusability is key results in cleaner code&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Reusing functions leverages key programming principle - &lt;strong&gt;Don&amp;rsquo;t Repeat Yourself&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;In the example of below, the surfaceAreaOfCube function &lt;strong&gt;calls&lt;/strong&gt; another function (areaOfSquare) instead of duplicating work that was already done&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
-// Function that calculates area of a square
-
-function areaOfSquare(side){
-  return side * side;
-};
-
-areaOfSquare(3); // returns 9
-
-
-// This is a function that calculates the 
-// surface area of a cube that *reuses* the areaOfSquare function
-
-function surfaceAreaOfCube(side){
-  return 6 * areaOfSquare(side);
-};
-
-surfaceAreaOfCube(7); // returns 42
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/yozuvij/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
+      <description>Functions can call other functions  Function reusability is key results in cleaner code
+ Reusing functions leverages key programming principle - Don&amp;rsquo;t Repeat Yourself
+ In the example of below, the surfaceAreaOfCube function calls another function (areaOfSquare) instead of duplicating work that was already done
+  // Function that calculates area of a square function areaOfSquare(side){ return side * side; }; areaOfSquare(3); // returns 9 // This is a function that calculates the // surface area of a cube that *reuses* the areaOfSquare function function surfaceAreaOfCube(side){ return 6 * areaOfSquare(side); }; surfaceAreaOfCube(7); // returns 42  JS Bin on jsbin.</description>
     </item>
     
     <item>
@@ -414,20 +137,9 @@ surfaceAreaOfCube(7); // returns 42
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/code-along-1/</guid>
-      <description>
-
-&lt;h2 id=&#34;code-along-1-geometry-calculator&#34;&gt;Code Along #1: Geometry Calculator&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;geometry_formulas_with_functions&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;During this exercise, we&amp;rsquo;ll be doing the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We&amp;rsquo;ll use javascript to implement an app that calculates geometry functions&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Code Along #1: Geometry Calculator  Using Sublime, open the folder called geometry_formulas_with_functions (found within the starter_code) folder
+ During this exercise, we&amp;rsquo;ll be doing the following:
+ We&amp;rsquo;ll use javascript to implement an app that calculates geometry functions   </description>
     </item>
     
     <item>
@@ -436,30 +148,11 @@ surfaceAreaOfCube(7); // returns 42
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/single-responsibility-principle/</guid>
-      <description>
-
-&lt;h2 id=&#34;single-responsibility-principle-srp&#34;&gt;Single Responsibility Principle (SRP)&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;SRP is a programming best practice that advocates &lt;strong&gt;modular&lt;/strong&gt; code&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Put another way, your programs should be broken up in such a way where each part is responsible for only one &amp;ldquo;thing&amp;rdquo; or domain&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;SRP is often applied to functions&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;applying-srp-to-functions&#34;&gt;Applying SRP to Functions&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;This concepts calls for your functions to only be &amp;ldquo;responsible&amp;rdquo; for one thing&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Often you&amp;rsquo;ll find that the logic in your functions are doing too much (for example: making calculations AND displaying the result to the screen)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;In these cases you should break out those multiple responsibilities into multiple functions&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;This is what we did in the Geometry Calculator code along&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Single Responsibility Principle (SRP)  SRP is a programming best practice that advocates modular code
+ Put another way, your programs should be broken up in such a way where each part is responsible for only one &amp;ldquo;thing&amp;rdquo; or domain
+ SRP is often applied to functions
+  Applying SRP to Functions  This concepts calls for your functions to only be &amp;ldquo;responsible&amp;rdquo; for one thing
+ Often you&amp;rsquo;ll find that the logic in your functions are doing too much (for example: making calculations AND displaying the result to the screen)</description>
     </item>
     
     <item>
@@ -468,20 +161,9 @@ surfaceAreaOfCube(7); // returns 42
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/code-along-2/</guid>
-      <description>
-
-&lt;h2 id=&#34;code-along-2-hilo&#34;&gt;Code Along #2: HiLo&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;hilo&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;During this exercise, we&amp;rsquo;ll be doing the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We&amp;rsquo;ll use javascript to implement a guessing game&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Code Along #2: HiLo  Using Sublime, open the folder called hilo (found within the starter_code) folder
+ During this exercise, we&amp;rsquo;ll be doing the following:
+ We&amp;rsquo;ll use javascript to implement a guessing game   </description>
     </item>
     
     <item>
@@ -490,34 +172,12 @@ surfaceAreaOfCube(7); // returns 42
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/10-functions/lab/</guid>
-      <description>
-
-&lt;h2 id=&#34;lab-complete-hilo&#34;&gt;Lab: Complete HiLo&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Form groups and work together to complete the HiLo application&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Instructions: Add the following functionality&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The secret number should be randomly generated&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Players should be limited to only 5 guesses&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;If the player reaches 5 guesses without guessing the correct number then an error message with appear&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The game should reset after 5 guesses has been reached or after the secret number has been correctly guessed&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Tips:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Write pseudocode before diving in&lt;/li&gt;
-&lt;li&gt;What new variables will you need, if any?&lt;/li&gt;
-&lt;li&gt;What new do you think you will need  (remember these are like actions for you program)?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Lab: Complete HiLo  Form groups and work together to complete the HiLo application
+ Instructions: Add the following functionality
+ The secret number should be randomly generated
+ Players should be limited to only 5 guesses
+ If the player reaches 5 guesses without guessing the correct number then an error message with appear
+ The game should reset after 5 guesses has been reached or after the secret number has been correctly guessed</description>
     </item>
     
   </channel>

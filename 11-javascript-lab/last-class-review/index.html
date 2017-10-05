@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="generator" content="Hugo 0.19" />
+    <meta name="generator" content="Hugo 0.20.7" />
     <meta name="description" content="">
 
 
@@ -1374,14 +1374,6 @@
           
           
           
-            <li class="dd-item " data-nav-id="/11-javascript-lab/final-project-deliverable-2/">
-              <a href="/11-javascript-lab/final-project-deliverable-2/">
-                <span>Final Project Deliverable #2     </i></span>
-              </a>
-            </li>
-          
-          
-          
             <li class="dd-item " data-nav-id="/11-javascript-lab/homework/">
               <a href="/11-javascript-lab/homework/">
                 <span>Homework     </i></span>
@@ -2183,7 +2175,7 @@ greeting();
 
 <h2 id="declaring-a-function">Declaring a Function</h2>
 
-<p><img src="/images/09/declared_named_function_diagram.png" alt="inline" /></p>
+<p><img src="/images/10/declared_named_function_diagram.png" alt="inline" /></p>
 
 <ul>
 <li><p>Use the <code>function</code> keyword to declare a function</p></li>
@@ -2203,7 +2195,7 @@ greeting();
 
 <h2 id="calling-a-function">Calling a Function</h2>
 
-<p><img src="/images/09/called_named_function_diagram.png" alt="inline" /></p>
+<p><img src="/images/10/called_named_function_diagram.png" alt="inline" /></p>
 
 <ul>
 <li><p>To run the code inside of a function you use the function name followed by parentheses (don’t forget the parentheses!)</p></li>
@@ -2215,7 +2207,7 @@ greeting();
 
 <h2 id="declaring-functions-that-need-information">Declaring Functions that need information</h2>
 
-<p><img src="/images/09/declared_named_function_with_parameters_diagram.png" alt="inline" /></p>
+<p><img src="/images/10/declared_named_function_with_parameters_diagram.png" alt="inline" /></p>
 
 <ul>
 <li><p>Some functions need additional information in order to perform a specific task</p></li>
@@ -2278,70 +2270,6 @@ function surfaceAreaOfCube(side){
 };
 
 surfaceAreaOfCube(7); // returns 42
-
-</code></pre>
-
-<hr />
-
-<h2 id="what-are-anonymous-functions">What are Anonymous Functions?</h2>
-
-<pre><code class="language-js">
-// An anonymous function is a function without a name
-
-function(width, height){
-  return width * height;
-};
-
-
-// this function can later be stored as a variable and used later in your code
-
-var area = function(width, height){
-  return width * height;
-};
-
-// Call anonymous function stored as a variable
-
-area(4, 5); // returns 20
-
-</code></pre>
-
-<hr />
-
-<h2 id="when-should-you-use-anonymous-functions">When should you use Anonymous Functions?</h2>
-
-<ul>
-<li><p>Use for code that only needs to run once within a task</p></li>
-
-<li><p>Use as an event handlers to perform a task when an event occurs</p></li>
-</ul>
-
-<div class="notices tip" ><p>Event handlers are functions that are called when an event is triggered</p>
-</div>
-
-
-<hr />
-
-<h2 id="using-an-anonymous-function-as-an-event-handler">Using an anonymous function as an event handler</h2>
-
-<pre><code class="language-js">
-// Uses a *named function* to serve as a event handler (function that is called as a result of an event)
-
-$('#blueButton').click(blueEffect);
-
-function blueEffect(){
-  $('body').css('background-color', 'blue');
-};
-
-</code></pre>
-
-<pre><code class="language-js">
-
-// Results are same as above example, but instead we use an anonymous function as a click handler
-// This is the common jQuery pattern
-
-$('#blueButton').click(function(){
-  $('body').css('background-color', 'blue');
-});
 
 </code></pre>
 
