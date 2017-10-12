@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>17-working-with-apis on FEWD Course Material</title>
+    <link>https://fewd20170829.github.io/17-working-with-apis/index.xml</link>
+    <description>Recent content in 17-working-with-apis on FEWD Course Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    <atom:link href="https://fewd20170829.github.io/17-working-with-apis/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Working with APIs</title>
+      <link>https://fewd20170829.github.io/17-working-with-apis/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/17-working-with-apis/</guid>
+      <description>
+
+&lt;h3 id=&#34;lesson-17&#34;&gt;Lesson 17&lt;/h3&gt;
+
+&lt;h1 id=&#34;working-with-apis&#34;&gt;Working with APIs&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>https://fewd20170829.github.io/17-working-with-apis/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/17-working-with-apis/objectives/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;TBD&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>https://fewd20170829.github.io/17-working-with-apis/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/17-working-with-apis/agenda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JSON</title>
+      <link>https://fewd20170829.github.io/17-working-with-apis/json/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/17-working-with-apis/json/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-json&#34;&gt;What is JSON?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Stands for JavaScript Object Notation&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A way to store information in an organized, easy-to-access manner&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A popular way to send data from on web server (service) to another&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Resembles a normal Javascript Object (it contains properties and values) but &lt;strong&gt;does not&lt;/strong&gt; contain methods&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+{
+  &amp;quot;id&amp;quot;: 1,
+  &amp;quot;name&amp;quot;: &amp;quot;Scoobie Doo&amp;quot;,
+  &amp;quot;favoriteFood&amp;quot;: &amp;quot;Scoobie Snacks&amp;quot;
+}
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;json-guidelines&#34;&gt;JSON Guidelines&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Property names &lt;strong&gt;must be double-quoted strings&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use meaningful property names&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Access properties of a JSON object using dot notation&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+// json object that contains smurfs
+
+var smurfs = {
+    &amp;quot;papa&amp;quot; : {
+        &amp;quot;name&amp;quot; : &amp;quot;Papa Smurf&amp;quot;,
+        &amp;quot;gender&amp;quot; : &amp;quot;male&amp;quot;
+    },
+    &amp;quot;smurfette&amp;quot; : {
+        &amp;quot;name&amp;quot; : &amp;quot;Smurfette&amp;quot;,
+        &amp;quot;gender&amp;quot; : &amp;quot;female&amp;quot;
+    }
+}
+
+console.log(smurfs.smurfette.name);
+console.log(smurfs.smurfette.gender);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;json-stringify&#34;&gt;JSON.stringify()&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Since JSON is used to send data from one service to the next &amp;ldquo;over the wire&amp;rdquo; (i.e. via cloud) it is transmitted as a string which makes it lightweight and fast&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;JSON.stringify()&lt;/code&gt; is a method that turns an JSON object into a string&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;ldquo;Stringify-ing&amp;rdquo; JSON objects is a common step developers take before sending data to another service&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  var smurfs = {
+      &amp;quot;papa&amp;quot; : {
+          &amp;quot;name&amp;quot; : &amp;quot;Papa Smurf&amp;quot;,
+          &amp;quot;gender&amp;quot; : &amp;quot;male&amp;quot;
+      },
+      &amp;quot;smurfette&amp;quot; : {
+          &amp;quot;name&amp;quot; : &amp;quot;Smurfette&amp;quot;,
+          &amp;quot;gender&amp;quot; : &amp;quot;female&amp;quot;
+      }
+  }
+
+  var stringJSON = JSON.stringify(smurfs));
+
+
+  // result: &amp;quot;{&amp;quot;papa&amp;quot;:{&amp;quot;name&amp;quot;:&amp;quot;Papa Smurf&amp;quot;,&amp;quot;gender&amp;quot;:&amp;quot;male&amp;quot;},&amp;quot;smurfette&amp;quot;:{&amp;quot;name&amp;quot;:&amp;quot;Smurfette&amp;quot;,&amp;quot;gender&amp;quot;:&amp;quot;female&amp;quot;}}&amp;quot;
+
+  console.log(typeof stringJSON); // result: string
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/sudalo/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.6&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;json-parse&#34;&gt;JSON.parse()&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;When JSON is &lt;strong&gt;received&lt;/strong&gt; from another service, it is in a string format&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In order to effectively work with JSON data in our code, we need to covert it so an object (or array)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JSON.parse() is a method that converts an JSON object to an Javascript object or array&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/cibixis/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.6&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

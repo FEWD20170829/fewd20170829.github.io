@@ -122,32 +122,32 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/objectives/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript/objectives/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/objectives/</loc>
+    <loc>https://fewd20170829.github.io/13-objects/objectives/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/14-responsive-design-lab/objectives/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/objectives/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/15-forms/objectives/</loc>
+    <loc>https://fewd20170829.github.io/15-responsive-design-lab/objectives/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/16-firebase/objectives/</loc>
+    <loc>https://fewd20170829.github.io/16-forms/objectives/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/17-todo-application/objectives/</loc>
+    <loc>https://fewd20170829.github.io/17-working-with-apis/objectives/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -212,32 +212,32 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/agenda/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript/agenda/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/agenda/</loc>
+    <loc>https://fewd20170829.github.io/13-objects/agenda/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/14-responsive-design-lab/agenda/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/agenda/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/15-forms/agenda/</loc>
+    <loc>https://fewd20170829.github.io/15-responsive-design-lab/agenda/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/16-firebase/agenda/</loc>
+    <loc>https://fewd20170829.github.io/16-forms/agenda/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/17-todo-application/agenda/</loc>
+    <loc>https://fewd20170829.github.io/17-working-with-apis/agenda/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -267,12 +267,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/array-overview/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript/array-overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/15-forms/bootstrap-overview/</loc>
+    <loc>https://fewd20170829.github.io/16-forms/bootstrap-overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -297,12 +297,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/16-firebase/json/</loc>
+    <loc>https://fewd20170829.github.io/17-working-with-apis/json/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/14-responsive-design-lab/lab-overview/</loc>
+    <loc>https://fewd20170829.github.io/15-responsive-design-lab/lab-overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -317,7 +317,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/last-class-review/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/last-class-review/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170829.github.io/13-objects/overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -332,7 +337,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/15-forms/bootstrap-grid/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript/anonymous-functions/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170829.github.io/16-forms/bootstrap-grid/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -342,12 +352,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/16-firebase/firebase-overview/</loc>
-    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/fixed-width-layouts/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/fixed-width-layouts/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -367,12 +372,17 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/looping-through-arrays/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript/looping-through-arrays/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://fewd20170829.github.io/08-intro-to-jquery/programming-protips/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170829.github.io/13-objects/objects-with-arrays/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -397,12 +407,17 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/code-along/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript/code-along/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/15-forms/code-along-1/</loc>
+    <loc>https://fewd20170829.github.io/13-objects/code-along/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170829.github.io/16-forms/code-along-1/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -427,22 +442,17 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/14-responsive-design-lab/milestone-1/</loc>
+    <loc>https://fewd20170829.github.io/15-responsive-design-lab/milestone-1/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/mobile-websites/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/mobile-websites/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://fewd20170829.github.io/07-intro-to-programming/pseudocode/</loc>
-    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fewd20170829.github.io/16-firebase/real-time-database/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -462,17 +472,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/17-todo-application/code-along/</loc>
-    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fewd20170829.github.io/18-final-projects-lab/code-demos/</loc>
-    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fewd20170829.github.io/16-firebase/code-along-1/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -482,17 +482,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/16-firebase/code-along-2/</loc>
-    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fewd20170829.github.io/06-flexbox/flex-items-properties/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/15-forms/form-overview/</loc>
+    <loc>https://fewd20170829.github.io/16-forms/form-overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -507,12 +502,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/14-responsive-design-lab/milestone-2/</loc>
+    <loc>https://fewd20170829.github.io/15-responsive-design-lab/milestone-2/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/responsive-design-overview/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/responsive-design-overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -542,7 +537,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/this/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript/this/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -567,7 +562,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/15-forms/form-elements/</loc>
+    <loc>https://fewd20170829.github.io/16-forms/form-elements/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -587,7 +582,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/14-responsive-design-lab/milestone-3/</loc>
+    <loc>https://fewd20170829.github.io/15-responsive-design-lab/milestone-3/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -597,7 +592,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/viewport-meta-tag/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/viewport-meta-tag/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -622,7 +617,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/14-responsive-design-lab/bonus-milestone/</loc>
+    <loc>https://fewd20170829.github.io/15-responsive-design-lab/bonus-milestone/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -637,7 +632,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/lab/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript/lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -647,12 +642,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/media-query-overview/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/media-query-overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/15-forms/styling-forms/</loc>
+    <loc>https://fewd20170829.github.io/16-forms/styling-forms/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -692,7 +687,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/15-forms/code-along-2/</loc>
+    <loc>https://fewd20170829.github.io/16-forms/code-along-2/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -707,6 +702,11 @@
   </url>
   
   <url>
+    <loc>https://fewd20170829.github.io/13-objects/final-project-deliverable-2/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fewd20170829.github.io/10-functions/functions-calling-other-functions/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
@@ -717,7 +717,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/media-query-parts/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/media-query-parts/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -737,12 +737,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/14-responsive-design-lab/homework/</loc>
+    <loc>https://fewd20170829.github.io/15-responsive-design-lab/homework/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/breakpoints/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/breakpoints/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -797,7 +797,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/progressive-enhancement/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/progressive-enhancement/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -817,7 +817,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/grid-overview/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/grid-overview/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -837,12 +837,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/responsive-grid-example/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/responsive-grid-example/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/code-along/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/code-along/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -867,7 +867,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/ems-rems/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/ems-rems/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -877,7 +877,7 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/responsive-images/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/responsive-images/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -887,12 +887,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/rules-of-thumb/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/rules-of-thumb/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -922,17 +922,12 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/16-firebase/</loc>
-    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fewd20170829.github.io/06-flexbox/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/15-forms/</loc>
+    <loc>https://fewd20170829.github.io/16-forms/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -962,27 +957,32 @@
   </url>
   
   <url>
+    <loc>https://fewd20170829.github.io/13-objects/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fewd20170829.github.io/04-page-layout/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/14-responsive-design-lab/</loc>
-    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fewd20170829.github.io/17-todo-application/</loc>
+    <loc>https://fewd20170829.github.io/15-responsive-design-lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://fewd20170829.github.io/09-variables-datatypes-conditionals/</loc>
+    <lastmod>2017-01-22T18:04:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fewd20170829.github.io/17-working-with-apis/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
   </url>
   
@@ -1059,37 +1059,37 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript-lab/</loc>
+    <loc>https://fewd20170829.github.io/12-arrays-and-advanced-javascript/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/13-responsive-design/</loc>
+    <loc>https://fewd20170829.github.io/13-objects/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/14-responsive-design-lab/</loc>
+    <loc>https://fewd20170829.github.io/14-responsive-design/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/15-forms/</loc>
+    <loc>https://fewd20170829.github.io/15-responsive-design-lab/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/16-firebase/</loc>
+    <loc>https://fewd20170829.github.io/16-forms/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/17-todo-application/</loc>
+    <loc>https://fewd20170829.github.io/17-working-with-apis/</loc>
     <lastmod>2017-01-22T18:04:24-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1107,18 +1107,8 @@
   </url>
   
   <url>
-    <loc>https://fewd20170829.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fewd20170829.github.io/</loc>
     <lastmod>2017-01-22T18:05:18-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fewd20170829.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

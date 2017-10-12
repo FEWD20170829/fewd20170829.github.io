@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>13-objects on FEWD Course Material</title>
+    <link>https://fewd20170829.github.io/13-objects/index.xml</link>
+    <description>Recent content in 13-objects on FEWD Course Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    <atom:link href="https://fewd20170829.github.io/13-objects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Javascript Objects</title>
+      <link>https://fewd20170829.github.io/13-objects/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/13-objects/</guid>
+      <description>
+
+&lt;h3 id=&#34;lesson-13&#34;&gt;Lesson 13&lt;/h3&gt;
+
+&lt;h1 id=&#34;javascript-objects&#34;&gt;Javascript Objects&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>https://fewd20170829.github.io/13-objects/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/13-objects/objectives/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Review Javascript Objects and understand why they are useful&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;See examples of how objects can be used in conjunction with arrays&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>https://fewd20170829.github.io/13-objects/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/13-objects/agenda/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Discuss objects&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code Along&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lab: Country Flags&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object Overview</title>
+      <link>https://fewd20170829.github.io/13-objects/overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/13-objects/overview/</guid>
+      <description>
+
+&lt;h2 id=&#34;objects&#34;&gt;Objects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Objects are used to represent real world objects in programming&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Within an object, variables are known as properties and functions are known as methods&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Curly braces are a means of identifying if a variable is an object&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+// create an object that represents a dog
+
+var myDog = {
+  name: &amp;quot;Fido&amp;quot;,
+  age: 4,
+  speak: function() {
+    console.log(&#39;Woof woof&#39;);
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;In the example above, we created an object and stored it in a variable called &lt;code&gt;myDog&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This object has 2 properties (name and age) and 1 method (speak)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;This of method as &lt;strong&gt;actions&lt;/strong&gt; that our objects can take&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;accessing-properties-and-methods-of-objects&#34;&gt;Accessing Properties and Methods of Objects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Properties and values can be assigned and read using &lt;strong&gt;Dot notation&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;
+var myDog = {
+  name: &amp;quot;Fido&amp;quot;,
+  age: 4,
+  speak: function() {
+    console.log(&#39;Woof woof&#39;);
+  }
+}
+
+// store myDog&#39;s name in a variable called dogName
+var dogName = myDog.name;
+
+// call the speak method of myDog 
+myDog.speak();
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/bumiwi/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;updating-object-properties-using-dot-notation&#34;&gt;Updating Object properties using dot notation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Object properties can be updated, added or deleted&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/fupaxos/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Think of method as &lt;strong&gt;actions&lt;/strong&gt; that our objects can take
+  Like arrays, objects are another flexible and powerful feature of Javascript. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object&#34;&gt;Click here&lt;/a&gt; for more information about Objects&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Using Objects with Arrays</title>
+      <link>https://fewd20170829.github.io/13-objects/objects-with-arrays/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/13-objects/objects-with-arrays/</guid>
+      <description>
+
+&lt;h2 id=&#34;objects-with-arrays&#34;&gt;Objects with Arrays&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Since objects are used to represent real world &amp;ldquo;things&amp;rdquo;, they are often combined with arrays to represent a collection of real world things&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;// declaring an array that contains objects as items
+
+var shows = [
+  { name: &amp;quot;Breaking Bad&amp;quot;, genre: &amp;quot;Drama&amp;quot;, network: &amp;quot;AMC&amp;quot; },
+  { name: &amp;quot;Game of Thrones&amp;quot;, genre: &amp;quot;Fantasy&amp;quot;, network: &amp;quot;HBO&amp;quot; },
+  { name: &amp;quot;Silicon Valley&amp;quot;, genre: &amp;quot;Comedy&amp;quot;, network: &amp;quot;HBO&amp;quot; },
+  { name: &amp;quot;Narcos&amp;quot;, genre: &amp;quot;Drama&amp;quot;, network: &amp;quot;Netflix&amp;quot; },
+  { name: &amp;quot;Vikings&amp;quot;, genre: &amp;quot;Action&amp;quot;, network: &amp;quot;History Channel&amp;quot; },
+  { name: &amp;quot;Power&amp;quot;, genre: &amp;quot;Drama&amp;quot;, network: &amp;quot;Starz&amp;quot; },
+];
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In the code example above, we have an array called &lt;code&gt;shows&lt;/code&gt; that contains a collection of objects that represents some TV shows&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;looping-iteration-through-an-array-of-objects&#34;&gt;Looping (iteration) through an array of objects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Looping through an array of objects is technically the same as looping through an array of any other datatype (i.e. strings, numbers, etc)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/lenuxax/embed?html,js,output&#34;&gt;TV Shows on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?4.1.0&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;This example uses html tables, documentation for tables can be found &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Code Along</title>
+      <link>https://fewd20170829.github.io/13-objects/code-along/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/13-objects/code-along/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Final Project Deliverable #2</title>
+      <link>https://fewd20170829.github.io/13-objects/final-project-deliverable-2/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/13-objects/final-project-deliverable-2/</guid>
+      <description>
+
+&lt;h2 id=&#34;final-project-deliverable-2-wireframes&#34;&gt;Final Project Deliverable #2 (Wireframes)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Create wireframes for you final project and submit them in a digital format to this &lt;a href=&#34;https://drive.google.com/drive/u/1/folders/0B4lUfMyZkRA_ajhEOUlzOUNzbE0&#34;&gt;Google Drive folder&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This is &lt;strong&gt;due Tuesday, October 17th&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Please don&amp;rsquo;t buy a tool just for this deliverable, you can use pen/paper or powerpoint to create perfectly good wireframes&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;what-are-wireframes&#34;&gt;What are wireframes?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Wireframes are a visual illustration of your site&amp;rsquo;s layout and interface&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Most wireframes are &lt;strong&gt;low definition&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Can be created with paper and pencil or using a tool&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For more information on wireframes click &lt;a href=&#34;https://www.usability.gov/how-to-and-tools/methods/wireframing.html&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

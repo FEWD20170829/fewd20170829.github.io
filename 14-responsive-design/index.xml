@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>14-responsive-designs on FEWD Course Material</title>
+    <link>https://fewd20170829.github.io/14-responsive-design/index.xml</link>
+    <description>Recent content in 14-responsive-designs on FEWD Course Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 18:04:24 -0500</lastBuildDate>
+    <atom:link href="https://fewd20170829.github.io/14-responsive-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Responsive Design</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/</guid>
+      <description>
+
+&lt;h3 id=&#34;lesson-14&#34;&gt;Lesson 14&lt;/h3&gt;
+
+&lt;h1 id=&#34;responsive-design&#34;&gt;Responsive Design&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/objectives/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/objectives/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Understand difference between fixed-width design and responsive design&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Learn about to Media Queries &amp;amp; Breakpoints and why they are important&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Learn about relative units of measure such as %s, EMs &amp;amp; REMs&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Discuss the concept of progressive enhancement&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agenda</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/agenda/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/agenda/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Last Class Review&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Fixed Width and Mobile Layouts&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Responsive Design Overview&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Viewport Meta Tag&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Media Queries and Breakpoints&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Grids&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code Along&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Ems / Rems&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lab&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Last Class Review</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/last-class-review/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/last-class-review/</guid>
+      <description>
+
+&lt;h2 id=&#34;flexbox-terminology&#34;&gt;Flexbox Terminology&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-terms.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;flex-container&#34;&gt;Flex Container&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The parent element in which flex items are contained&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Defined using the &lt;code&gt;flex&lt;/code&gt; or &lt;code&gt;inline-flex&lt;/code&gt; values of the &lt;strong&gt;display&lt;/strong&gt; property&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;flex&lt;/code&gt;: will make the flex-container a block-level element&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;inline-flex&lt;/code&gt;: will make the flex-container an inline element&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;flex-item&#34;&gt;Flex Item&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Children of a flex container&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;main-axis&#34;&gt;Main Axis&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The axis along which the flex items follow each other&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;flex-direction&lt;/code&gt; property determines the &lt;strong&gt;main&lt;/strong&gt; axis&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;cross-axis&#34;&gt;Cross Axis&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The axis perpendicular to the &lt;strong&gt;main&lt;/strong&gt; axis&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;main-axis-and-cross-axis-changes-with-flex-direction&#34;&gt;Main Axis and Cross Axis changes with Flex Direction&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If the flex-direction is &lt;code&gt;row&lt;/code&gt; or &lt;code&gt;row-reverse&lt;/code&gt; then the &lt;strong&gt;main axis&lt;/strong&gt; will be along the horizontal plane and the &lt;strong&gt;cross axis&lt;/strong&gt; will be along the vertical plane&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If the flex-direction is &lt;code&gt;column&lt;/code&gt; or &lt;code&gt;column-reverse&lt;/code&gt; then the &lt;strong&gt;main axis&lt;/strong&gt; will be along the vertical plane and the &lt;strong&gt;cross axis&lt;/strong&gt; will be along the horizontal plane&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-container-properties&#34;&gt;Flex Container Properties&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-container.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;display&#34;&gt;display&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Defines a flex container&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;inline or block depending on the given value&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
+.container {
+  display: flex; /* or inline-flex */
+}
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/display-flex.gif&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-direction&#34;&gt;flex direction&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-direction2.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Establishes the main-axis and defines the direction flex items are placed in the flex container&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Determines whether the flex items are layed out as either horizontal rows or vertical columns&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-direction.gif&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-direction-column.gif&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-wrap&#34;&gt;flex wrap&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-wrap.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;flex-wrap allows developers to change that and allow the items to wrap as needed with this property&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;By default, flex items will all try to fit onto one line&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
+.container {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-flow-shorthand&#34;&gt;Flex Flow shorthand&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Allows developers to specify the &lt;code&gt;flex-direction&lt;/code&gt; and &lt;code&gt;flex-wrap&lt;/code&gt; properties at the same time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+flex-flow: &amp;lt;‘flex-direction’&amp;gt; || &amp;lt;‘flex-wrap’&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;
+//specifies flow-direction: row &amp;amp; flex-wrap: wrap
+flex-flow: row wrap
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;justify-content&#34;&gt;justify-content&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/justify-content.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;defines the alignment along the main axis&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;will distribute extra free space left after all the flex items have reached their maximum size&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/justify-content.gif&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;align-items&#34;&gt;Align Items&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/align-items.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;defines the default behaviour for how flex items are laid out along the cross axis on the current line&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/align-items.gif&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;align-content&#34;&gt;Align Content&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/align-content.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;aligns a flex container&amp;rsquo;s lines within when there is extra space in the cross-axis&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;align-content &lt;strong&gt;only applies when there are mutiple lines of flex items&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
+.container {
+  align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-items-properties&#34;&gt;Flex Items Properties&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/flex-items.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;align-self&#34;&gt;align-self&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/align-self.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+.item {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;order&#34;&gt;Order&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/12/order-2.svg&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;controls the order in which flex-items appear in the flex container&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+.item {
+  order: &amp;lt;integer&amp;gt;;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-grow&#34;&gt;flex-grow&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;defines the ability for a flex item to grow if necessary&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dictates what amount of the available space inside the flex container the item should take up&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;a &lt;strong&gt;unitless&lt;/strong&gt; measure that respresents a proportion or ratio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;flex-grow value &lt;strong&gt;overrides the width of the flex-item&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+.item {
+  flex-grow: &amp;lt;number&amp;gt;; /* default 0 */
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/ratecoc/embed?css,output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.5&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;In the example above, the 2nd flex-item (green box) has its flex-grow set to 2 while the other flex-items have their flex-grow set to 1&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-shrink&#34;&gt;flex-shrink&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;defines the ability for a flex item to shrink if necessary.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;a &lt;strong&gt;unitless&lt;/strong&gt; measure that respresents a proportion or ratio (similar to flex-grow)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flex-basis&#34;&gt;flex-basis&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Controls the default size of an element, before it is manipulated by other Flexbox properties&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;It can be a length (e.g. pixels, percentages, etc) or auto&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;auto&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;.item {
+  flex-basis: &amp;lt;length&amp;gt; | auto; /* default auto */
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;flex-shorthand&#34;&gt;flex shorthand&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;allows developers to specify a flex-item&amp;rsquo;s &lt;code&gt;flex-grow&lt;/code&gt;, &lt;code&gt;flex-shrink&lt;/code&gt; and &lt;code&gt;flex-basis&lt;/code&gt; all at the same time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+.item {
+  flex: none | [ &amp;lt;&#39;flex-grow&#39;&amp;gt; &amp;lt;&#39;flex-shrink&#39;&amp;gt;? || &amp;lt;&#39;flex-basis&#39;&amp;gt; ]
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fixed Width Layout</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/fixed-width-layouts/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/fixed-width-layouts/</guid>
+      <description>
+
+&lt;h2 id=&#34;fixed-width-layouts&#34;&gt;Fixed Width Layouts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Method of designing websites so they look the same on any sized monitor&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Pre-dates advent of smartphones and mobile web-browsing&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Not optimized for smaller screens&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Uses pixels to set width of the layout&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Still fairly common&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;examples-of-fixed-width-design&#34;&gt;Examples of Fixed Width Design&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ikea.com/us/en&#34;&gt;www.ikea.com&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ups.com/?Site=Corporate&amp;amp;cookie=us_en_home&amp;amp;inputImgTag=&amp;amp;setCookie=yes&#34;&gt;www.ups.com&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;disadvantages-of-fixed-width-design&#34;&gt;Disadvantages of Fixed Width Design&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Displayed the same way regardless of screen size&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Not well suited to handle the explosion of web browsing via mobile devices&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile Websites</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/mobile-websites/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/mobile-websites/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-are-mobile-websites&#34;&gt;What are Mobile Websites?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Initial response to the new screen sizes&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Involves creating a &amp;ldquo;mobile&amp;rdquo; version of your site for a specific device (i.e. iphone, iPad, etc)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Used a different url such as &lt;a href=&#34;http://m.sprint.com&#34;&gt;http://m.sprint.com&lt;/a&gt; (m-dot websites)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;In 2007 iPhone, which came out in 2007, was a game changer. The iPhone’s screen, on the other hand, was only 320 pixels wide. Apple’s solution was to automatically shrink web pages to fit inside the viewing area of the screen (the viewport)&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;p&gt;Mobile Websites (example)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/13/mobile_website_example.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;disadvantages-of-mobile-websites&#34;&gt;Disadvantages of Mobile Websites&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Developers needed to create a separate version of their website for each device (more devices more websites)&lt;/li&gt;
+&lt;li&gt;Mobile Websites were often stripped-down versions of the main website (i.e. did not contain all content from main site)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;As the number of devices grew, the concept of creating separate device-specific sites became unstainable. There had to be better way!!!&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Responsive Design Overview</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/responsive-design-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/responsive-design-overview/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-responsive-design&#34;&gt;What is Responsive Design?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A way of making websites that can be easily viewed and used on any type of device and size of screen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;advantages-of-responsive-design&#34;&gt;Advantages of Responsive Design&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Developers only have to create one website, one design, one set of code, and one set of content&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Better optimized for search (SEO), no longer need to use m-dot websites&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;examples-of-responsive-design&#34;&gt;Examples of Responsive Design&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.worldwildlife.org/&#34;&gt;www.worldwildlife.org&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.bostonglobe.com/&#34;&gt;www.bostonglobe.com&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;two-main-components-of-responsive-design&#34;&gt;Two Main Components of Responsive Design&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Media Queries&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Flexibility&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;media-queries&#34;&gt;Media Queries&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Allow you to use CSS to change the design of the website depending on the width of the device’s screen / viewport&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;flexibility&#34;&gt;Flexibility&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Concept means that our Horizontal measurements on our site need to respond to changes in the size of the screen&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This means:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Width of columns and other layout elements will be in percentages&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Text will be measured in a relative unit (ems or percentages)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;implementing-responsive-desgin&#34;&gt;Implementing Responsive Desgin&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Add Viewport Meta Tag to your &lt;head&gt; tag&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use Media Queries&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Leverage EMs/REMs or Percentages instead of pixels&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Viewport Meta Tag</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/viewport-meta-tag/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/viewport-meta-tag/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-the-viewport&#34;&gt;What is the viewport?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Area on the computer or device screen where you are viewing a web page&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Viewport width is not always the same thing as screen width&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For example: A person&amp;rsquo;s labtop may have a maximum &lt;strong&gt;screen width&lt;/strong&gt; of 1280px, but likes to resize their web browser to 800px (&lt;strong&gt;viewport width&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On &lt;strong&gt;mobile devices viewport width is the same as screen width&lt;/strong&gt; because mobile devices don&amp;rsquo;t allow you to change the size of your browser&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;viewport-meta-tag&#34;&gt;Viewport Meta Tag&lt;/h2&gt;
+
+&lt;p&gt;Add the following to your &lt;head&gt; element&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This enables use of media queries for cross-device layouts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
+&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1&amp;quot;&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://webdesign.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972&#34;&gt;More info on the viewport meta tag&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;what-happens-if-you-don-t-set-the-viewport&#34;&gt;What happens if you don&amp;rsquo;t set the viewport?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/14/non_responsive_site_on_phone.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For example, the default width for iPhones is 980 pixels
+the browser is rendering the page as if the browser window was 980 pixels wide, but then shrinking it down to ⅓ of the size so that it fits on a screen that’s only 320 pixels wide&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;width&#34;&gt;Width&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Tells the browser how to scale the web page&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For a responsive site, the value width=device-width tells the browser to render the page at full size, whatever the size may be&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The browser is rendering the page so that the viewport width is the actual width of the device (i.e., at 100%)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;initial-scale&#34;&gt;Initial-Scale&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Tells the browser how to scale the web page when it’s first loaded on the screen (i.e., the zoom factor)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;initial-scale=1 means that the page will be rendered at the size determined by the width attribute, and will not be zoomed in or out&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you use a number larger than 1, then the page will be zoomed to that level&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For example, an initial-scale=2 value would mean that the page would be zoomed to be twice as large as actual size, so you would only see half of the page on the screen&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;initial-scale value only determines the size of the web page when it’s first loaded on the screen. Remember that your mobile device also gives users the ability to zoom in and out&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Media Query Overview</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/media-query-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/media-query-overview/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-are-the-media-queries&#34;&gt;What are the Media Queries?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Key element in responsive design&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Allow you to apply different styles based on the screen size of the user&amp;rsquo;s device (viewport)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Media Queries ask questions - Is the width of the viewport greater than 240px?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Media queries don’t affect the HTML (the actual content and structure of the underlying page) — they only affect the styles that are applied to the page using CSS&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;^
+- Browsers starting supporting media queries in 2009
+- The media queries that are common in responsive design is the width of a device’s viewport, not the screen. The viewport
+is the area on the screen (inside the browser window) in which a website is displayed.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;media-query-example&#34;&gt;Media Query Example&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;
+body {
+  background-color: green;
+}
+
+@media only screen and (min-width: 480px){
+  body {
+    background-color: blue;
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This query is asking &amp;ldquo;If this is a screen and the viewport greater than or equal to 480 pixels?&amp;rdquo; If so, make the background color blue.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Media Query Parts</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/media-query-parts/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/media-query-parts/</guid>
+      <description>
+
+&lt;pre&gt;&lt;code&gt;
+@media only screen and (min-width: 480px) { 
+  /** add styles here **/
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;media&#34;&gt;@media&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;All&lt;/strong&gt; media queries must start with @media&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;media-type&#34;&gt;Media Type&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Indicates what type of media the query will be using. &lt;strong&gt;Screen&lt;/strong&gt; tells the browser the query will be used by a computer or mobile device&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The &lt;strong&gt;only&lt;/strong&gt; keyword indicates that this query will be only be for the screen media type and no other&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;While we will just be using the &lt;strong&gt;screen&lt;/strong&gt; media type, you can see a list of all available media types &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;media-feature-attribute&#34;&gt;Media Feature/Attribute&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Media features allows you  to specify different viewport attributes and are always expressed in parentheses&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Example: Will apply all styles within it&amp;rsquo;s body if the width of the viewport is greater than or equal to 240px&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/14/media_query_attributes.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Breakpoints</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/breakpoints/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/breakpoints/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-are-breakpoints&#34;&gt;What are Breakpoints?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The points where your css style will change as a result of your media queries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+
+  @media only screen and (min-width: 320px) {
+    /* Styles */
+  }
+
+  @media only screen and (min-width: 320px) and (orientation: landscape) {
+    /* Styles */
+  }
+
+  @media only screen and (min-width: 321px) and (max-width : 700px) {
+    /* Styles */
+  }
+
+  @media only screen and (min-width: 701px) {
+    /* Styles */
+  }
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;recommended-starting-breakpoints&#34;&gt;Recommended &amp;ldquo;Starting&amp;rdquo; Breakpoints&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;320px&lt;/li&gt;
+&lt;li&gt;480px&lt;/li&gt;
+&lt;li&gt;600px&lt;/li&gt;
+&lt;li&gt;768px&lt;/li&gt;
+&lt;li&gt;900px&lt;/li&gt;
+&lt;li&gt;1200px&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Breakpoints should be selected based on your specific design&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Progressive Enhancement</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/progressive-enhancement/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/progressive-enhancement/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-progressive-enhancement&#34;&gt;What is progressive enhancement?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Design for the most narrow screens first then work your way up to larger screens&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mobile-first approach to constructing web layouts&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;See this &lt;a href=&#34;http://zurb.com/word/progressive-enhancement&#34;&gt;article&lt;/a&gt; for information on progressive enhancement&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grids</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/grid-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/grid-overview/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-are-grids&#34;&gt;What are grids?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;layout technique that allows for content to be stacked both vertically and horizontally in a consistent and easily manageable fashion&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;grid systems code is project-agnostic giving it a high degree of portability so that it may be adopted on new projects&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/14/grid.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The above example is a grid system called &lt;strong&gt;Grid 960&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;benefits-of-grids&#34;&gt;Benefits of grids?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Increases productivity by providing simple and predictable layout scaffolding to HTML design&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Versatile in how layouts can be constructed, being adaptable in varying combinations of rows and columns&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Supports complex use cases such as nested grids&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Ideal for responsive layouts&lt;/strong&gt;; make it easy to create mobile friendly interfaces that are adaptable to different sized viewports&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;where-can-you-find-grids&#34;&gt;Where can you find grids?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use an existing &lt;strong&gt;grid system&lt;/strong&gt; such as &lt;a href=&#34;https://v4-alpha.getbootstrap.com/layout/grid/&#34;&gt;bootstrap&amp;rsquo;s&lt;/a&gt; grid or &lt;a href=&#34;http://foundation.zurb.com/grid.html&#34;&gt;zurb&amp;rsquo;s&lt;/a&gt; grid&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Or check out this list of the &lt;a href=&#34;http://www.cssauthor.com/grid-systems/&#34;&gt;many others&lt;/a&gt; out there&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Or &lt;strong&gt;we can create our own&lt;/strong&gt; (which is what we are going to do!)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Once you understand how grids work by creating your own, you&amp;rsquo;ll be able to better evaluate the plethora of options available to you&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Responsive Grid Example</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/responsive-grid-example/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/responsive-grid-example/</guid>
+      <description>
+
+&lt;h2 id=&#34;responsive-grid-example&#34;&gt;Responsive Grid Example&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;responsive_grid_example&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We&amp;rsquo;ll review an example of a responsive grid&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code Along</title>
+      <link>https://fewd20170829.github.io/14-responsive-design/code-along/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/14-responsive-design/code-along/</guid>
+      <description>
+
+&lt;h2 id=&#34;code-along-responsive-page-layout&#34;&gt;Code Along: Responsive Page Layout&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;responsive_layout&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;As a class, we&amp;rsquo;ll use a responsive grid approach to make a marketing layout (depicted in the image)  responsive&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/14/simple_marketing_layout.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
