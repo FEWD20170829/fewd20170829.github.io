@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>CSS Selectors</title>
+    <title>Code Along</title>
     <link href="https://fewd20170829.github.io/css/nucleus.css" rel="stylesheet">
     <link href="https://fewd20170829.github.io/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fewd20170829.github.io/css/hybrid.css" rel="stylesheet">
@@ -25,7 +25,7 @@
     
 
   </head>
-  <body class="" data-url="/03-css-selectors-box-model/css-selectors/">
+  <body class="" data-url="/16-forms/code-along/">
     <nav id="sidebar">
   <div id="header-wrapper">
     <div id="header">
@@ -334,7 +334,7 @@
       
       
 
-      <li class="dd-item  parent" data-nav-id="/03-css-selectors-box-model/">
+      <li class="dd-item  " data-nav-id="/03-css-selectors-box-model/">
         <a href="/03-css-selectors-box-model/">
           <span>
             
@@ -382,7 +382,7 @@
           
           
           
-            <li class="dd-item active" data-nav-id="/03-css-selectors-box-model/css-selectors/">
+            <li class="dd-item " data-nav-id="/03-css-selectors-box-model/css-selectors/">
               <a href="/03-css-selectors-box-model/css-selectors/">
                 <span>CSS Selectors     </i></span>
               </a>
@@ -1842,7 +1842,7 @@
       
       
 
-      <li class="dd-item  " data-nav-id="/16-forms/">
+      <li class="dd-item  parent" data-nav-id="/16-forms/">
         <a href="/16-forms/">
           <span>
             
@@ -1898,7 +1898,7 @@
           
           
           
-            <li class="dd-item " data-nav-id="/16-forms/code-along/">
+            <li class="dd-item active" data-nav-id="/16-forms/code-along/">
               <a href="/16-forms/code-along/">
                 <span>Code Along     </i></span>
               </a>
@@ -2092,9 +2092,35 @@
                   
                 
                   
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
                     
                     
-                <a href="/03-css-selectors-box-model/" itemprop="url"><span itemprop="title">CSS Selectors and CSS Box Model</span></a> <i class="fa fa-angle-right"></i>
+                <a href="/16-forms/" itemprop="url"><span itemprop="title">Forms</span></a> <i class="fa fa-angle-right"></i>
                     
                   
                 
@@ -2104,33 +2130,7 @@
                 
                   
                 
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                <span itemprop="title"> CSS Selectors</span>
+                <span itemprop="title"> Code Along</span>
               </div>
               
                   
@@ -2140,90 +2140,20 @@
             
     	        <div id="body-inner">
                 
-                <h1>CSS Selectors</h1>
+                <h1>Code Along</h1>
                 
 
 
 
-<h2 id="css-selectors-overview">CSS Selectors Overview</h2>
+<h2 id="code-along-build-a-registration-form">Code Along: Build a Registration Form</h2>
 
 <ul>
-<li><p>Many different types of selectors that allow you to target rules to specific elements in an HTML document</p></li>
+<li><p>Using Sublime, open the folder called <strong>registration_form</strong> (found within the <strong>starter_code</strong>) folder</p></li>
 
-<li><p>Selectors are case sensitive, must match element names and attributes exactly</p></li>
+<li><p>As a class, we&rsquo;ll use bootstrap and its form styles to build out a registration form</p></li>
 </ul>
 
-<hr />
-
-<table>
-<thead>
-<tr>
-<th align="center">Selector</th>
-<th align="left">Meaning</th>
-<th align="left">Example</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center">Universal Selector</td>
-<td align="left">Applies to all elements</td>
-<td align="left"><code>*{}</code></td>
-</tr>
-
-<tr>
-<td align="center">Type Selector</td>
-<td align="left">Match elements names</td>
-<td align="left"><code>h1, h2, h3 {}</code></td>
-</tr>
-
-<tr>
-<td align="center">Class Selector</td>
-<td align="left">Matches all elements with a class attribute value matching on specified after a period (.)</td>
-<td align="left"><code>.hint {}</code>, <code>p.hint {}</code></td>
-</tr>
-
-<tr>
-<td align="center">ID Selector</td>
-<td align="left">Matches all elements with a id attribute value matching on specified after a hash (#)</td>
-<td align="left"><code>#offer {}</code></td>
-</tr>
-
-<tr>
-<td align="center">Child Selector</td>
-<td align="left">Matches elements that are a direct child of another</td>
-<td align="left"><code>li &gt; a {}</code></td>
-</tr>
-
-<tr>
-<td align="center">Descendant Selector</td>
-<td align="left">Matches element that is a direct descendant of another (not just the child)</td>
-<td align="left"><code>p  a {}</code></td>
-</tr>
-
-<tr>
-<td align="center">Adjacent Sibling Selector</td>
-<td align="left">Matches first element that is a sibling of another</td>
-<td align="left"><code>h1+p {}</code></td>
-</tr>
-
-<tr>
-<td align="center">General Sibling Selector</td>
-<td align="left">Matches all elements that is a sibling of another</td>
-<td align="left"><code>h1~p {}</code></td>
-</tr>
-
-<tr>
-<td align="center">Attribute Selector</td>
-<td align="left">Attribute selectors select an element using the presence of a given attribute or attribute value</td>
-<td align="left"><code>input[type=&quot;email&quot;] {}</code></td>
-</tr>
-</tbody>
-</table>
-
-<div class="notices tip" ><p>A complete list of all CSS Selectors can be found <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">here</a></p>
-</div>
-
+<p><img src="/images/16/registration_form.png" alt="inline" /></p>
 
 
       
@@ -2232,8 +2162,8 @@
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="https://fewd20170829.github.io/03-css-selectors-box-model/classes-and-ids"> <i class="fa fa-chevron-left"></i></a>
-        <a class="nav nav-next" href="https://fewd20170829.github.io/03-css-selectors-box-model/css-selectors-examples" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-prev" href="https://fewd20170829.github.io/16-forms/styling-forms"> <i class="fa fa-chevron-left"></i></a>
+        
     </div>
 
     </section>

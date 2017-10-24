@@ -30,11 +30,7 @@
       
       <guid>https://fewd20170829.github.io/16-forms/objectives/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Learn about Bootstrap and its benefits&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Discuss Bootstrap&amp;rsquo;s grids&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Learn about Forms and the different type of form elements&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Learn about Forms and the different type of form elements&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -46,259 +42,12 @@
       
       <guid>https://fewd20170829.github.io/16-forms/agenda/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Bootstrap overview&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Bootstrap grid system&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Code Along #1: Bootstrap Template&lt;/p&gt;&lt;/li&gt;
-
 &lt;li&gt;&lt;p&gt;Discuss Forms&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Styling Tips for Forms&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Code Along #2: Registration Form&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Code Along #1: Registration Form&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bootstrap Overview</title>
-      <link>https://fewd20170829.github.io/16-forms/bootstrap-overview/</link>
-      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
-      
-      <guid>https://fewd20170829.github.io/16-forms/bootstrap-overview/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-is-bootstrap&#34;&gt;What is Bootstrap?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Front-end framework created by engineers at Twitter&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Initially created to address the issue of having inconsistent user interfaces across their internal web applications&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Has since become the most popular mobile first (responsive) framework on the web&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Collection of html, css, js and fonts&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Documentation can be found &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;benefits-of-bootstrap&#34;&gt;Benefits of Bootstrap&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Fully responsive out of the box&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Consistent design&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Easy to use&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Compatible with browsers&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Open Source&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;installing-bootstrap&#34;&gt;Installing Bootstrap&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Similar to jquery, there are multiple ways to install bootstrap into your applications:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;download the bootstrap files and store them within your project&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Use a CDN (content delivery network)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;We&amp;rsquo;ll use the downloaded files options, more information on installing bootstrap can be found &lt;a href=&#34;http://getbootstrap.com/getting-started/#download&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Bootstrap Grid</title>
-      <link>https://fewd20170829.github.io/16-forms/bootstrap-grid/</link>
-      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
-      
-      <guid>https://fewd20170829.github.io/16-forms/bootstrap-grid/</guid>
-      <description>
-
-&lt;h2 id=&#34;overview-of-bootstrap-s-grid&#34;&gt;Overview of Bootstrap&amp;rsquo;s Grid&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Bootstrap offers developers a mobile-first grid with 12 columns&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Float-based grid (the next version of bootstrap will use a flex-based grid)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Built-in classes are used to control the widths of boxes within a bootstrap grid&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;containers&#34;&gt;Containers&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Bootstrap requires a containing element to house its grid system&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;To create a containing element add a class of &lt;code&gt;container&lt;/code&gt; or &lt;code&gt;container-fluid&lt;/code&gt; to a parent container&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;!-- create a bootstrap container --&amp;gt;
-
-&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
-  &amp;lt;!-- add content here --&amp;gt;
-&amp;lt;/div&amp;gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;container&#34;&gt;&lt;code&gt;.container&lt;/code&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;responsive &lt;strong&gt;fixed-width&lt;/strong&gt; container centered in the middle the viewport&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The following is a snippet of css taken directly from bootstrap:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/wegamiq/embed?output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.6&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Click on the &amp;ldquo;JS Bin&amp;rdquo; button to a get a better view of the layout&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;container-fluid&#34;&gt;&lt;code&gt;.container-fluid&lt;/code&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;responsive &lt;strong&gt;full-width&lt;/strong&gt; container that spans the entire viewport width&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/kuquhu/embed?output&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.6&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Click on the “JS Bin” button to a get a better view of the layout&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;grid-system&#34;&gt;Grid System&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Bootstrap grids are made up of rows and columns&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Each row consists of 12 columns&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Pre-defined classes are used to control the width of columns using &lt;code&gt;class=&#39;col-[size]-[# of columns]&#39;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;!-- A bootstrap grid with 2 rows --&amp;gt;
-&amp;lt;!-- 1st row has 2 columns (each column is 6 columns wide) --&amp;gt;
-&amp;lt;!-- 2nd row has 4 columns (each column is 3 columns wide) --&amp;gt;
-
-
-&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
-  &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
-    &amp;lt;div class=&amp;quot;col-md-6&amp;quot;&amp;gt;
-      ...
-    &amp;lt;/div&amp;gt;
-
-    &amp;lt;div class=&amp;quot;col-md-6&amp;quot;&amp;gt;
-      ...
-    &amp;lt;/div&amp;gt;
-  &amp;lt;/div&amp;gt;
-
-  &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
-    &amp;lt;div class=&amp;quot;col-md-3&amp;quot;&amp;gt;
-      ...
-    &amp;lt;/div&amp;gt;
-
-    &amp;lt;div class=&amp;quot;col-md-3&amp;quot;&amp;gt;
-      ...
-    &amp;lt;/div&amp;gt;
-
-    &amp;lt;div class=&amp;quot;col-md-3&amp;quot;&amp;gt;
-      ...
-    &amp;lt;/div&amp;gt;
-
-    &amp;lt;div class=&amp;quot;col-md-3&amp;quot;&amp;gt;
-      ...
-    &amp;lt;/div&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;grid-options&#34;&gt;Grid Options&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Developers can use pre-defined classes to control the width (i.e. responsiveness) of columns depending on the viewport width&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;For example, adding a class of &lt;code&gt;col-xs-6&lt;/code&gt; to a column will result in the column taking up 50% of the container width (6 columns / 12 columns) when the viewport width is less than 768 pixels wide&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The table below details the built-in media queries/breakpoints for each of the pre-defined column classes&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/15/bootstrap-grid-options.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;bootstrap-grid-example&#34;&gt;Bootstrap Grid Example&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Using Sublime, open the folder called &lt;strong&gt;bootstrap_grid_example&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Code Along #1</title>
-      <link>https://fewd20170829.github.io/16-forms/code-along-1/</link>
-      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
-      
-      <guid>https://fewd20170829.github.io/16-forms/code-along-1/</guid>
-      <description>
-
-&lt;h2 id=&#34;code-along-1-using-bootstrap&#34;&gt;Code Along #1: Using Bootstrap&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;bootstrap_template&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;As a class, we&amp;rsquo;ll use bootstrap to finish a landing page template&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://fewd20170829.github.io/images/16/bootstrap_template_code_along.png&#34; alt=&#34;inline&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -740,14 +489,14 @@
     </item>
     
     <item>
-      <title>Code Along #2</title>
-      <link>https://fewd20170829.github.io/16-forms/code-along-2/</link>
+      <title>Code Along</title>
+      <link>https://fewd20170829.github.io/16-forms/code-along/</link>
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
-      <guid>https://fewd20170829.github.io/16-forms/code-along-2/</guid>
+      <guid>https://fewd20170829.github.io/16-forms/code-along/</guid>
       <description>
 
-&lt;h2 id=&#34;code-along-2-build-a-registration-form&#34;&gt;Code Along #2: Build a Registration Form&lt;/h2&gt;
+&lt;h2 id=&#34;code-along-build-a-registration-form&#34;&gt;Code Along: Build a Registration Form&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;registration_form&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
