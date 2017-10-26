@@ -30,7 +30,7 @@
       
       <guid>https://fewd20170829.github.io/17-working-with-apis/objectives/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;TBD&lt;/li&gt;
+&lt;li&gt;Learn about APIs and understand how they are used&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -41,7 +41,14 @@
       <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
       
       <guid>https://fewd20170829.github.io/17-working-with-apis/agenda/</guid>
-      <description></description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Discuss JSON&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Understand APIs and why they are used&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Explore a real use case of API usage&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -152,6 +159,185 @@ console.log(smurfs.smurfette.gender);
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a class=&#34;jsbin-embed&#34; href=&#34;https://jsbin.com/cibixis/embed?js,console&#34;&gt;JS Bin on jsbin.com&lt;/a&gt;&lt;script src=&#34;https://static.jsbin.com/js/embed.min.js?3.41.6&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>API Overview</title>
+      <link>https://fewd20170829.github.io/17-working-with-apis/api-overview/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/17-working-with-apis/api-overview/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-an-api&#34;&gt;What is an API?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Stands for &amp;ldquo;Application Programing Interface&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A way to exchange data between servers / services (i.e. software to software communication)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Set of programming instructions and standards for accessing a Web-based software application or Web tool&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For example, Amazon.com released its API so that Web site developers could more easily access Amazon&amp;rsquo;s product information&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In a nutshell, if you want to leverage information from another website or application your first choice should be to use an API (if they offer one)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-considerations&#34;&gt;API Considerations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Does the website I need data from even have an API?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Do I need to authenticate with the remote data source before retrieving the information I need, either as an API consumer or as a user of that service?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;What are the URLs I use to access the data I need? In API terms, these URLs are known as &amp;ldquo;endpoints&amp;rdquo; and can usually be found in an API&amp;rsquo;s documentation&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;what-happens-when-no-api-is-available&#34;&gt;What happens when no API is available?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If the website you need data from does not have an API, you could resort to data scraping through the use of &amp;ldquo;spiders&amp;rdquo; which crawl websites and extracts information&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Many online services consider data scraping to be a violation of their Terms of Service&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;api-data-formats&#34;&gt;API Data Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The &amp;ldquo;modern standard&amp;rdquo; for API responses is JSON, or JavaScript Object Notation&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Some APIs are implemented using XML, this includes the API for WordPress, which is implemented using the XML-RPC standard&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;request-response-lifecycle&#34;&gt;Request, Response lifecycle&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;When making an API call, you are essentially making an &lt;strong&gt;Request&lt;/strong&gt; to a server and then receiving a &lt;strong&gt;Response&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Most of the time this response will contain data that you will make use of within your application&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Making API Requests with jQuery</title>
+      <link>https://fewd20170829.github.io/17-working-with-apis/making-api-requests-with-jquery/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/17-working-with-apis/making-api-requests-with-jquery/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-ajax&#34;&gt;What is Ajax?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;AJAX stands for Asynchronous JavaScript And XML&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The meaning: web applications can send or receive data from the server without requesting an entire page - instead, they can just request or send an arbitrary amount of data&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In frontend development, Ajax Often used to make API requests that will fetch data from another service without having to refresh the web page&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Click &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started&#34;&gt;here&lt;/a&gt; for more information about AJAX&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;cors&#34;&gt;CORS&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;CORS is the policy that defines this, an acronym that stands for &amp;ldquo;Cross-Origin Resource Sharing&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You cannot normally make an AJAX request across different domains&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Some domains don&amp;rsquo;t allow you to ping them from other domains and some do&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Click &lt;a href=&#34;https://www.html5rocks.com/en/tutorials/cors/&#34;&gt;here&lt;/a&gt; for more information about CORS&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;using-ajax&#34;&gt;Using $.ajax&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;jQuery offers an &lt;code&gt;.ajax&lt;/code&gt; method that can be used to make API calls&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Example of an AJAX call using jQuery&amp;rsquo;s $.ajax method&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+    $.ajax({
+      url: url,
+      type: &amp;quot;GET&amp;quot;,
+      dataType: &#39;jsonp&#39;,
+      data: {term: term},
+      success: function(data){
+        // execute this function if request is successful
+        console.log(data);
+      },
+      error: function() {
+        // execute this function if request fails
+        alert(&#39;error occurred&#39;);
+      }
+    });
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;$.ajax properties&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;url: address where the request is being sent&lt;/li&gt;
+&lt;li&gt;type: HTTP method that is being used for the request (i.e. GET, POST, PUT, DELETE), most of the time you&amp;rsquo;ll be using GET or POST&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dataType: type of data you are expecting from the response&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;data: data to be sent to the server, for GET requests, this info will be added to the url value&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;success: function that will be called if request is successfull&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;error: function that will be called if request fails&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Click &lt;a href=&#34;http://api.jquery.com/jquery.ajax/&#34;&gt;here&lt;/a&gt; more information about the $.ajax method&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>API Example</title>
+      <link>https://fewd20170829.github.io/17-working-with-apis/api-example/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/17-working-with-apis/api-example/</guid>
+      <description>
+
+&lt;h2 id=&#34;api-example-itunes-search&#34;&gt;API Example: iTunes Search&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;itunes_search_api&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;As a class, we&amp;rsquo;ll walk through an example of using an API to fetch data from iTunes&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code Along</title>
+      <link>https://fewd20170829.github.io/17-working-with-apis/code-along/</link>
+      <pubDate>Sun, 22 Jan 2017 18:04:24 -0500</pubDate>
+      
+      <guid>https://fewd20170829.github.io/17-working-with-apis/code-along/</guid>
+      <description>
+
+&lt;h2 id=&#34;code-along-weather-application&#34;&gt;Code Along: Weather Application&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Using Sublime, open the folder called &lt;strong&gt;weather_app&lt;/strong&gt; (found within the &lt;strong&gt;starter_code&lt;/strong&gt;) folder&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;As a class, we&amp;rsquo;ll leverage the API from &lt;a href=&#34;https://openweathermap.org/&#34;&gt;OpenWeatherMap&lt;/a&gt; to display the current weather for a given city&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
